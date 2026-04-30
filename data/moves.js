@@ -20,7 +20,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Pound",
-        "basePower": 40,
+        "basePower": 400,
         "type": "Normal",
         "accuracy": 100,
         "pp": 35,
