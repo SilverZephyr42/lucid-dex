@@ -216,9 +216,9 @@ exports.BattlePokedex = {
         "color": "Green",
         "name": "Venusaur-Mega-G",
         "heightm": 24.0,
-        "weightkg": 0.0,
+        "weightkg": 185.5,
         "baseSpecies": "Venusaur",
-        "forme": "Mega",
+        "forme": "Mega-G",
         "tier": "unobtainable"
     },
     "charmander": {
