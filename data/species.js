@@ -700,11 +700,11 @@ exports.BattlePokedex = {
         "num": 10,
         "baseStats": {
             "hp": 45,
-            "atk": 30,
+            "atk": 45,
             "def": 35,
             "spe": 45,
             "spa": 20,
-            "spd": 20
+            "spd": 35
         },
         "types": [
             "Bug"
@@ -739,11 +739,11 @@ exports.BattlePokedex = {
         "num": 11,
         "baseStats": {
             "hp": 50,
-            "atk": 20,
+            "atk": 45,
             "def": 55,
             "spe": 30,
             "spa": 25,
-            "spd": 25
+            "spd": 50
         },
         "types": [
             "Bug"
@@ -783,9 +783,9 @@ exports.BattlePokedex = {
             "hp": 60,
             "atk": 45,
             "def": 50,
-            "spe": 70,
-            "spa": 90,
-            "spd": 80
+            "spe": 90,
+            "spa": 105,
+            "spd": 95
         },
         "types": [
             "Bug",
@@ -832,11 +832,11 @@ exports.BattlePokedex = {
         "num": 12,
         "baseStats": {
             "hp": 60,
-            "atk": 45,
-            "def": 50,
-            "spe": 70,
-            "spa": 90,
-            "spd": 80
+            "atk": 15,
+            "def": 85,
+            "spe": 120,
+            "spa": 145,
+            "spd": 120
         },
         "types": [
             "Bug",
@@ -859,8 +859,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Compound Eyes",
-            "H": "Tinted Lens"
+            "0": "Multiscale"
         },
         "color": "White",
         "name": "Butterfree-Gmax",
@@ -873,12 +872,12 @@ exports.BattlePokedex = {
     "weedle": {
         "num": 13,
         "baseStats": {
-            "hp": 40,
-            "atk": 35,
+            "hp": 45,
+            "atk": 45,
             "def": 30,
             "spe": 50,
             "spa": 20,
-            "spd": 20
+            "spd": 35
         },
         "types": [
             "Bug",
@@ -913,12 +912,12 @@ exports.BattlePokedex = {
     "kakuna": {
         "num": 14,
         "baseStats": {
-            "hp": 45,
-            "atk": 25,
+            "hp": 55,
+            "atk": 45,
             "def": 50,
             "spe": 35,
             "spa": 25,
-            "spd": 25
+            "spd": 45
         },
         "types": [
             "Bug",
@@ -957,11 +956,11 @@ exports.BattlePokedex = {
         "num": 15,
         "baseStats": {
             "hp": 65,
-            "atk": 90,
-            "def": 40,
-            "spe": 75,
+            "atk": 105,
+            "def": 50,
+            "spe": 90,
             "spa": 45,
-            "spd": 80
+            "spd": 90
         },
         "types": [
             "Bug",
@@ -985,6 +984,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swarm",
+            "1": "Levitate",
             "H": "Sniper"
         },
         "color": "Yellow",
@@ -1009,10 +1009,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 65,
             "atk": 150,
-            "def": 40,
-            "spe": 145,
+            "def": 75,
+            "spe": 150,
             "spa": 15,
-            "spd": 80
+            "spd": 90
         },
         "types": [
             "Bug",
@@ -1049,11 +1049,11 @@ exports.BattlePokedex = {
         "num": 16,
         "baseStats": {
             "hp": 40,
-            "atk": 45,
-            "def": 40,
-            "spe": 56,
+            "atk": 55,
+            "def": 45,
+            "spe": 61,
             "spa": 35,
-            "spd": 35
+            "spd": 40
         },
         "types": [
             "Normal",
@@ -1073,7 +1073,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Quick Feet",
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
             "H": "Big Pecks"
         },
         "color": "Brown",
@@ -1089,11 +1090,11 @@ exports.BattlePokedex = {
         "num": 17,
         "baseStats": {
             "hp": 63,
-            "atk": 60,
-            "def": 55,
-            "spe": 71,
+            "atk": 70,
+            "def": 65,
+            "spe": 86,
             "spa": 50,
-            "spd": 50
+            "spd": 55
         },
         "types": [
             "Normal",
@@ -1113,7 +1114,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Quick Feet",
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
             "H": "Big Pecks"
         },
         "color": "Brown",
@@ -1133,10 +1135,10 @@ exports.BattlePokedex = {
         "num": 18,
         "baseStats": {
             "hp": 83,
-            "atk": 80,
+            "atk": 90,
             "def": 75,
-            "spe": 101,
-            "spa": 70,
+            "spe": 111,
+            "spa": 90,
             "spd": 70
         },
         "types": [
@@ -1157,7 +1159,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Quick Feet",
+            "0": "Keen Eye",
+            "1": "Simple",
             "H": "Big Pecks"
         },
         "color": "Brown",
@@ -1181,11 +1184,11 @@ exports.BattlePokedex = {
         "num": 18,
         "baseStats": {
             "hp": 83,
-            "atk": 80,
-            "def": 80,
-            "spe": 121,
+            "atk": 90,
+            "def": 90,
+            "spe": 126,
             "spa": 135,
-            "spd": 80
+            "spd": 95
         },
         "types": [
             "Normal",
