@@ -10313,11 +10313,11 @@ exports.BattleMovedex = {
         "type": "Water",
         "accuracy": 100,
         "pp": 20,
-        "priority": 1,
+        "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times.",
-        "shortDesc": "Usually goes first. Hits 2-5 times in one turn."
+        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        "shortDesc": "Hits 2-5 times in one turn."
     },
     "mysticalfire": {
         "num": 595,
@@ -10326,15 +10326,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mystical Fire",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Fire",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-        "shortDesc": "100% chance to lower the target's Sp. Atk by 1."
+        "desc": "Has a 30% chance to lower the target's Special Attack by 1 stage, and. 20% chance to Burn the target.",
+        "shortDesc": "30% chance to lower the target's Sp. Atk, 20% chance to Burn."
     },
     "spikyshield": {
         "num": 596,
@@ -10363,8 +10363,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
-        "shortDesc": "Raises an ally's Sp. Def by 1."
+        "desc": "Raises the Defense and  Special Defense of allied Psychic- and Fairy-type Pokemon by 1 stage. This effect is doubled in Misty Terrain.",
+        "shortDesc": "Raises ally Psychic and Fairy types' Def and Sp. Def by 1. Double effect in Misty Terrain."
     },
     "eerieimpulse": {
         "num": 598,
@@ -10399,8 +10399,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
-        "shortDesc": "Lowers Atk/Sp. Atk/Speed of poisoned foes by 1."
+        "desc": "Lowers the target's Attack, Special Attack, and Speed by 2 stages if the target is poisoned. Poisons the target if the target is not poisoned.",
+        "shortDesc": "Lowers Atk/Sp. Atk/Speed of poisoned foes by 2, poisons healthy foes."
     },
     "powder": {
         "num": 600,
@@ -10452,8 +10452,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-        "shortDesc": "Raises Def, Sp. Def of allies with Plus/Minus by 1."
+        "desc": "Raises the Defense and Special Defense of Electric- and Steel-type Pokemon on the user's side by 1 stage. This effect is doubled in Electric Terrain.",
+        "shortDesc": "Raises Def, Sp. Def of Electric snd Steel allies by 1."
     },
     "happyhour": {
         "num": 603,
@@ -10480,8 +10480,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
-        "shortDesc": "5 turns. Grounded: +Electric power, can't sleep."
+        "desc": "For 7 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks is multiplied by 1.3 and Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
+        "shortDesc": "7 turns: +Electric power, can't sleep."
     },
     "dazzlinggleam": {
         "num": 605,
@@ -10490,7 +10490,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Dazzling Gleam",
-        "basePower": 80,
+        "basePower": 85,
         "type": "Fairy",
         "accuracy": 100,
         "pp": 10,
@@ -10511,8 +10511,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "No competitive use.",
-        "shortDesc": "No competitive use."
+        "desc": "Raises the Special Attack and Special Defense of a target ally by 1 stage each.",
+        "shortDesc": "Raises an ally's Sp. Atk snd Sp. Def."
     },
     "holdhands": {
         "num": 607,
@@ -10528,8 +10528,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "No competitive use. Fails if there is no ally adjacent to the user.",
-        "shortDesc": "No competitive use."
+        "desc": "Raises the Defense and Special Defense of a target ally by 1 stage each, and heals them for 33% of their maximum HP.",
+        "shortDesc": "Raises an ally's Def and Sp. Def and heals for 33%."
     },
     "babydolleyes": {
         "num": 608,
@@ -10575,7 +10575,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Hold Back",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 40,
@@ -10593,7 +10593,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Infestation",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Bug",
         "accuracy": 100,
         "pp": 20,
@@ -10612,7 +10612,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Power-Up Punch",
-        "basePower": 60,
+        "basePower": 50,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 20,
@@ -10629,15 +10629,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Oblivion Wing",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-        "shortDesc": "User recovers 75% of the damage dealt."
+        "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+        "shortDesc": "User recovers 50% of the damage dealt."
     },
     "thousandarrows": {
         "num": 614,
@@ -10663,7 +10663,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Thousand Waves",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -10680,15 +10680,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Land's Wrath",
-        "basePower": 90,
+        "basePower": 120,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect. Hits adjacent foes."
+        "desc": "The user takes 33% of the damage inflicted as recoil.",
+        "shortDesc": "33% recoil damage. Hits adjacent foes."
     },
     "lightofruin": {
         "num": 617,
@@ -10773,8 +10773,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
-        "shortDesc": "Hoopa-U: Lowers user's Def by 1; breaks protect."
+        "desc": "This move has a 30% chance to lower the target's Defense by 1 stage.",
+        "shortDesc": "30% chance to lower Def."
     },
     "shoreup": {
         "num": 622,
@@ -10800,7 +10800,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "First Impression",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Bug",
         "accuracy": 100,
         "pp": 10,
@@ -10831,15 +10831,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Spirit Shackle",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-        "shortDesc": "Prevents the target from switching out."
+        "desc": "Has an increased chance to land a critical hit. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+        "shortDesc": "High critical hit rate. Prevents the target from switching out."
     },
     "darkestlariat": {
         "num": 626,
@@ -10867,7 +10867,7 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Sparkling Aria",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
@@ -10893,8 +10893,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Lowers the user's Speed by 1 stage.",
-        "shortDesc": "Lowers the user's Speed by 1."
+        "desc": "Has a 10% chance to cause the target to flinch. Lowers the user's Speed by 1 stage.",
+        "shortDesc": "10% chance to flinch. Lowers the user's Speed by 1."
     },
     "floralhealing": {
         "num": 629,
@@ -10928,8 +10928,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Has a 20% chance to lower the target's Defense by 1 stage.",
+        "shortDesc": "20% chance to lower Defense."
     },
     "strengthsap": {
         "num": 631,
@@ -11017,8 +11017,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Lowers the target's Speed by 1 stage and poisons it.",
-        "shortDesc": "Lowers the target's Speed by 1 and poisons it."
+        "desc": "Lowers the target's Speed by 2 stages and poisons it.",
+        "shortDesc": "Lowers the target's Speed by 2 and poisons it."
     },
     "laserfocus": {
         "num": 636,
@@ -11050,8 +11050,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-        "shortDesc": "Raises Atk, Sp. Atk of allies with Plus/Minus by 1."
+        "desc": "Raises the user's Special Attack by 1 stage and Speed by 2 stages.",
+        "shortDesc": "Raises Sp. Atk by 1 and Speed by 2."
     },
     "throatchop": {
         "num": 638,
@@ -11097,7 +11097,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Anchor Shot",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Steel",
         "accuracy": 100,
         "pp": 20,
@@ -11118,8 +11118,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
-        "shortDesc": "5 turns. Grounded: +Psychic power, priority-safe."
+        "desc": "For 7 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks is multiplied by 1.3 and Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
+        "shortDesc": "7 turns: +Psychic power, priority fails."
     },
     "lunge": {
         "num": 642,
@@ -11147,7 +11147,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fire Lash",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Fire",
         "accuracy": 100,
         "pp": 15,
@@ -11226,8 +11226,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "This move does not check accuracy.",
-        "shortDesc": "This move does not check accuracy."
+        "desc": "This move does not check accuracy, and has an increased chance to result in a critical hit.",
+        "shortDesc": "This move does not check accuracy. High critical hit rate."
     },
     "purify": {
         "num": 648,
@@ -11239,12 +11239,12 @@ exports.BattleMovedex = {
         "basePower": 0,
         "type": "Poison",
         "accuracy": true,
-        "pp": 20,
+        "pp": 10,
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.",
-        "shortDesc": "Cures target's status; heals user 1/2 max HP if so."
+        "desc": "The target has 1/2 of its maximum HP restored and is cured of any status condition.",
+        "shortDesc": "Restores 1/2 of target's HP and cures status."
     },
     "revelationdance": {
         "num": 649,
@@ -11253,7 +11253,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Revelation Dance",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 15,
@@ -11275,10 +11275,10 @@ exports.BattleMovedex = {
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
-        "category": "Special",
+        "category": "Physical",
         "contestType": "Tough",
-        "desc": "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
-        "shortDesc": "Nullifies the foe(s) Ability if the foe(s) move first."
+        "desc": "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+        "shortDesc": "Nullifies the foe(s) Ability."
     },
     "tropkick": {
         "num": 651,
@@ -11288,7 +11288,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Trop Kick",
-        "basePower": 70,
+        "basePower": 85,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
@@ -11326,11 +11326,11 @@ exports.BattleMovedex = {
         "type": "Flying",
         "accuracy": 100,
         "pp": 15,
-        "priority": -3,
+        "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.",
-        "shortDesc": "Burns on contact with the user before it moves."
+        "desc": "This move has a 20% chance to Burn the target.",
+        "shortDesc": "20% chance to Burn."
     },
     "clangingscales": {
         "num": 654,
@@ -11358,7 +11358,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dragon Hammer",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Dragon",
         "accuracy": 100,
         "pp": 15,
@@ -11415,8 +11415,8 @@ exports.BattleMovedex = {
         "priority": -3,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
-        "shortDesc": "User must take physical damage before moving."
+        "desc": "Fails unless the user is hit by an attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
+        "shortDesc": "User must take damage before moving."
     },
     "fleurcannon": {
         "num": 659,
@@ -11427,13 +11427,13 @@ exports.BattleMovedex = {
         "name": "Fleur Cannon",
         "basePower": 130,
         "type": "Fairy",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "psychicfangs": {
         "num": 660,
@@ -11469,7 +11469,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
+        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will double this move's power.",
         "shortDesc": "Power doubles if the user's last move failed."
     },
     "shadowbone": {
@@ -11539,8 +11539,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "This move cannot be selected on the turn after it was just used.",
+        "shortDesc": "Cannot be used on consecutive turns."
     },
     "spectralthief": {
         "num": 666,
@@ -11640,7 +11640,7 @@ exports.BattleMovedex = {
         "name": "Nature's Madness",
         "basePower": 1,
         "type": "Fairy",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -11680,8 +11680,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Primordial Sea.",
-        "shortDesc": "User loses 50% max HP. Hits adjacent Pokemon."
+        "desc": "The user takes 50% of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage. Hits adjacent Pokemon."
     },
     "plasmafists": {
         "num": 674,
@@ -11952,8 +11952,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Ignores the foe's stat changes."
     },
     "snipeshot": {
         "num": 691,
@@ -11962,7 +11962,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Snipe Shot",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Water",
         "accuracy": 100,
         "critRatio": 2,
@@ -11983,7 +11983,7 @@ exports.BattleMovedex = {
         },
         "name": "Jaw Lock",
         "basePower": 80,
-        "type": "Dark",
+        "type": "Rock",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
@@ -12021,7 +12021,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped. Fails if the user has already been prevented from switching by this effect.",
+        "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped.",
         "shortDesc": "Raises all stats by 1 (not acc/eva). Traps user."
     },
     "tarshot": {
@@ -12032,12 +12032,12 @@ exports.BattleMovedex = {
             "reflectable": 1
         },
         "name": "Tar Shot",
-        "basePower": 0,
+        "basePower": 70,
         "type": "Rock",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
-        "category": "Status",
+        "category": "Special",
         "contestType": "Beauty",
         "desc": "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
         "shortDesc": "Target gets -1 Spe and becomes weaker to Fire."
@@ -12091,8 +12091,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
-        "shortDesc": "All active Pokemon consume held Berries."
+        "desc": "All active Pokemon consume their held Berries. User's Special Attack is increased by 1 stage for each berry consumed in this manner. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
+        "shortDesc": "All active Pokemon consume held Berries. User's Sp. Atk rises for each berry."
     },
     "octolock": {
         "num": 699,
@@ -12119,7 +12119,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Bolt Beak",
-        "basePower": 85,
+        "basePower": 80,
         "type": "Electric",
         "accuracy": 100,
         "pp": 10,
@@ -12138,7 +12138,7 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Fishious Rend",
-        "basePower": 85,
+        "basePower": 80,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
@@ -12220,7 +12220,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Drum Beating",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
@@ -12238,15 +12238,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Snap Trap",
-        "basePower": 35,
+        "basePower": 80,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-        "shortDesc": "Traps and damages the target for 4-5 turns."
+        "desc": "Prevents the target from switching. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully.",
+        "shortDesc": "Traps the target."
     },
     "pyroball": {
         "num": 708,
@@ -12259,7 +12259,7 @@ exports.BattleMovedex = {
         "name": "Pyro Ball",
         "basePower": 120,
         "type": "Fire",
-        "accuracy": 95,
+        "accuracy": 90,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -12283,8 +12283,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Ignores target's stat changes."
     },
     "behemothbash": {
         "num": 710,
@@ -12301,8 +12301,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal. This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Uses user's Def stat as Atk in damage calculations. Ignores target's stat changes."
     },
     "aurawheel": {
         "num": 711,
@@ -12318,8 +12318,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
-        "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe."
+        "desc": "Has a 100% chance to raise the user's Speed by 1 stage.",
+        "shortDesc": "100% chance +1 Spe."
     },
     "breakingswipe": {
         "num": 712,
@@ -12382,7 +12382,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Apple Acid",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
@@ -12399,7 +12399,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Grav Apple",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
