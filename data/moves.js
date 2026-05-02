@@ -20,7 +20,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Pound",
-        "basePower": 400,
+        "basePower": 40,
         "type": "Normal",
         "accuracy": 100,
         "pp": 35,
@@ -57,7 +57,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Double Slap",
-        "basePower": 15,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
@@ -76,7 +76,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Comet Punch",
-        "basePower": 18,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 15,
@@ -95,7 +95,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Mega Punch",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -112,7 +112,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Pay Day",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -131,7 +131,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Fire Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Fire",
         "accuracy": 100,
         "pp": 15,
@@ -150,7 +150,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Ice Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Ice",
         "accuracy": 100,
         "pp": 15,
@@ -169,7 +169,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Thunder Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Electric",
         "accuracy": 100,
         "pp": 15,
@@ -206,7 +206,7 @@ exports.BattleMovedex = {
         },
         "name": "Vise Grip",
         "basePower": 55,
-        "type": "Normal",
+        "type": "Steel",
         "accuracy": 100,
         "pp": 30,
         "priority": 0,
@@ -241,16 +241,16 @@ exports.BattleMovedex = {
             "wind": 1
         },
         "name": "Razor Wind",
-        "basePower": 80,
-        "type": "Normal",
+        "basePower": 120,
+        "type": "Flying",
         "accuracy": 100,
         "critRatio": 2,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges, then hits foe(s) turn 2. High crit ratio."
+        "desc": "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Sandstorm, the move completes in one turn.",
+        "shortDesc": "Charges, then hits foe(s) turn 2. High crit ratio. No charge in Sand."
     },
     "swordsdance": {
         "num": 14,
@@ -279,15 +279,15 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Cut",
-        "basePower": 50,
-        "type": "Normal",
-        "accuracy": 95,
-        "pp": 30,
+        "basePower": 60,
+        "type": "Steel",
+        "accuracy": 100,
+        "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+        "shortDesc": "Guaranteed critical hit."
     },
     "gust": {
         "num": 16,
@@ -352,7 +352,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fly",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Flying",
         "accuracy": 100,
         "pp": 15,
@@ -370,7 +370,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Bind",
-        "basePower": 15,
+        "basePower": 35,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -395,8 +395,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "20% chance to cause the target to flinch.",
+        "shortDesc": "20% chance to flinch."
     },
     "vinewhip": {
         "num": 22,
@@ -442,7 +442,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Double Kick",
-        "basePower": 30,
+        "basePower": 40,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 30,
@@ -480,13 +480,13 @@ exports.BattleMovedex = {
         "name": "Jump Kick",
         "basePower": 100,
         "type": "Fighting",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        "shortDesc": "User is hurt by 50% of its max HP if it misses."
+        "desc": "If this attack is not successful, the user loses a third of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+        "shortDesc": "User is hurt by 33% of its max HP if it misses."
     },
     "rollingkick": {
         "num": 27,
@@ -568,7 +568,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fury Attack",
-        "basePower": 15,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -640,7 +640,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Wrap",
-        "basePower": 15,
+        "basePower": 35,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -683,8 +683,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "doubleedge": {
         "num": 38,
@@ -729,7 +729,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Poison Sting",
-        "basePower": 15,
+        "basePower": 40,
         "type": "Poison",
         "accuracy": 100,
         "pp": 35,
@@ -746,15 +746,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Twineedle",
-        "basePower": 25,
+        "basePower": 40,
         "type": "Bug",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Hits twice, with each hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-        "shortDesc": "Hits 2 times. Each hit has 20% chance to poison."
+        "desc": "Hits twice, with each hit having a 30% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+        "shortDesc": "Hits 2 times. Each hit has 30% chance to poison."
     },
     "pinmissile": {
         "num": 42,
@@ -858,7 +858,7 @@ exports.BattleMovedex = {
         "name": "Sing",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 75,
+        "accuracy": 80,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -877,7 +877,7 @@ exports.BattleMovedex = {
         "name": "Supersonic",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 55,
+        "accuracy": 95,
         "pp": 20,
         "priority": 0,
         "category": "Status",
@@ -894,7 +894,7 @@ exports.BattleMovedex = {
         "name": "Sonic Boom",
         "basePower": 1,
         "type": "Normal",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
@@ -1014,13 +1014,13 @@ exports.BattleMovedex = {
         "name": "Hydro Pump",
         "basePower": 110,
         "type": "Water",
-        "accuracy": 80,
+        "accuracy": 85,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Has a 20% chance to lower the target's Special Defense.",
+        "shortDesc": "20% chance to lower Sp.Def."
     },
     "surf": {
         "num": 57,
@@ -1066,7 +1066,7 @@ exports.BattleMovedex = {
         "name": "Blizzard",
         "basePower": 110,
         "type": "Ice",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -1139,8 +1139,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move, unless this move knocks out the target.",
+        "shortDesc": "User cannot move next turn unless this move KOs."
     },
     "peck": {
         "num": 64,
@@ -1168,15 +1168,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Drill Peck",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has an increased chance to land a critical hit.",
+        "shortDesc": "Increased crit chance."
     },
     "submission": {
         "num": 66,
@@ -1186,9 +1186,9 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Submission",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Fighting",
-        "accuracy": 80,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -1211,7 +1211,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+        "desc": "This move's power is 40 if the target weighs less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
         "shortDesc": "More power the heavier the target."
     },
     "counter": {
@@ -1259,14 +1259,14 @@ exports.BattleMovedex = {
         },
         "name": "Strength",
         "basePower": 80,
-        "type": "Normal",
+        "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Has a 10% chance to raise the user's Attack by 1 stage.",
+        "shortDesc": "10% chance to raise Attack."
     },
     "absorb": {
         "num": 71,
@@ -1275,7 +1275,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Absorb",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Grass",
         "accuracy": 100,
         "pp": 25,
@@ -1292,7 +1292,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mega Drain",
-        "basePower": 40,
+        "basePower": 55,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
@@ -1312,7 +1312,7 @@ exports.BattleMovedex = {
         "name": "Leech Seed",
         "basePower": 0,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -1327,13 +1327,13 @@ exports.BattleMovedex = {
         },
         "name": "Growth",
         "basePower": 0,
-        "type": "Normal",
+        "type": "Grass",
         "accuracy": true,
         "pp": 20,
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
+        "desc": "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sunny Day, Rain Dance, Primordial Sea or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
         "shortDesc": "Raises user's Attack and Sp. Atk by 1; 2 in Sun."
     },
     "razorleaf": {
@@ -1383,7 +1383,7 @@ exports.BattleMovedex = {
         "name": "Poison Powder",
         "basePower": 0,
         "type": "Poison",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 35,
         "priority": 0,
         "category": "Status",
@@ -1421,7 +1421,7 @@ exports.BattleMovedex = {
         "name": "Sleep Powder",
         "basePower": 0,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -1444,8 +1444,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "stringshot": {
         "num": 81,
@@ -1491,7 +1491,7 @@ exports.BattleMovedex = {
         "name": "Fire Spin",
         "basePower": 35,
         "type": "Fire",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
@@ -1543,12 +1543,12 @@ exports.BattleMovedex = {
         "name": "Thunder Wave",
         "basePower": 0,
         "type": "Electric",
-        "accuracy": 100,
+        "accuracy": 90,
         "pp": 20,
         "priority": 0,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "Paralyzes the target. This move does not ignore type immunity.",
+        "desc": "Paralyzes the target. Will never miss when used by an Electric-type Pokemon. This move does not ignore type immunity.",
         "shortDesc": "Paralyzes the target."
     },
     "thunder": {
@@ -1560,7 +1560,7 @@ exports.BattleMovedex = {
         "name": "Thunder",
         "basePower": 110,
         "type": "Electric",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -1627,7 +1627,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dig",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -1699,7 +1699,7 @@ exports.BattleMovedex = {
         "name": "Hypnosis",
         "basePower": 0,
         "type": "Psychic",
-        "accuracy": 75,
+        "accuracy": 80,
         "pp": 20,
         "priority": 0,
         "category": "Status",
@@ -1720,8 +1720,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the user's Attack by 1 stage.",
-        "shortDesc": "Raises the user's Attack by 1."
+        "desc": "Raises the Attack and Special Attack of any allied Fighting- and Psychic-type Pokemon by 1 stage. Effect is doubled in Psychic Terrain.",
+        "shortDesc": "Raises the Attack and Special Attack of Fighting and Psychic allies by 1."
     },
     "agility": {
         "num": 97,
@@ -1765,7 +1765,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Rage",
-        "basePower": 20,
+        "basePower": 50,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -2117,7 +2117,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        "desc": "The user faints after using this move, even if this move fails for having no target. This move always results in a critical hit. This move is prevented from executing if any active Pokemon has the Damp Ability.",
         "shortDesc": "Hits adjacent Pokemon. The user faints."
     },
     "eggbomb": {
@@ -2129,14 +2129,14 @@ exports.BattleMovedex = {
         },
         "name": "Egg Bomb",
         "basePower": 100,
-        "type": "Normal",
+        "type": "Grass",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Deals super-effective damage against Flying-type Pokemon.",
+        "shortDesc": "Hits Flying-types super-effectively."
     },
     "lick": {
         "num": 122,
@@ -2146,7 +2146,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Lick",
-        "basePower": 30,
+        "basePower": 45,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 30,
@@ -2163,15 +2163,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Smog",
-        "basePower": 30,
+        "basePower": 40,
         "type": "Poison",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a 40% chance to poison the target.",
-        "shortDesc": "40% chance to poison the target."
+        "desc": "Has a 50% chance to poison the target.",
+        "shortDesc": "50% chance to poison the target."
     },
     "sludge": {
         "num": 124,
@@ -2252,7 +2252,7 @@ exports.BattleMovedex = {
         "name": "Clamp",
         "basePower": 35,
         "type": "Water",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
@@ -2292,8 +2292,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Raises user's Defense by 1 on turn 1. Hits turn 2."
+        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Attack and Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Raises user's Attack and Defense by 1 on turn 1. Hits turn 2."
     },
     "spikecannon": {
         "num": 131,
@@ -2302,8 +2302,8 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Spike Cannon",
-        "basePower": 20,
-        "type": "Normal",
+        "basePower": 25,
+        "type": "Water",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -2320,15 +2320,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Constrict",
-        "basePower": 10,
+        "basePower": 40,
         "type": "Normal",
         "accuracy": 100,
         "pp": 35,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a 10% chance to lower the target's Speed by 1 stage.",
-        "shortDesc": "10% chance to lower the target's Speed by 1."
+        "desc": "Lowers the target's Speed by 1 stage.",
+        "shortDesc": "Lowers the target's Speed by 1."
     },
     "amnesia": {
         "num": 133,
@@ -2356,7 +2356,7 @@ exports.BattleMovedex = {
         "name": "Kinesis",
         "basePower": 0,
         "type": "Psychic",
-        "accuracy": 80,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -2390,13 +2390,13 @@ exports.BattleMovedex = {
         "name": "High Jump Kick",
         "basePower": 130,
         "type": "Fighting",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        "shortDesc": "User is hurt by 50% of its max HP if it misses."
+        "desc": "If this attack is not successful, the user loses a third of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+        "shortDesc": "User is hurt by 33% of its max HP if it misses."
     },
     "glare": {
         "num": 137,
@@ -2459,8 +2459,8 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Barrage",
-        "basePower": 15,
-        "type": "Normal",
+        "basePower": 25,
+        "type": "Steel",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
@@ -2497,7 +2497,7 @@ exports.BattleMovedex = {
         "name": "Lovely Kiss",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 75,
+        "accuracy": 85,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -2520,8 +2520,8 @@ exports.BattleMovedex = {
         "category": "Physical",
         "critRatio": 2,
         "contestType": "Cool",
-        "desc": "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges, then hits turn 2. 30% flinch. High crit."
+        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Raises user's Attack by 1 on turn 1, then hits turn 2."
     },
     "transform": {
         "num": 144,
@@ -2570,8 +2570,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Has a 20% chance to confuse the target.",
-        "shortDesc": "20% chance to confuse the target."
+        "desc": "Has a 40% chance to confuse the target.",
+        "shortDesc": "40% chance to confuse the target."
     },
     "spore": {
         "num": 147,
@@ -2600,15 +2600,15 @@ exports.BattleMovedex = {
             "reflectable": 1
         },
         "name": "Flash",
-        "basePower": 0,
-        "type": "Normal",
+        "basePower": 40,
+        "type": "Electric",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
-        "category": "Status",
+        "category": "Special",
         "contestType": "Beauty",
-        "desc": "Lowers the target's accuracy by 1 stage.",
-        "shortDesc": "Lowers the target's accuracy by 1."
+        "desc": "No additional effect.",
+        "shortDesc": "Usually goes first."
     },
     "psywave": {
         "num": 149,
@@ -2624,8 +2624,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
-        "shortDesc": "Random damage equal to 0.5x-1.5x user's level."
+        "desc": "Deals damage to the target equal to the user's level.",
+        "shortDesc": "Deals damage equal to the user's level."
     },
     "splash": {
         "num": 150,
@@ -2673,8 +2673,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a higher chance for a critical hit.",
-        "shortDesc": "High critical hit ratio."
+        "desc": "Has a 10% chance to make the target flinch. Has a higher chance for a critical hit.",
+        "shortDesc": "10% chance to flinch. High critical hit ratio."
     },
     "explosion": {
         "num": 153,
@@ -2690,7 +2690,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        "desc": "The user faints after using this move, even if this move fails for having no target. This move always results in a critical hit. This move is prevented from executing if any active Pokemon has the Damp Ability.",
         "shortDesc": "Hits adjacent Pokemon. The user faints."
     },
     "furyswipes": {
@@ -2751,7 +2751,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Rock Slide",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Rock",
         "accuracy": 100,
         "pp": 10,
@@ -2793,8 +2793,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the user's Attack by 1 stage.",
-        "shortDesc": "Raises the user's Attack by 1."
+        "desc": "Raises the user's Attack and Special Attack by 1 stage. Effect is doubled in any terrain.",
+        "shortDesc": "Raises the user's Attack and Special Attack by 1, doubled in terrain."
     },
     "conversion": {
         "num": 160,
@@ -2819,15 +2819,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Tri Attack",
-        "basePower": 80,
+        "basePower": 81,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 20% chance to either burn, freeze, or paralyze the target.",
-        "shortDesc": "20% chance to paralyze or burn or freeze target."
+        "desc": "Has a 33% chance to either burn, freeze, or paralyze the target.",
+        "shortDesc": "33% chance to paralyze or burn or freeze target."
     },
     "superfang": {
         "num": 162,
@@ -2838,7 +2838,7 @@ exports.BattleMovedex = {
         },
         "name": "Super Fang",
         "basePower": 1,
-        "type": "Normal",
+        "type": "Dark",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
@@ -2923,14 +2923,14 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Triple Kick",
-        "basePower": 10,
+        "basePower": 20,
         "type": "Fighting",
-        "accuracy": 100,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+        "desc": "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
         "shortDesc": "Hits 3 times. Each hit can miss, but power rises."
     },
     "thief": {
@@ -3028,8 +3028,8 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Snore",
-        "basePower": 50,
-        "type": "Normal",
+        "basePower": 95,
+        "type": "Psychic",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -3069,7 +3069,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cute",
-        "desc": "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        "desc": "The power of this move is 40 if X is 33 to 48, 60 if X is 17 to 32, 90 if X is 10 to 16, 110 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
         "shortDesc": "More power the less HP the user has left."
     },
     "conversion2": {
@@ -3141,7 +3141,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        "desc": "The power of this move is 40 if X is 33 to 48, 60 if X is 17 to 32, 90 if X is 10 to 16, 110 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
         "shortDesc": "More power the less HP the user has left."
     },
     "spite": {
@@ -3262,7 +3262,7 @@ exports.BattleMovedex = {
         "name": "Sweet Kiss",
         "basePower": 0,
         "type": "Fairy",
-        "accuracy": 75,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -3311,7 +3311,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mud-Slap",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -3329,15 +3329,15 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Octazooka",
-        "basePower": 85,
+        "basePower": 100,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a 50% chance to lower the target's accuracy by 1 stage.",
-        "shortDesc": "50% chance to lower the target's accuracy by 1."
+        "desc": "Has a 30% chance to lower the target's accuracy by 1 stage.",
+        "shortDesc": "30% chance to lower the target's accuracy by 1."
     },
     "spikes": {
         "num": 191,
@@ -3365,7 +3365,7 @@ exports.BattleMovedex = {
         "name": "Zap Cannon",
         "basePower": 120,
         "type": "Electric",
-        "accuracy": 50,
+        "accuracy": 60,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -3463,7 +3463,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Bone Rush",
-        "basePower": 25,
+        "basePower": 30,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -3505,8 +3505,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "sandstorm": {
         "num": 201,
@@ -3521,8 +3521,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
-        "shortDesc": "For 5 turns, a sandstorm rages. Rock: 1.5x SpD."
+        "desc": "For 7 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Ground- and Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack, and special Rock- snd Ground-type moves deal 20% more damage. Lasts for 10 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
+        "shortDesc": "For 5 turns, a sandstorm rages. Ground, Rock: 1.5x SpD, 1.2x SpA."
     },
     "gigadrain": {
         "num": 202,
@@ -3583,7 +3583,7 @@ exports.BattleMovedex = {
         "name": "Rollout",
         "basePower": 30,
         "type": "Rock",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -3599,7 +3599,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "False Swipe",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 40,
@@ -3619,13 +3619,13 @@ exports.BattleMovedex = {
         "name": "Swagger",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the target's Attack by 2 stages and confuses it.",
-        "shortDesc": "Raises the target's Attack by 2 and confuses it."
+        "desc": "Raises the target's Attack by 1 stage and confuses it.",
+        "shortDesc": "Raises the target's Attack by 1 and confuses it."
     },
     "milkdrink": {
         "num": 208,
@@ -3672,7 +3672,7 @@ exports.BattleMovedex = {
         "name": "Fury Cutter",
         "basePower": 40,
         "type": "Bug",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -3688,7 +3688,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Steel Wing",
-        "basePower": 70,
+        "basePower": 90,
         "type": "Steel",
         "accuracy": 100,
         "pp": 25,
@@ -3731,8 +3731,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
-        "shortDesc": "A target of the opposite gender gets infatuated."
+        "desc": "Causes the target to become infatuated, making it unable to attack 30% of the time. Fails if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
+        "shortDesc": "An opposing Pokemon becomes infatuated."
     },
     "sleeptalk": {
         "num": 214,
@@ -3791,14 +3791,14 @@ exports.BattleMovedex = {
         },
         "name": "Present",
         "basePower": 1,
-        "type": "Normal",
-        "accuracy": 90,
+        "type": "Ice",
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
-        "category": "Physical",
+        "category": "Special",
         "contestType": "Cute",
-        "desc": "If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.",
-        "shortDesc": "40, 80, 120 power, or heals target 1/4 max HP."
+        "desc": "If targetting an opponent, this move deals damage to the target. 45% chance for 60 power, 35% chance for 90 power, and 20% chance for 120 power. If targetting an ally, this move heals that ally. 45% chance for 33% of maximum HP, 35% chance for 50% of maximum HP, 20% chance for 67% of maximum HP.",
+        "shortDesc": "40, 80, 120 power, or heals ally 1/3, 1/2, 2/3 max HP."
     },
     "frustration": {
         "num": 218,
@@ -3861,7 +3861,7 @@ exports.BattleMovedex = {
         "name": "Sacred Fire",
         "basePower": 100,
         "type": "Fire",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -3883,7 +3883,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.",
+        "desc": "The power of this move varies; 5% chances for 30 and 150 power, 10% chances for 45 and 120 power, 20% chances for 60 and 90 power, and 30% chance for 75 power. Damage doubles if the target is using Dig.",
         "shortDesc": "Hits adjacent Pokemon. Power varies; 2x on Dig."
     },
     "dynamicpunch": {
@@ -3895,9 +3895,9 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Dynamic Punch",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Fighting",
-        "accuracy": 50,
+        "accuracy": 60,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -3915,7 +3915,7 @@ exports.BattleMovedex = {
         "name": "Megahorn",
         "basePower": 120,
         "type": "Bug",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -4143,7 +4143,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
+        "desc": "This move's type depends on the user's individual values (IVs), and can be any type but Normal.",
         "shortDesc": "Varies in type based on the user's IVs."
     },
     "crosschop": {
@@ -4194,8 +4194,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
-        "shortDesc": "For 5 turns, heavy rain powers Water moves."
+        "desc": "For 7 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 10 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
+        "shortDesc": "For 7 turns, heavy rain powers Water moves."
     },
     "sunnyday": {
         "num": 241,
@@ -4208,8 +4208,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
-        "shortDesc": "For 5 turns, intense sunlight powers Fire moves."
+        "desc": "For 7 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 10 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
+        "shortDesc": "For 7 turns, intense sunlight powers Fire moves."
     },
     "crunch": {
         "num": 242,
@@ -4339,15 +4339,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Rock Smash",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a 50% chance to lower the target's Defense by 1 stage.",
-        "shortDesc": "50% chance to lower the target's Defense by 1."
+        "desc": "Lowers the target's Defense by 1 stage.",
+        "shortDesc": "Lowers the target's Defense by 1."
     },
     "whirlpool": {
         "num": 250,
@@ -4358,7 +4358,7 @@ exports.BattleMovedex = {
         "name": "Whirlpool",
         "basePower": 35,
         "type": "Water",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
@@ -4373,15 +4373,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Beat Up",
-        "basePower": 1,
+        "basePower": 25,
         "type": "Dark",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
-        "shortDesc": "All healthy allies aid in damaging the target."
+        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        "shortDesc": "Hits 2-5 times in one turn."
     },
     "fakeout": {
         "num": 252,
@@ -4409,14 +4409,14 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Uproar",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "The user spends three turns locked into this move. This move targets an opponent at random on each turn. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.",
+        "desc": "The user spends three turns locked into this move. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.",
         "shortDesc": "Lasts 3 turns. Active Pokemon cannot fall asleep."
     },
     "stockpile": {
@@ -4432,8 +4432,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
-        "shortDesc": "Raises user's Defense, Sp. Def by 1. Max 3 uses."
+        "desc": "Raises the user's Defense and Special Defense by 1 stage, and grants a stacking instance of 1/16 maximum HP recovery per turn. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+        "shortDesc": "Raises user's Defense, Sp. Def by 1 and adds a 1/16 HP heal. Max 3 uses."
     },
     "spitup": {
         "num": 255,
@@ -4441,15 +4441,15 @@ exports.BattleMovedex = {
             "protect": 1
         },
         "name": "Spit Up",
-        "basePower": 1,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-        "shortDesc": "More power with more uses of Stockpile."
+        "desc": "Type matches the primary type of the user. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as the most recent Stockpile had increased them, and the user's Stockpile count goes down by 1.",
+        "shortDesc": "Uses up a Stockpile to attack."
     },
     "swallow": {
         "num": 256,
@@ -4464,8 +4464,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-        "shortDesc": "Heals the user based on uses of Stockpile."
+        "desc": "The user restores 75% of its maximum HP by using a Stockpile. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as the most recent Stockpile had increased them, and the user's Stockpile count goes down by 1.",
+        "shortDesc": "Heals the user by using up a Stockpile."
     },
     "heatwave": {
         "num": 257,
@@ -4545,12 +4545,12 @@ exports.BattleMovedex = {
         "name": "Will-O-Wisp",
         "basePower": 0,
         "type": "Fire",
-        "accuracy": 85,
+        "accuracy": 90,
         "pp": 15,
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Burns the target.",
+        "desc": "Burns the target. Will never miss when used by a Fire-type Pokemon.",
         "shortDesc": "Burns the target."
     },
     "memento": {
@@ -4585,8 +4585,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cute",
-        "desc": "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
-        "shortDesc": "Power doubles if user is burn/poison/paralyzed."
+        "desc": "Power doubles if the user is asleep, burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+        "shortDesc": "Power doubles if user is asleep/burn/poison/paralyzed."
     },
     "focuspunch": {
         "num": 264,
@@ -4603,8 +4603,8 @@ exports.BattleMovedex = {
         "priority": -3,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.",
-        "shortDesc": "Fails if the user takes damage before it hits."
+        "desc": "The user loses its focus if it is hit by a damaging attack this turn before it can execute the move. This reduces the power to 50.",
+        "shortDesc": "Much weaker if the user takes damage before it hits."
     },
     "smellingsalts": {
         "num": 265,
@@ -4668,8 +4668,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful.",
-        "shortDesc": "+1 SpD, user's next Electric move 2x power."
+        "desc": "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful. Also raises the user's Special Attack by 1 stage in Electric Terrain.",
+        "shortDesc": "+1 SpD, user's next Electric move 2x power. +1 SpA in Electric Terrain."
     },
     "taunt": {
         "num": 269,
@@ -4782,8 +4782,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "The user has 1/16 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.",
-        "shortDesc": "Traps/grounds user; heals 1/16 max HP per turn."
+        "desc": "The user has 1/8 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.",
+        "shortDesc": "Traps/grounds user; heals 1/8 max HP per turn."
     },
     "superpower": {
         "num": 276,
@@ -4793,7 +4793,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Superpower",
-        "basePower": 120,
+        "basePower": 130,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 5,
@@ -4859,7 +4859,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Brick Break",
-        "basePower": 75,
+        "basePower": 85,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
@@ -5050,7 +5050,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dive",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
@@ -5068,7 +5068,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Arm Thrust",
-        "basePower": 15,
+        "basePower": 25,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 20,
@@ -5091,8 +5091,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "The user's type changes based on the battle terrain. Normal type on the regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain, Grass type during Grassy Terrain, and Psychic type during Psychic Terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
-        "shortDesc": "Changes user's type by terrain (default Normal)."
+        "desc": "The user's type changes to one that resists or is immune to one of the opponent's types, selected at random. When determining the user's new type, an immunity will be prioritised over any resistances if there is one. If there are multiple immunities or resistances to the selected type, the selected opponent's secondary type, if any, will be considered, with preference given in the order of 'immune', 'resisted', 'neutral', and 'weak' against the secondary type. If multiple types remain available after all checks, one of them will be selected at random.",
+        "shortDesc": "Changes user's type to one defensively strong against the opponent."
     },
     "tailglow": {
         "num": 294,
@@ -5124,8 +5124,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 50% chance to lower the target's Special Defense by 1 stage.",
-        "shortDesc": "50% chance to lower the target's Sp. Def by 1."
+        "desc": "Has a 50% chance to lower the target's Special Attack by 1 stage.",
+        "shortDesc": "50% chance to lower the target's Sp. Atk by 1."
     },
     "mistball": {
         "num": 296,
@@ -5142,8 +5142,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 50% chance to lower the target's Special Attack by 1 stage.",
-        "shortDesc": "50% chance to lower the target's Sp. Atk by 1."
+        "desc": "Has a 50% chance to lower the target's Special Defense by 1 stage.",
+        "shortDesc": "50% chance to lower the target's Sp. Def by 1."
     },
     "featherdance": {
         "num": 297,
@@ -5187,7 +5187,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Blaze Kick",
-        "basePower": 85,
+        "basePower": 90,
         "type": "Fire",
         "accuracy": 100,
         "critRatio": 2,
@@ -5223,7 +5223,7 @@ exports.BattleMovedex = {
         "name": "Ice Ball",
         "basePower": 30,
         "type": "Ice",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -5292,15 +5292,15 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Poison Fang",
-        "basePower": 50,
+        "basePower": 70,
         "type": "Poison",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Has a 50% chance to badly poison the target.",
-        "shortDesc": "50% chance to badly poison the target."
+        "desc": "Has a 10% chance to badly poison the target and a 10% chance to flinch the target.",
+        "shortDesc": "10% chance to badly poison the target and 10% to flinch it."
     },
     "crushclaw": {
         "num": 306,
@@ -5334,8 +5334,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user takes 50% of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage."
     },
     "hydrocannon": {
         "num": 308,
@@ -5351,8 +5351,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user takes 50% of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage."
     },
     "meteormash": {
         "num": 309,
@@ -5381,7 +5381,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Astonish",
-        "basePower": 30,
+        "basePower": 60,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 15,
@@ -5478,8 +5478,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "odorsleuth": {
         "num": 316,
@@ -5565,7 +5565,7 @@ exports.BattleMovedex = {
         "name": "Grass Whistle",
         "basePower": 0,
         "type": "Grass",
-        "accuracy": 55,
+        "accuracy": 80,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -5650,7 +5650,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Shadow Punch",
-        "basePower": 60,
+        "basePower": 80,
         "type": "Ghost",
         "accuracy": true,
         "pp": 20,
@@ -5693,8 +5693,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
-        "shortDesc": "Can hit Pokemon using Bounce, Fly, or Sky Drop."
+        "desc": "This move has a 10% chance to make the target flinch. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
+        "shortDesc": "10% chance to flinch. Can hit Pokemon using Bounce, Fly, or Sky Drop."
     },
     "sandtomb": {
         "num": 328,
@@ -5739,7 +5739,7 @@ exports.BattleMovedex = {
         "name": "Muddy Water",
         "basePower": 90,
         "type": "Water",
-        "accuracy": 100,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -5859,15 +5859,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dragon Claw",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Dragon",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has an increased chance to land a critical hit.",
+        "shortDesc": "High critical hit chance."
     },
     "frenzyplant": {
         "num": 338,
@@ -5883,8 +5883,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user takes 50% of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage."
     },
     "bulkup": {
         "num": 339,
@@ -5912,7 +5912,7 @@ exports.BattleMovedex = {
         "name": "Bounce",
         "basePower": 85,
         "type": "Flying",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -5927,15 +5927,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mud Shot",
-        "basePower": 55,
+        "basePower": 75,
         "type": "Ground",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
-        "shortDesc": "100% chance to lower the target's Speed by 1."
+        "desc": "Has a 40% chance to lower the target's Speed by 1 stage.",
+        "shortDesc": "40% chance to lower the target's Speed by 1."
     },
     "poisontail": {
         "num": 342,
@@ -6149,15 +6149,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Psycho Boost",
-        "basePower": 140,
+        "basePower": 130,
         "type": "Psychic",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "roost": {
         "num": 355,
@@ -6242,8 +6242,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Lowers the user's Speed by 1 stage.",
-        "shortDesc": "Lowers the user's Speed by 1."
+        "desc": "This move has a 10% chance to cause the target to flinch. Lowers the user's Speed by 1 stage.",
+        "shortDesc": "10% chance to flinch. Lowers the user's Speed by 1."
     },
     "gyroball": {
         "num": 360,
@@ -6311,7 +6311,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "The type and power of this move depend on the user's held Berry, and the Berry is lost. Fails if the user is not holding a Berry, if the user has the Klutz Ability, or if Embargo or Magic Room is in effect for the user.",
+        "desc": "The type and power of this move depend on the user's held Berry, and the Berry is lost. The move may continue to be used after losing the berry on first use. Fails if the user never had a Berry, if the user has the Klutz Ability, or if Embargo or Magic Room is in effect for the user.",
         "shortDesc": "Power and type depends on the user's Berry."
     },
     "feint": {
@@ -6325,7 +6325,7 @@ exports.BattleMovedex = {
         "priority": 2,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+        "desc": "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. If a protection effect was broken, this move deals triple the amount of damage.",
         "shortDesc": "Nullifies Detect, Protect, and Quick/Wide Guard."
     },
     "pluck": {
@@ -6360,8 +6360,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "For 4 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
-        "shortDesc": "For 4 turns, allies' Speed is doubled."
+        "desc": "For 5 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
+        "shortDesc": "For 5 turns, allies' Speed is doubled."
     },
     "acupressure": {
         "num": 367,
@@ -6376,8 +6376,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
-        "shortDesc": "Raises a random stat of the user or an ally by 2."
+        "desc": "Raises a random stat by 3 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
+        "shortDesc": "Raises a random stat of the user or an ally by 3."
     },
     "metalburst": {
         "num": 368,
@@ -6390,7 +6390,7 @@ exports.BattleMovedex = {
         "type": "Steel",
         "accuracy": 100,
         "pp": 10,
-        "priority": 0,
+        "priority": -1,
         "category": "Physical",
         "contestType": "Beauty",
         "desc": "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
@@ -6465,8 +6465,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Power doubles if the target has already taken damage this turn, other than direct damage from Belly Drum, confusion, Curse, or Pain Split.",
-        "shortDesc": "Power doubles if target was damaged this turn."
+        "desc": "Power doubles if the target is affected by a non-volatile status condition.",
+        "shortDesc": "Power doubles if target has a status condition."
     },
     "embargo": {
         "num": 373,
@@ -6535,7 +6535,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 80 power for 1 PP, 60 power for 2 PP, 50 power for 3 PP, and 40 power for 4 or more PP.",
+        "desc": "The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 120 power for 1 PP, 90 power for 2 PP, 75 power for 3 PP, and 60 power for 4 or more PP.",
         "shortDesc": "More power the fewer PP this move has left."
     },
     "healblock": {
@@ -6571,8 +6571,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-        "shortDesc": "More power the more HP the target has left."
+        "desc": "Deals 50% damage if the target has less than 50% of their maximum HP remaining.",
+        "shortDesc": "Deals half damage if the target is below half HP."
     },
     "powertrick": {
         "num": 379,
@@ -6635,11 +6635,11 @@ exports.BattleMovedex = {
         "type": "Normal",
         "accuracy": true,
         "pp": 20,
-        "priority": 0,
+        "priority": 1,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "The user uses the move the target chose for use this turn against it, if possible, with its power multiplied by 1.5. The move must be a damaging move other than Beak Blast, Belch, Blazing Torque, Combat Torque, Comeuppance, Counter, Covet, Focus Punch, Magical Torque, Me First, Metal Burst, Mirror Coat, Noxious Torque, Shell Trap, Struggle, Thief, or Wicked Torque. Fails if the target moves before the user. Ignores the target's substitute for the purpose of copying the move.",
-        "shortDesc": "Copies a foe at 1.5x power. User must be faster."
+        "desc": "The user uses the move the target chose for use this turn against it. Ignores the target's substitute for the purpose of copying the move.",
+        "shortDesc": "Uses the opponent's move first."
     },
     "copycat": {
         "num": 383,
@@ -6724,7 +6724,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cute",
-        "desc": "This move fails unless the user knows this move and at least one other move, and has used all the other moves it knows at least once each since it became active or Transformed.",
+        "desc": "This move fails unless the user has used all the other moves it knows at least once each in the battle.",
         "shortDesc": "Fails unless each known move has been used."
     },
     "worryseed": {
@@ -6810,8 +6810,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
-        "shortDesc": "User recovers 1/16 max HP per turn."
+        "desc": "The user has 1/8 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.5x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
+        "shortDesc": "User recovers 1/8 max HP per turn."
     },
     "magnetrise": {
         "num": 393,
@@ -6875,7 +6875,7 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Aura Sphere",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Fighting",
         "accuracy": true,
         "pp": 20,
@@ -6967,7 +6967,7 @@ exports.BattleMovedex = {
         "name": "Aqua Tail",
         "basePower": 90,
         "type": "Water",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -6990,8 +6990,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has a 10% chance to apply Leech Seed to the target.",
+        "shortDesc": "10% chance to apply Leech Seed."
     },
     "airslash": {
         "num": 403,
@@ -7001,7 +7001,7 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Air Slash",
-        "basePower": 75,
+        "basePower": 85,
         "type": "Flying",
         "accuracy": 100,
         "pp": 15,
@@ -7027,8 +7027,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move is more likely than usual to result in a critical hit.",
+        "shortDesc": "High critical hit rate."
     },
     "bugbuzz": {
         "num": 405,
@@ -7056,15 +7056,15 @@ exports.BattleMovedex = {
             "pulse": 1
         },
         "name": "Dragon Pulse",
-        "basePower": 85,
+        "basePower": 95,
         "type": "Dragon",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has a 20% chance to lower the target's Special Defense by 1 stage.",
+        "shortDesc": "20% chance to lower Sp. Def."
     },
     "dragonrush": {
         "num": 407,
@@ -7091,15 +7091,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Power Gem",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Rock",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has a 10% chance to raise the user's Special Attack by 1 stage.",
+        "shortDesc": "10% chance to boost Sp. Atk."
     },
     "drainpunch": {
         "num": 409,
@@ -7147,7 +7147,7 @@ exports.BattleMovedex = {
         "name": "Focus Blast",
         "basePower": 120,
         "type": "Fighting",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -7240,8 +7240,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move, unless this move knocks out the target.",
+        "shortDesc": "User cannot move next turn unless this move KOs."
     },
     "nastyplot": {
         "num": 417,
@@ -7321,7 +7321,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Shadow Claw",
-        "basePower": 70,
+        "basePower": 85,
         "type": "Ghost",
         "accuracy": 100,
         "critRatio": 2,
@@ -7341,7 +7341,7 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Thunder Fang",
-        "basePower": 65,
+        "basePower": 70,
         "type": "Electric",
         "accuracy": 100,
         "pp": 15,
@@ -7360,7 +7360,7 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Ice Fang",
-        "basePower": 65,
+        "basePower": 70,
         "type": "Ice",
         "accuracy": 100,
         "pp": 15,
@@ -7379,7 +7379,7 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Fire Fang",
-        "basePower": 65,
+        "basePower": 70,
         "type": "Fire",
         "accuracy": 100,
         "pp": 15,
@@ -7415,7 +7415,7 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Mud Bomb",
-        "basePower": 65,
+        "basePower": 55,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -7486,7 +7486,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Flash Cannon",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Steel",
         "accuracy": 100,
         "pp": 10,
@@ -7505,7 +7505,7 @@ exports.BattleMovedex = {
         },
         "name": "Rock Climb",
         "basePower": 90,
-        "type": "Normal",
+        "type": "Rock",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
@@ -7542,11 +7542,11 @@ exports.BattleMovedex = {
         "type": "Psychic",
         "accuracy": true,
         "pp": 5,
-        "priority": -7,
+        "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "For 5 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends.",
-        "shortDesc": "Goes last. For 5 turns, turn order is reversed."
+        "desc": "For 7 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends. This effect lasts for 10 turns if the user is holding an Odd Incense.",
+        "shortDesc": "For 7 turns, turn order is reversed."
     },
     "dracometeor": {
         "num": 434,
@@ -7562,8 +7562,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "discharge": {
         "num": 435,
@@ -7613,8 +7613,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "powerwhip": {
         "num": 438,
@@ -7626,7 +7626,7 @@ exports.BattleMovedex = {
         "name": "Power Whip",
         "basePower": 120,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -7642,15 +7642,15 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Rock Wrecker",
-        "basePower": 150,
+        "basePower": 130,
         "type": "Rock",
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "Lowers the user's Attack and Defense by 1 stage each",
+        "shortDesc": "Lowers the user's Atk and Def."
     },
     "crosspoison": {
         "num": 440,
@@ -7661,7 +7661,7 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Cross Poison",
-        "basePower": 70,
+        "basePower": 90,
         "type": "Poison",
         "accuracy": 100,
         "critRatio": 2,
@@ -7681,7 +7681,7 @@ exports.BattleMovedex = {
         "name": "Gunk Shot",
         "basePower": 120,
         "type": "Poison",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -7704,8 +7704,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a 30% chance to make the target flinch.",
-        "shortDesc": "30% chance to make the target flinch."
+        "desc": "Has a 20% chance to make the target flinch.",
+        "shortDesc": "20% chance to make the target flinch."
     },
     "magnetbomb": {
         "num": 443,
@@ -7758,8 +7758,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
-        "shortDesc": "Lowers the foe(s) Sp. Atk by 2 if opposite gender."
+        "desc": "Lowers the target's Special Attack by 2 stages. Pokemon with the Oblivious Ability are immune.",
+        "shortDesc": "Lowers the foe(s) Sp. Atk by 2."
     },
     "stealthrock": {
         "num": 446,
@@ -7792,7 +7792,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+        "desc": "This move's power is 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
         "shortDesc": "More power the heavier the target."
     },
     "chatter": {
@@ -7802,15 +7802,15 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Chatter",
-        "basePower": 65,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 100% chance to confuse the target.",
-        "shortDesc": "100% chance to confuse the target."
+        "desc": "Has a 30% chance to confuse the target.",
+        "shortDesc": "30% chance to confuse the target."
     },
     "judgment": {
         "num": 449,
@@ -7819,7 +7819,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Judgment",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
@@ -7856,13 +7856,13 @@ exports.BattleMovedex = {
         "name": "Charge Beam",
         "basePower": 50,
         "type": "Electric",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 70% chance to raise the user's Special Attack by 1 stage.",
-        "shortDesc": "70% chance to raise the user's Sp. Atk by 1."
+        "desc": "Has a 100% chance to raise the user's Special Attack by 1 stage.",
+        "shortDesc": "100% chance to raise the user's Sp. Atk by 1."
     },
     "woodhammer": {
         "num": 452,
@@ -7907,7 +7907,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Attack Order",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Bug",
         "accuracy": 100,
         "critRatio": 2,
@@ -7976,7 +7976,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Double Hit",
-        "basePower": 35,
+        "basePower": 40,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
@@ -7993,15 +7993,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Roar of Time",
-        "basePower": 150,
+        "basePower": 110,
         "type": "Dragon",
-        "accuracy": 90,
+        "accuracy": 100
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "This move either lower's the target's Speed by 1 stage or raises the user's Speed by 1 stage. 50% chance for eithe effect.",
+        "shortDesc": "Raises user's Speed or lowers foe's Speed."
     },
     "spacialrend": {
         "num": 460,
@@ -8010,16 +8010,16 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Spacial Rend",
-        "basePower": 100,
+        "basePower": 110,
         "type": "Dragon",
-        "accuracy": 95,
+        "accuracy": 100,
         "critRatio": 2,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a higher chance for a critical hit.",
-        "shortDesc": "High critical hit ratio."
+        "desc": "This move has a 50% chance to raise the user's Critical Hit Rate by 1 stage. Has a higher chance for a critical hit.",
+        "shortDesc": "50% chance to raise critical hit chance. High critical hit ratio."
     },
     "lunardance": {
         "num": 461,
@@ -8045,15 +8045,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Crush Grip",
-        "basePower": 120,
+        "basePower": 110,
         "type": "Normal",
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-        "shortDesc": "More power the more HP the target has left."
+        "desc": "This move has a 30% chance to lower the target's Defense by 1 stage, and a 20% chance to inflict Paralysis.",
+        "shortDesc": "30% chance to lower Def, 20% chance to Paralyze."
     },
     "magmastorm": {
         "num": 463,
@@ -8064,7 +8064,7 @@ exports.BattleMovedex = {
         "name": "Magma Storm",
         "basePower": 100,
         "type": "Fire",
-        "accuracy": 75,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -8082,7 +8082,7 @@ exports.BattleMovedex = {
         "name": "Dark Void",
         "basePower": 0,
         "type": "Dark",
-        "accuracy": 80,
+        "accuracy": 75,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -8139,8 +8139,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Disappears turn 1. Hits turn 2. Breaks protection."
+        "desc": "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This move will never miss, and has a 50% chance to lower the target's Defense by 1 stage. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Disappears turn 1. Hits turn 2. 50% chance to lowet Def. Never misses. Breaks protection."
     },
     "honeclaws": {
         "num": 468,
@@ -8246,15 +8246,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Venoshock",
-        "basePower": 65,
+        "basePower": 60,
         "type": "Poison",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Power doubles if the target is poisoned.",
-        "shortDesc": "Power doubles if the target is poisoned."
+        "desc": "Power doubles if the target is poisoned Has a 10% chance to Poison the target.",
+        "shortDesc": "Power doubles if the target is poisoned. 10% chance to Poison."
     },
     "autotomize": {
         "num": 475,
@@ -8371,7 +8371,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "If this move is successful, the target's ally loses 1/16 of its maximum HP, rounded down, unless it has the Magic Guard Ability.",
+        "desc": "If this move is successful, the target's ally loses 1/8 of its maximum HP, rounded down, unless it has the Magic Guard Ability.",
         "shortDesc": "Damages Pokemon next to the target as well."
     },
     "sludgewave": {
@@ -8422,7 +8422,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+        "desc": "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4 or 3, 80 if 2, and 60 if 1 or less . Damage doubles and no accuracy check is done if the target has used Minimize while active.",
         "shortDesc": "More power the heavier the user than the target."
     },
     "synchronoise": {
@@ -8432,15 +8432,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Synchronoise",
-        "basePower": 120,
+        "basePower": 80,
         "type": "Psychic",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "The target is immune if it does not share a type with the user.",
-        "shortDesc": "Hits adjacent Pokemon sharing the user's type."
+        "desc": "If the target shares at least one type with the user, this move deals 2x super-effective damage, ignoring all regular type-based interactions.",
+        "shortDesc": "Super-effective against same-type opponents."
     },
     "electroball": {
         "num": 486,
@@ -8520,7 +8520,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Low Sweep",
-        "basePower": 65,
+        "basePower": 60,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 20,
@@ -8662,7 +8662,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Chip Away",
-        "basePower": 70,
+        "basePower": 80,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -8795,7 +8795,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Hex",
-        "basePower": 65,
+        "basePower": 60,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
@@ -8813,7 +8813,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Sky Drop",
-        "basePower": 60,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 10,
@@ -8957,8 +8957,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
-        "shortDesc": "Does damage equal to the user's HP. User faints."
+        "desc": "Deals damage to the target equal to the user's missing HP. If this move is successful, the user faints.",
+        "shortDesc": "Does damage equal to the user's missing HP. User faints."
     },
     "bestow": {
         "num": 516,
@@ -8984,9 +8984,9 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Inferno",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Fire",
-        "accuracy": 50,
+        "accuracy": 60,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -9172,15 +9172,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Wild Charge",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Electric",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-        "shortDesc": "Has 1/4 recoil."
+        "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP. Has a 20% chance to Paralyze the target.",
+        "shortDesc": "20% chance to Paralyze. Has 1/4 recoil."
     },
     "drillrun": {
         "num": 529,
@@ -9264,15 +9264,15 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Sacred Sword",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Ignores the target's stat stage changes, including evasiveness.",
-        "shortDesc": "Ignores the target's stat stage changes."
+        "desc": "Has an increased chance to result in a critical hit. Ignores the target's stat stage changes, including evasiveness.",
+        "shortDesc": "High critical hit chance. Ignores the target's stat stage changes."
     },
     "razorshell": {
         "num": 534,
@@ -9308,7 +9308,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+        "desc": "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4 or 3, 80 if 2, and 60 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
         "shortDesc": "More power the heavier the user than the target."
     },
     "leaftornado": {
@@ -9369,15 +9369,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Night Daze",
-        "basePower": 85,
+        "basePower": 90,
         "type": "Dark",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "Has a 40% chance to lower the target's accuracy by 1 stage.",
-        "shortDesc": "40% chance to lower the target's accuracy by 1."
+        "desc": "Has a 20% chance to lower the target's accuracy by 1 stage.",
+        "shortDesc": "20% chance to lower the target's accuracy by 1."
     },
     "psystrike": {
         "num": 540,
@@ -9424,7 +9424,7 @@ exports.BattleMovedex = {
         "name": "Hurricane",
         "basePower": 110,
         "type": "Flying",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -9458,7 +9458,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Gear Grind",
-        "basePower": 50,
+        "basePower": 60,
         "type": "Steel",
         "accuracy": 100,
         "pp": 15,
@@ -9511,15 +9511,15 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Relic Song",
-        "basePower": 75,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
-        "shortDesc": "10% chance to sleep foe(s). Meloetta transforms."
+        "desc": "Has a 10% chance to cause the target to fall asleep.",
+        "shortDesc": "10% chance to sleep foe(s).
     },
     "secretsword": {
         "num": 548,
@@ -9529,7 +9529,7 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Secret Sword",
-        "basePower": 85,
+        "basePower": 95,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 10,
@@ -9546,15 +9546,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Glaciate",
-        "basePower": 65,
+        "basePower": 100,
         "type": "Ice",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
-        "shortDesc": "100% chance to lower the foe(s) Speed by 1."
+        "desc": "Has a 50% chance to lower the target's Speed by 1 stage, and a 10% chance to Freeze the target.",
+        "shortDesc": "50% chance to lower the foe(s) Speed by 1, 10% chance to Freeze."
     },
     "boltstrike": {
         "num": 550,
@@ -9566,7 +9566,7 @@ exports.BattleMovedex = {
         "name": "Bolt Strike",
         "basePower": 130,
         "type": "Electric",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -9583,7 +9583,7 @@ exports.BattleMovedex = {
         "name": "Blue Flare",
         "basePower": 130,
         "type": "Fire",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -9617,13 +9617,13 @@ exports.BattleMovedex = {
         "name": "Freeze Shock",
         "basePower": 140,
         "type": "Ice",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges turn 1. Hits turn 2. 30% paralyze."
+        "desc": "Has a 30% chance to paralyze the target. Deals super-effective damage against Water-type Pokemon. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, or the weather is Snowscape, the move completes in one turn.",
+        "shortDesc": "Charges turn 1. Hits turn 2. No charge in Snow. 30% paralyze. Super-effective on Water."
     },
     "iceburn": {
         "num": 554,
@@ -9634,13 +9634,13 @@ exports.BattleMovedex = {
         "name": "Ice Burn",
         "basePower": 140,
         "type": "Ice",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 30% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges turn 1. Hits turn 2. 30% burn."
+        "desc": "Has a 30% chance to burn the target. Deals super-effective damage against Steel-type Pokemon. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, or the weather is Snowscape, the move completes in one turn.",
+        "shortDesc": "Charges turn 1. Hits turn 2. No charge in Snow. 30% burn. Super-effective on Steel."
     },
     "snarl": {
         "num": 555,
@@ -9761,8 +9761,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
-        "shortDesc": "Protects allies from damaging attacks. Turn 1 only."
+        "desc": "The user and its party members are protected from attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
+        "shortDesc": "Protects allies from attacks. Turn 1 only."
     },
     "belch": {
         "num": 562,
@@ -9772,13 +9772,13 @@ exports.BattleMovedex = {
         "name": "Belch",
         "basePower": 120,
         "type": "Poison",
-        "accuracy": 100,
+        "accuracy": 90,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
-        "shortDesc": "Cannot be selected until the user eats a Berry."
+        "desc": "This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. The user will eat it's held berry, if it has one, before executing the move. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
+        "shortDesc": "Cannot be used until the user eats a Berry."
     },
     "rototiller": {
         "num": 563,
@@ -9791,8 +9791,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Raises the Attack and Special Attack of all grounded Grass-type Pokemon on the field by 1 stage.",
-        "shortDesc": "Raises Atk/Sp. Atk of grounded Grass types by 1."
+        "desc": "Raises the Attack and Special Attack of allied Ground- and Grass-type Pokemon on the field by 1 stage. This effect is doubled in Grassy Terrain.",
+        "shortDesc": "Raises Atk/Sp. Atk of ally Ground and Grass types by 1. Double effect in Grassy Terrain."
     },
     "stickyweb": {
         "num": 564,
@@ -9835,15 +9835,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Phantom Force",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Disappears turn 1. Hits turn 2. Breaks protection."
+        "desc": "This move will never miss. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Disappears turn 1. Hits turn 2. Never misses. Breaks protection."
     },
     "trickortreat": {
         "num": 567,
@@ -9903,7 +9903,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Parabolic Charge",
-        "basePower": 65,
+        "basePower": 75,
         "type": "Electric",
         "accuracy": 100,
         "pp": 20,
@@ -9956,7 +9956,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Freeze-Dry",
-        "basePower": 70,
+        "basePower": 80,
         "type": "Ice",
         "accuracy": 100,
         "pp": 20,
@@ -9974,7 +9974,7 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Disarming Voice",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Fairy",
         "accuracy": true,
         "pp": 15,
@@ -10029,15 +10029,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Draining Kiss",
-        "basePower": 50,
+        "basePower": 75,
         "type": "Fairy",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-        "shortDesc": "User recovers 75% of the damage dealt."
+        "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.5x normal, rounded half down.",
+        "shortDesc": "User recovers 50% of the damage dealt."
     },
     "craftyshield": {
         "num": 578,
@@ -10064,8 +10064,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.",
-        "shortDesc": "Raises Defense by 1 of all active Grass types."
+        "desc": "Raises the Defense and Special Defense of allied Ground- and Grass-type Pokemon by 1 stage. This effect is doubled in Grassy Terrain.",
+        "shortDesc": "Raises Defense and Special Defense by 1 of allied Grass and Ground types."
     },
     "grassyterrain": {
         "num": 580,
@@ -10078,8 +10078,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "For 5 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks used by grounded Pokemon is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude used against grounded Pokemon is multiplied by 0.5, and grounded Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.",
-        "shortDesc": "5 turns. Grounded: +Grass power, +1/16 max HP."
+        "desc": "For 7 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude is multiplied by 0.5, and Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.",
+        "shortDesc": "7 turns: +Grass power, +1/16 max HP."
     },
     "mistyterrain": {
         "num": 581,
@@ -10092,8 +10092,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "For 5 turns, the terrain becomes Misty Terrain. During the effect, the power of Dragon-type attacks used against grounded Pokemon is multiplied by 0.5 and grounded Pokemon cannot be inflicted with a non-volatile status condition nor confusion. Grounded Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.",
-        "shortDesc": "5 turns. Can't status,-Dragon power vs grounded."
+        "desc": "For 7 turns, the terrain becomes Misty Terrain. During the effect, the power of Fairy-type attacks is multiplied by 1.3, the power of Dragon-type attacks is multiplied by 0.5 and Pokemon cannot be inflicted with a non-volatile status condition nor confusion. Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.",
+        "shortDesc": "7 turns: can't status, +Fairy power, -Dragon power."
     },
     "electrify": {
         "num": 582,
@@ -10106,11 +10106,11 @@ exports.BattleMovedex = {
         "type": "Electric",
         "accuracy": true,
         "pp": 20,
-        "priority": 0,
+        "priority": 1,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "Causes the target's move to become Electric type this turn. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
-        "shortDesc": "Changes the target's move to Electric this turn."
+        "desc": "Causes the target's move to become Electric type this turn. Has +1 priority. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
+        "shortDesc": "Changes the target's move to Electric this turn. Usually goes first."
     },
     "playrough": {
         "num": 583,
@@ -10162,8 +10162,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "Has a 30% chance to lower the target's Special Attack by 1 stage.",
-        "shortDesc": "30% chance to lower the target's Sp. Atk by 1."
+        "desc": "Has a 10% chance to lower the target's Special Attack by 1 stage.",
+        "shortDesc": "10% chance to lower the target's Sp. Atk by 1."
     },
     "boomburst": {
         "num": 586,
@@ -10197,8 +10197,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.",
-        "shortDesc": "Prevents all Pokemon from switching next turn."
+        "desc": "Prevents all opponents from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.",
+        "shortDesc": "Prevents all opponents from switching next turn."
     },
     "kingsshield": {
         "num": 588,
@@ -10211,8 +10211,8 @@ exports.BattleMovedex = {
         "priority": 4,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Attack lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        "shortDesc": "Protects from damaging attacks. Contact: -1 Atk."
+        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Attack lowered by 1 stage. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        "shortDesc": "Protects from attacks. Contact: -1 Atk."
     },
     "playnice": {
         "num": 589,
@@ -10259,10 +10259,10 @@ exports.BattleMovedex = {
         "name": "Diamond Storm",
         "basePower": 100,
         "type": "Rock",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
-        "category": "Physical",
+        "category": "Special",
         "contestType": "Beauty",
         "desc": "Has a 50% chance to raise the user's Defense by 2 stages.",
         "shortDesc": "50% chance to raise user's Defense by 2."
@@ -10277,7 +10277,7 @@ exports.BattleMovedex = {
         "name": "Steam Eruption",
         "basePower": 110,
         "type": "Water",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -10292,8 +10292,8 @@ exports.BattleMovedex = {
             "bypasssub": 1
         },
         "name": "Hyperspace Hole",
-        "basePower": 80,
-        "type": "Psychic",
+        "basePower": 100,
+        "type": "Ghost",
         "accuracy": true,
         "pp": 5,
         "priority": 0,
@@ -10313,11 +10313,11 @@ exports.BattleMovedex = {
         "type": "Water",
         "accuracy": 100,
         "pp": 20,
-        "priority": 1,
+        "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times.",
-        "shortDesc": "Usually goes first. Hits 2-5 times in one turn."
+        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        "shortDesc": "Hits 2-5 times in one turn."
     },
     "mysticalfire": {
         "num": 595,
@@ -10326,15 +10326,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mystical Fire",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Fire",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-        "shortDesc": "100% chance to lower the target's Sp. Atk by 1."
+        "desc": "Has a 30% chance to lower the target's Special Attack by 1 stage, and. 20% chance to Burn the target.",
+        "shortDesc": "30% chance to lower the target's Sp. Atk by 1, 20% chance to Burn."
     },
     "spikyshield": {
         "num": 596,
@@ -10363,8 +10363,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
-        "shortDesc": "Raises an ally's Sp. Def by 1."
+        "desc": "Raises the Defense and  Special Defense of allied Psychic- and Fairy-type Pokemon by 1 stage. This effect is doubled in Misty Terrain.",
+        "shortDesc": "Raises ally Psychic and Fairy types' Def and Sp. Def by 1. Double effect in Misty Terrain."
     },
     "eerieimpulse": {
         "num": 598,
@@ -10399,8 +10399,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
-        "shortDesc": "Lowers Atk/Sp. Atk/Speed of poisoned foes by 1."
+        "desc": "Lowers the target's Attack, Special Attack, and Speed by 2 stages if the target is poisoned. Poisons the target if the target is not poisoned.",
+        "shortDesc": "Lowers Atk/Sp. Atk/Speed of poisoned foes by 2, poisons healthy foes."
     },
     "powder": {
         "num": 600,
@@ -10452,8 +10452,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-        "shortDesc": "Raises Def, Sp. Def of allies with Plus/Minus by 1."
+        "desc": "Raises the Defense and Special Defense of Electric- and Steel-type Pokemon on the user's side by 1 stage. This effect is doubled in Electric Terrain",
+        "shortDesc": "Raises Def, Sp. Def of Electric snd Steel allies by 1."
     },
     "happyhour": {
         "num": 603,
@@ -10480,8 +10480,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
-        "shortDesc": "5 turns. Grounded: +Electric power, can't sleep."
+        "desc": "For 7 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks is multiplied by 1.3 and Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
+        "shortDesc": "7 turns: +Electric power, can't sleep."
     },
     "dazzlinggleam": {
         "num": 605,
@@ -10490,7 +10490,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Dazzling Gleam",
-        "basePower": 80,
+        "basePower": 85,
         "type": "Fairy",
         "accuracy": 100,
         "pp": 10,
@@ -10511,8 +10511,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "No competitive use.",
-        "shortDesc": "No competitive use."
+        "desc": "Raises the Special Attack and Special Defense of a target ally by 1 stage each.",
+        "shortDesc": "Raises an ally's Sp. Atk snd Sp. Def."
     },
     "holdhands": {
         "num": 607,
@@ -10528,8 +10528,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "No competitive use. Fails if there is no ally adjacent to the user.",
-        "shortDesc": "No competitive use."
+        "desc": "Raises the Defense and Special Defense of a target ally by 1 stage each, and heals them for 33% of their maximum HP.",
+        "shortDesc": "Raises an ally's Def and Sp. Def and heals for 33%."
     },
     "babydolleyes": {
         "num": 608,
@@ -10575,7 +10575,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Hold Back",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 40,
@@ -10593,7 +10593,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Infestation",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Bug",
         "accuracy": 100,
         "pp": 20,
@@ -10612,7 +10612,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Power-Up Punch",
-        "basePower": 60,
+        "basePower": 50,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 20,
@@ -10629,15 +10629,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Oblivion Wing",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-        "shortDesc": "User recovers 75% of the damage dealt."
+        "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.5x normal, rounded half down.",
+        "shortDesc": "User recovers 50% of the damage dealt."
     },
     "thousandarrows": {
         "num": 614,
@@ -10663,7 +10663,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Thousand Waves",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -10680,15 +10680,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Land's Wrath",
-        "basePower": 90,
+        "basePower": 120,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect. Hits adjacent foes."
+        "desc": "The user takes 33% of the damage inflicted as recoil.",
+        "shortDesc": "33% recoil damage. Hits adjacent foes."
     },
     "lightofruin": {
         "num": 617,
@@ -10773,8 +10773,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
-        "shortDesc": "Hoopa-U: Lowers user's Def by 1; breaks protect."
+        "desc": "This move has a 30% chance to lower the target's Defense by 1 stage.",
+        "shortDesc": "30% chance to lower Def."
     },
     "shoreup": {
         "num": 622,
@@ -10800,7 +10800,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "First Impression",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Bug",
         "accuracy": 100,
         "pp": 10,
@@ -10831,15 +10831,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Spirit Shackle",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-        "shortDesc": "Prevents the target from switching out."
+        "desc": "Has an increased chance to land a critical hit. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+        "shortDesc": "High critical hit rate. Prevents the target from switching out."
     },
     "darkestlariat": {
         "num": 626,
@@ -10867,7 +10867,7 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Sparkling Aria",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
@@ -10893,8 +10893,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Lowers the user's Speed by 1 stage.",
-        "shortDesc": "Lowers the user's Speed by 1."
+        "desc": "Has a 10% chance to cause the target to flinch. Lowers the user's Speed by 1 stage.",
+        "shortDesc": "10% chance to flinch. Lowers the user's Speed by 1."
     },
     "floralhealing": {
         "num": 629,
@@ -10928,8 +10928,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Has a 20% chance to lower the target's Defense by 1 stage.",
+        "shortDesc": "20% chance to lower Defense."
     },
     "strengthsap": {
         "num": 631,
@@ -11017,8 +11017,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Lowers the target's Speed by 1 stage and poisons it.",
-        "shortDesc": "Lowers the target's Speed by 1 and poisons it."
+        "desc": "Lowers the target's Speed by 2 stages and poisons it.",
+        "shortDesc": "Lowers the target's Speed by 2 and poisons it."
     },
     "laserfocus": {
         "num": 636,
@@ -11050,8 +11050,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-        "shortDesc": "Raises Atk, Sp. Atk of allies with Plus/Minus by 1."
+        "desc": "Raises the user's Special Attack by 1 stage and Speed by 2 stages.",
+        "shortDesc": "Raises Sp. Atk by 1 and Speed by 2."
     },
     "throatchop": {
         "num": 638,
@@ -11097,7 +11097,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Anchor Shot",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Steel",
         "accuracy": 100,
         "pp": 20,
@@ -11118,8 +11118,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
-        "shortDesc": "5 turns. Grounded: +Psychic power, priority-safe."
+        "desc": "For 7 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks is multiplied by 1.3 and Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
+        "shortDesc": "7 turns: +Psychic power, priority fails."
     },
     "lunge": {
         "num": 642,
@@ -11147,7 +11147,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fire Lash",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Fire",
         "accuracy": 100,
         "pp": 15,
@@ -11226,8 +11226,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "This move does not check accuracy.",
-        "shortDesc": "This move does not check accuracy."
+        "desc": "This move does not check accuracy, and has an increased chance to result in a critical hit.",
+        "shortDesc": "This move does not check accuracy. High critical hit rate."
     },
     "purify": {
         "num": 648,
@@ -11239,12 +11239,12 @@ exports.BattleMovedex = {
         "basePower": 0,
         "type": "Poison",
         "accuracy": true,
-        "pp": 20,
+        "pp": 10,
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.",
-        "shortDesc": "Cures target's status; heals user 1/2 max HP if so."
+        "desc": "The target has 1/2 of its maximum HP restored and is cured of any status condition.",
+        "shortDesc": "Restores 1/2 of target's HP and cures status."
     },
     "revelationdance": {
         "num": 649,
@@ -11253,7 +11253,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Revelation Dance",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 15,
@@ -11275,10 +11275,10 @@ exports.BattleMovedex = {
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
-        "category": "Special",
+        "category": "Physical",
         "contestType": "Tough",
-        "desc": "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
-        "shortDesc": "Nullifies the foe(s) Ability if the foe(s) move first."
+        "desc": "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+        "shortDesc": "Nullifies the foe(s) Ability."
     },
     "tropkick": {
         "num": 651,
@@ -11288,7 +11288,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Trop Kick",
-        "basePower": 70,
+        "basePower": 85,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
@@ -11326,11 +11326,11 @@ exports.BattleMovedex = {
         "type": "Flying",
         "accuracy": 100,
         "pp": 15,
-        "priority": -3,
+        "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.",
-        "shortDesc": "Burns on contact with the user before it moves."
+        "desc": "This move has a 30% chance to Burn the target.",
+        "shortDesc": "30% chance to Burn."
     },
     "clangingscales": {
         "num": 654,
@@ -11358,7 +11358,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dragon Hammer",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Dragon",
         "accuracy": 100,
         "pp": 15,
@@ -11415,8 +11415,8 @@ exports.BattleMovedex = {
         "priority": -3,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
-        "shortDesc": "User must take physical damage before moving."
+        "desc": "Fails unless the user is hit by an attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
+        "shortDesc": "User must take damage before moving."
     },
     "fleurcannon": {
         "num": 659,
@@ -11427,13 +11427,13 @@ exports.BattleMovedex = {
         "name": "Fleur Cannon",
         "basePower": 130,
         "type": "Fairy",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "Lowers the user's Special Attack by 2 stages.",
-        "shortDesc": "Lowers the user's Sp. Atk by 2."
+        "desc": "Lowers the user's Special Attack and Special Defense by 1 stage each.",
+        "shortDesc": "Lowers the user's Sp. Atk and Sp. Def."
     },
     "psychicfangs": {
         "num": 660,
@@ -11469,7 +11469,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
+        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will double this move's power.",
         "shortDesc": "Power doubles if the user's last move failed."
     },
     "shadowbone": {
@@ -11539,8 +11539,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "This move cannot be selected on the turn after it was just used.",
+        "shortDesc": "Cannot be used on consecutive turns."
     },
     "spectralthief": {
         "num": 666,
@@ -11640,7 +11640,7 @@ exports.BattleMovedex = {
         "name": "Nature's Madness",
         "basePower": 1,
         "type": "Fairy",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -11680,8 +11680,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Primordial Sea.",
-        "shortDesc": "User loses 50% max HP. Hits adjacent Pokemon."
+        "desc": "The user takes 50% of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage. Hits adjacent Pokemon."
     },
     "plasmafists": {
         "num": 674,
@@ -11952,8 +11952,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Ignores the foe's stat changes."
     },
     "snipeshot": {
         "num": 691,
@@ -11962,7 +11962,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Snipe Shot",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Water",
         "accuracy": 100,
         "critRatio": 2,
@@ -11983,7 +11983,7 @@ exports.BattleMovedex = {
         },
         "name": "Jaw Lock",
         "basePower": 80,
-        "type": "Dark",
+        "type": "Rock",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
@@ -12021,7 +12021,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped. Fails if the user has already been prevented from switching by this effect.",
+        "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped.",
         "shortDesc": "Raises all stats by 1 (not acc/eva). Traps user."
     },
     "tarshot": {
@@ -12032,12 +12032,12 @@ exports.BattleMovedex = {
             "reflectable": 1
         },
         "name": "Tar Shot",
-        "basePower": 0,
+        "basePower": 70,
         "type": "Rock",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
-        "category": "Status",
+        "category": "Special",
         "contestType": "Beauty",
         "desc": "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
         "shortDesc": "Target gets -1 Spe and becomes weaker to Fire."
@@ -12091,8 +12091,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
-        "shortDesc": "All active Pokemon consume held Berries."
+        "desc": "All active Pokemon consume their held Berries. User's Special Attack is increased by 1 stage for each berry consumed in this manner. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
+        "shortDesc": "All active Pokemon consume held Berries. User's Sp. Atk rises for each berry."
     },
     "octolock": {
         "num": 699,
@@ -12119,7 +12119,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Bolt Beak",
-        "basePower": 85,
+        "basePower": 80,
         "type": "Electric",
         "accuracy": 100,
         "pp": 10,
@@ -12138,7 +12138,7 @@ exports.BattleMovedex = {
             "bite": 1
         },
         "name": "Fishious Rend",
-        "basePower": 85,
+        "basePower": 80,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
@@ -12220,7 +12220,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Drum Beating",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
@@ -12238,15 +12238,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Snap Trap",
-        "basePower": 35,
+        "basePower": 80,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-        "shortDesc": "Traps and damages the target for 4-5 turns."
+        "desc": "Prevents the target from switching. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully.",
+        "shortDesc": "Traps the target."
     },
     "pyroball": {
         "num": 708,
@@ -12259,7 +12259,7 @@ exports.BattleMovedex = {
         "name": "Pyro Ball",
         "basePower": 120,
         "type": "Fire",
-        "accuracy": 95,
+        "accuracy": 90,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -12283,8 +12283,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Ignores target's stat changes."
     },
     "behemothbash": {
         "num": 710,
@@ -12301,8 +12301,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal. This move ignores the target's stat changes when dealing damage.",
+        "shortDesc": "Uses user's Def stat as Atk in damage calculations. Ignores target's stat changes."
     },
     "aurawheel": {
         "num": 711,
@@ -12318,8 +12318,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
-        "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe."
+        "desc": "Has a 100% chance to raise the user's Speed by 1 stage.",
+        "shortDesc": "Raises Speed by 1 stage."
     },
     "breakingswipe": {
         "num": 712,
@@ -12382,7 +12382,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Apple Acid",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
@@ -12399,7 +12399,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Grav Apple",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
@@ -12436,13 +12436,13 @@ exports.BattleMovedex = {
         "name": "Strange Steam",
         "basePower": 90,
         "type": "Fairy",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 20% chance to confuse the target.",
-        "shortDesc": "20% chance to confuse the target."
+        "desc": "Has a 20% chance to confuse the target. Deals 30% more damage in Misty Terrain.",
+        "shortDesc": "20% chance to confuse the target. 30% stronger in Misty Terrain."
     },
     "lifedew": {
         "num": 719,
@@ -12458,8 +12458,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
-        "shortDesc": "Heals the user and its allies by 1/4 their max HP."
+        "desc": "Each Pokemon on the user's side restores 1/3 of its maximum HP, rounded half up.",
+        "shortDesc": "Heals the user and its allies by 1/3 their max HP."
     },
     "obstruct": {
         "num": 720,
@@ -12472,8 +12472,8 @@ exports.BattleMovedex = {
         "priority": 4,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        "shortDesc": "Protects from damaging attacks. Contact: -2 Def."
+        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        "shortDesc": "Protects from attacks. Contact: -2 Def."
     },
     "falsesurrender": {
         "num": 721,
@@ -12502,13 +12502,13 @@ exports.BattleMovedex = {
         "name": "Meteor Assault",
         "basePower": 150,
         "type": "Fighting",
-        "accuracy": 100,
+        "accuracy": 90,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "The user takes 1/2 of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage."
     },
     "eternabeam": {
         "num": 723,
@@ -12517,15 +12517,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Eternabeam",
-        "basePower": 160,
+        "basePower": 120,
         "type": "Dragon",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "The user takes 1/4 of the damage inflicted as recoil.",
+        "shortDesc": "25% recoil damage."
     },
     "steelbeam": {
         "num": 724,
@@ -12534,15 +12534,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Steel Beam",
-        "basePower": 140,
+        "basePower": 120,
         "type": "Steel",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
-        "shortDesc": "User loses 50% max HP."
+        "desc": "The user takes 1/3 of the damage inflicted as recoil.",
+        "shortDesc": "1/3 recoil damage."
     },
     "expandingforce": {
         "num": 725,
@@ -12569,15 +12569,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Steel Roller",
-        "basePower": 130,
+        "basePower": 65,
         "type": "Steel",
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-        "shortDesc": "Fails if there is no terrain active. Ends the terrain."
+        "desc": "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain, doubling in power if it does so.",
+        "shortDesc": "If terrain is present, ends the terrain snd doubles power."
     },
     "scaleshot": {
         "num": 727,
@@ -12620,15 +12620,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Shell Side Arm",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Poison",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Has a 20% chance to poison the target. This move becomes a physical attack that makes contact if the value of ((((2 * the user's level / 5 + 2) * 90 * X) / Y) / 50), where X is the user's Attack stat and Y is the target's Defense stat, is greater than the same value where X is the user's Special Attack stat and Y is the target's Special Defense stat. No stat modifiers other than stat stage changes are considered for this purpose. If the two values are equal, this move chooses a damage category at random.",
-        "shortDesc": "20% psn. Physical+contact if it would be stronger."
+        "desc": "Has a 20% chance to poison the target. This move deals neutral damage to Steel-type Pokemon.",
+        "shortDesc": "20% psn. Hits Steel neutrally."
     },
     "mistyexplosion": {
         "num": 730,
@@ -12637,15 +12637,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Misty Explosion",
-        "basePower": 250,
+        "basePower": 200,
         "type": "Fairy",
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
-        "shortDesc": "User faints. User on Misty Terrain: 1.5x power."
+        "desc": "This move always results in a critical hit. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        "shortDesc": "100% critical hit. User faints."
     },
     "grassyglide": {
         "num": 731,
@@ -12655,7 +12655,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Grassy Glide",
-        "basePower": 55,
+        "basePower": 70,
         "type": "Grass",
         "accuracy": 100,
         "pp": 20,
@@ -12732,8 +12732,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 100% chance to burn the target if it had a stat stage raised this turn.",
-        "shortDesc": "100% burns a target that had a stat rise this turn."
+        "desc": "Has a 50% chance to burn the target.",
+        "shortDesc": "50% chance to burn."
     },
     "lashout": {
         "num": 736,
@@ -12750,8 +12750,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Power doubles if the user had a stat stage lowered this turn.",
-        "shortDesc": "2x power if the user had a stat lowered this turn."
+        "desc": "Power doubles if the user had a stat stage lowered this turn or last turn.",
+        "shortDesc": "2x power if the user had a stat lowered this turn or last turn."
     },
     "poltergeist": {
         "num": 737,
@@ -12760,15 +12760,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Poltergeist",
-        "basePower": 110,
+        "basePower": 55,
         "type": "Ghost",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Fails if the target has no held item.",
-        "shortDesc": "Fails if the target has no held item."
+        "desc": "Deals double damage if the target is holding an item.",
+        "shortDesc": "Double damage if target has an item."
     },
     "corrosivegas": {
         "num": 738,
@@ -12778,12 +12778,12 @@ exports.BattleMovedex = {
             "reflectable": 1
         },
         "name": "Corrosive Gas",
-        "basePower": 0,
+        "basePower": 50,
         "type": "Poison",
         "accuracy": 100,
-        "pp": 40,
+        "pp": 20,
         "priority": 0,
-        "category": "Status",
+        "category": "Special",
         "contestType": "Cool",
         "desc": "The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
         "shortDesc": "Removes adjacent Pokemon's held items."
@@ -12866,7 +12866,7 @@ exports.BattleMovedex = {
             "defrost": 1
         },
         "name": "Scorching Sands",
-        "basePower": 70,
+        "basePower": 80,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -12889,8 +12889,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
-        "shortDesc": "User and allies: healed 1/4 max HP, status cured."
+        "desc": "Each Pokemon on the user's side restores 1/3 of its maximum HP, rounded half up, and has its status condition cured.",
+        "shortDesc": "User and allies: healed 1/3 max HP, status cured."
     },
     "wickedblow": {
         "num": 745,
@@ -12956,13 +12956,13 @@ exports.BattleMovedex = {
         "name": "Dragon Energy",
         "basePower": 150,
         "type": "Dragon",
-        "accuracy": 100,
+        "accuracy": 90,
         "pp": 5,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
-        "shortDesc": "Less power as user's HP decreases. Hits foe(s)."
+        "desc": "The user takes 1/2 of the damage inflicted as recoil.",
+        "shortDesc": "50% recoil damage. Hits foe(s)."
     },
     "freezingglare": {
         "num": 749,
@@ -12978,8 +12978,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "Has a 10% chance to freeze the target.",
-        "shortDesc": "10% chance to freeze the target."
+        "desc": "Has a 10% chance to freeze the target and 10% chance to paralyze the target.",
+        "shortDesc": "10% chance to freeze, 10% chance to paralyze."
     },
     "fierywrath": {
         "num": 750,
@@ -12995,8 +12995,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 20% chance to make the target flinch.",
-        "shortDesc": "20% chance to make the foe(s) flinch."
+        "desc": "Has a 10% chance to burn the target and a 20% chance to make the target flinch.",
+        "shortDesc": "10% chance to burn, 20% chance to make the foe(s) flinch."
     },
     "thunderouskick": {
         "num": 751,
@@ -13040,7 +13040,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Astral Barrage",
-        "basePower": 120,
+        "basePower": 110,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 5,
@@ -13058,7 +13058,7 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Eerie Spell",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Psychic",
         "accuracy": 100,
         "pp": 5,
@@ -13082,8 +13082,8 @@ exports.BattleMovedex = {
         "pp": 15,
         "priority": 0,
         "category": "Physical",
-        "desc": "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-        "shortDesc": "50% chance to sleep, poison, or paralyze target."
+        "desc": "Has a 30% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
+        "shortDesc": "30% chance to sleep, poison, or paralyze target."
     },
     "psyshieldbash": {
         "num": 756,
@@ -13093,7 +13093,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Psyshield Bash",
-        "basePower": 70,
+        "basePower": 90,
         "type": "Psychic",
         "accuracy": 100,
         "pp": 10,
@@ -13128,7 +13128,7 @@ exports.BattleMovedex = {
         "name": "Stone Axe",
         "basePower": 65,
         "type": "Rock",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
@@ -13149,8 +13149,8 @@ exports.BattleMovedex = {
         "pp": 5,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 30% chance to lower the target's Attack by 1 stage.",
-        "shortDesc": "30% chance to lower the foe(s) Attack by 1."
+        "desc": "Has a 30% chance to lower the target's Attack by 1 stage. Ignores accuracy checks to always hit if the weather is Sunny Day or Desolate Land.",
+        "shortDesc": "30% chance to lower the  foe(s) Attack by 1. Never misses in Sun."
     },
     "mysticalpower": {
         "num": 760,
@@ -13161,7 +13161,7 @@ exports.BattleMovedex = {
         "name": "Mystical Power",
         "basePower": 70,
         "type": "Psychic",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -13181,8 +13181,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first or second turn of the effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "wavecrash": {
         "num": 762,
@@ -13208,14 +13208,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Chloroblast",
-        "basePower": 150,
+        "basePower": 120,
         "type": "Grass",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Special",
-        "desc": "If this move is successful, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
-        "shortDesc": "User loses 50% max HP."
+        "desc": "The user takes 25% of the damage inflicted as recoil.",
+        "shortDesc": "25% recoil damage."
     },
     "mountaingale": {
         "num": 764,
@@ -13224,14 +13224,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mountain Gale",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Ice",
         "accuracy": 85,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
-        "desc": "Has a 30% chance to make the target flinch.",
-        "shortDesc": "30% chance to make the target flinch."
+        "desc": "Has a 30% chance to make the target flinch and a 10% chance to inflict Freeze.",
+        "shortDesc": "30% chance to flinch, 10% chance to freeze."
     },
     "victorydance": {
         "num": 765,
@@ -13273,14 +13273,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Barb Barrage",
-        "basePower": 60,
+        "basePower": 25,
         "type": "Poison",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Has a 50% chance to poison the target. Power doubles if the target is already poisoned.",
-        "shortDesc": "50% psn. 2x power if target already poisoned."
+        "desc": "Hits 4 times. Each hit has a 15% chance to poison the target.",
+        "shortDesc": "Hits 4x. Each hit has 15% poison chance."
     },
     "esperwing": {
         "num": 768,
@@ -13306,14 +13306,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Bitter Malice",
-        "basePower": 75,
+        "basePower": 90,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
-        "shortDesc": "100% chance to lower the target's Attack by 1."
+        "desc": "Has a 50% chance to lower the target's Attack by 1 stage, and a 10% chance to freeze the target.",
+        "shortDesc": "50% chance to lower Attack, 10% chance to freeze."
     },
     "shelter": {
         "num": 770,
@@ -13327,8 +13327,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "Raises the user's Defense by 2 stages.",
-        "shortDesc": "Raises the user's Defense by 2."
+        "desc": "Raises the user's Defense and Special Defense by 1 stage each. This effect is doubled if the user is at 50% HP or less when the move is used.",
+        "shortDesc": "Raises the user's Defense and Special Defense. Double effect below half HP."
     },
     "triplearrows": {
         "num": 771,
@@ -13354,14 +13354,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Infernal Parade",
-        "basePower": 60,
+        "basePower": 80,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.",
-        "shortDesc": "30% burn. 2x power if target is already statused."
+        "desc": "Has a 30% chance to burn the target. Power increases by 50% if the target has a non-volatile status condition.",
+        "shortDesc": "30% burn. 1.5x power if target is already statused."
     },
     "ceaselessedge": {
         "num": 773,
@@ -13374,7 +13374,7 @@ exports.BattleMovedex = {
         "name": "Ceaseless Edge",
         "basePower": 65,
         "type": "Dark",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
@@ -13395,8 +13395,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 30% chance to lower the target's Speed by 1 stage. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
-        "shortDesc": "30% to lower foe(s) Speed by 1. Rain: can't miss."
+        "desc": "Has a 30% chance to lower the target's Speed by 1 stage. If the weather is Snowscape, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 90%.",
+        "shortDesc": "30% to lower foe(s) Speed by 1. Snow: can't miss."
     },
     "wildboltstorm": {
         "num": 775,
@@ -13412,7 +13412,7 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 20% chance to paralyze the target. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
+        "desc": "Has a 20% chance to paralyze the target. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 90%.",
         "shortDesc": "20% chance to paralyze foe(s). Rain: can't miss."
     },
     "sandsearstorm": {
@@ -13429,8 +13429,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 20% chance to burn the target. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
-        "shortDesc": "20% chance to burn foe(s). Can't miss in rain."
+        "desc": "Has a 20% chance to burn the target. If the weather is Sandstorm, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 90%.",
+        "shortDesc": "20% chance to burn foe(s). Can't miss in sand."
     },
     "lunarblessing": {
         "num": 777,
@@ -13444,8 +13444,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
-        "shortDesc": "User and allies: healed 1/4 max HP, status cured."
+        "desc": "Each Pokemon on the user's side restores 1/3 of its maximum HP, rounded half up, and has its status condition cured.",
+        "shortDesc": "User and allies: healed 1/3 max HP, status cured."
     },
     "takeheart": {
         "num": 778,
@@ -13459,8 +13459,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "The user cures its non-volatile status condition. Raises the user's Special Attack and Special Defense by 1 stage.",
-        "shortDesc": "Cures user's status, raises Sp. Atk, Sp. Def by 1."
+        "desc": "The user cures its non-volatile status condition. Raises the user's Defense, Special Attack, and Special Defense by 1 stage.",
+        "shortDesc": "Cures user's status, raises Def, Sp. Atk, Sp. Def by 1."
     },
     "terablast": {
         "num": 779,
@@ -13475,8 +13475,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "If the user is Terastallized, this move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes, and this move's type becomes the same as the user's Tera Type. In addition, if the user's Tera Type is Stellar, this move has 100 power, is super effective against Terastallized targets and neutral against other targets, and lowers the user's Attack and Special Attack by 1 stage.",
-        "shortDesc": "If Terastallized: Phys. if Atk > SpA, type = Tera."
+        "desc": "Matches the user's secondary type. If the user is Terastallized, this move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes, and this move's type becomes the same as the user's Tera Type. In addition, if the user's Tera Type is Stellar, this move has 100 power, and is super effective against Terastallized targets and neutral against other targets.",
+        "shortDesc": "Matches user's secondary type. If Terastallized: Phys. if Atk > SpA, type = Tera."
     },
     "silktrap": {
         "num": 780,
@@ -13488,8 +13488,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 4,
         "category": "Status",
-        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Speed lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        "shortDesc": "Protects from damaging attacks. Contact: -1 Spe."
+        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Speed lowered by 1 stage. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        "shortDesc": "Protects from attacks. Contact: -1 Spe."
     },
     "axekick": {
         "num": 781,
@@ -13500,13 +13500,13 @@ exports.BattleMovedex = {
         },
         "name": "Axe Kick",
         "basePower": 120,
-        "type": "Fighting",
-        "accuracy": 90,
+        "type": "Dark",
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Has a 30% chance to confuse the target. If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        "shortDesc": "30% confusion. User loses 50% max HP if miss."
+        "desc": "Has a 30% chance to confuse the target. If this attack is not successful, the user loses a third of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+        "shortDesc": "30% confusion. User loses 33% max HP if miss."
     },
     "lastrespects": {
         "num": 782,
@@ -13515,14 +13515,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Last Respects",
-        "basePower": 50,
+        "basePower": 80,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Power is equal to 50+(X*50), where X is the total number of times any Pokemon has fainted on the user's side, and X cannot be greater than 100.",
-        "shortDesc": "+50 power for each time a party member fainted."
+        "desc": "Power is equal to 80+(X*20), where X is the total number of times any Pokemon has fainted on the user's side, and X cannot be greater than 100.",
+        "shortDesc": "+20 power for each time a party member fainted."
     },
     "luminacrash": {
         "num": 783,
@@ -13546,8 +13546,8 @@ exports.BattleMovedex = {
             "protect": 1
         },
         "name": "Order Up",
-        "basePower": 80,
-        "type": "Dragon",
+        "basePower": 95,
+        "type": "Water",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
@@ -13587,8 +13587,8 @@ exports.BattleMovedex = {
         "pp": 15,
         "priority": 0,
         "category": "Status",
-        "desc": "Raises the target's Attack by 2 stages and lowers its Defense by 2 stages.",
-        "shortDesc": "Raises target's Atk by 2 and lowers its Def by 2."
+        "desc": "Lowers the target's Attack and Defense by 1 stage each and doubles the effectiveness of Fire moves against it.",
+        "shortDesc": "Lowers Def and Sp. Def and adds Fire weakness."
     },
     "spinout": {
         "num": 787,
@@ -13604,8 +13604,8 @@ exports.BattleMovedex = {
         "pp": 5,
         "priority": 0,
         "category": "Physical",
-        "desc": "Lowers the user's Speed by 2 stages.",
-        "shortDesc": "Lowers the user's Speed by 2."
+        "desc": "Lowers the user's Speed by 1 stage.",
+        "shortDesc": "Lowers the user's Speed."
     },
     "populationbomb": {
         "num": 788,
@@ -13618,7 +13618,7 @@ exports.BattleMovedex = {
         "name": "Population Bomb",
         "basePower": 20,
         "type": "Normal",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -13696,7 +13696,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Triple Dive",
-        "basePower": 30,
+        "basePower": 40,
         "type": "Water",
         "accuracy": 95,
         "pp": 10,
@@ -13713,7 +13713,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Mortal Spin",
-        "basePower": 30,
+        "basePower": 50,
         "type": "Poison",
         "accuracy": 100,
         "pp": 15,
@@ -13732,7 +13732,7 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "The user and its ally's Abilities change to match the target's Ability. Does not change Ability if the user's or its ally's is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, Zero to Hero, or already matches the target. Fails if both the user and its ally's Ability already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
+        "desc": "The user and its ally's Abilities change to match the target's Ability. Does not change Ability if the user's or its ally's is Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, Zero to Hero, or already matches the target. Fails if both the user and its ally's Ability already matches the target, or if the target's Ability is Commander, Disguise, Embody Aspect, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
         "shortDesc": "User and ally's Abilities become target's Ability."
     },
     "filletaway": {
@@ -13747,8 +13747,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "Raises the user's Attack, Special Attack, and Speed by 2 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Special Attack, and Speed stat stages would not change.",
-        "shortDesc": "+2 Attack, Sp. Atk, Speed for 1/2 user's max HP."
+        "desc": "Raises the user's Attack, Special Attack, and Speed by 2 stages in exchange for the user losing 1/3 of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Special Attack, and Speed stat stages would not change.",
+        "shortDesc": "+2 Attack, Sp. Atk, Speed for 1/3 user's max HP."
     },
     "kowtowcleave": {
         "num": 797,
@@ -13775,7 +13775,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Flower Trick",
-        "basePower": 60,
+        "basePower": 70,
         "type": "Grass",
         "accuracy": true,
         "pp": 10,
@@ -13826,14 +13826,14 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Raging Bull",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
-        "shortDesc": "Destroys screens. Type depends on user's form."
+        "desc": "Has a 10% chance to lower the target's Defense by 1 stage. If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
+        "shortDesc": "10% chance to lower Def. Destroys screens. Type depends on user's form."
     },
     "makeitrain": {
         "num": 802,
@@ -13860,7 +13860,7 @@ exports.BattleMovedex = {
         "name": "Ruination",
         "basePower": 1,
         "type": "Dark",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -13911,8 +13911,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "The user takes 1/2 of its maximum HP, rounded up, and creates a substitute that has 1/4 of the user's maximum HP, rounded down. The user is replaced with another Pokemon in its party and the selected Pokemon has the substitute transferred to it. Fails if the user would faint, or if there are no unfainted party members.",
-        "shortDesc": "User takes 1/2 its max HP to pass a substitute."
+        "desc": "The user takes 1/3 of its maximum HP, rounded up, and creates a substitute that has 1/4 of the user's maximum HP, rounded down. The user is replaced with another Pokemon in its party and the selected Pokemon has the substitute transferred to it. Fails if the user would faint, or if there are no unfainted party members.",
+        "shortDesc": "User takes 1/3 its max HP to pass a substitute."
     },
     "chillyreception": {
         "num": 807,
@@ -13950,8 +13950,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Status",
-        "desc": "For 5 turns, the weather becomes Snow. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Snow.",
-        "shortDesc": "For 5 turns, snow falls. Ice: 1.5x Def."
+        "desc": "For 7 turns, the weather becomes Snow. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack, and Ice-type moves deal 30% more damage. Lasts for 10 turns if the user is holding Icy Rock. Fails if the current weather is Snow.",
+        "shortDesc": "For 7 turns, snow falls. Ice: 1.5x Def, 1.3x damage."
     },
     "pounce": {
         "num": 810,
@@ -13961,7 +13961,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Pounce",
-        "basePower": 50,
+        "basePower": 60,
         "type": "Bug",
         "accuracy": 100,
         "pp": 20,
@@ -13994,14 +13994,14 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Chilling Water",
-        "basePower": 50,
+        "basePower": 60,
         "type": "Water",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
-        "shortDesc": "100% chance to lower the target's Attack by 1."
+        "desc": "Has a 100% chance to lower the target's Attack by 1 stage, and a 10% chance to inflict Freeze.",
+        "shortDesc": "100% chance to lower Attack, 10% chance to freeze."
     },
     "hyperdrill": {
         "num": 813,
@@ -14010,7 +14010,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Hyper Drill",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Normal",
         "accuracy": 100,
         "pp": 5,
@@ -14044,14 +14044,14 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Rage Fist",
-        "basePower": 50,
+        "basePower": 80,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Power is equal to 50+(X*50), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
-        "shortDesc": "+50 power for each time user was hit. Max 6 hits."
+        "desc": "Power is equal to 80+(X*20), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
+        "shortDesc": "+20 power for each time user was hit. Max 6 hits."
     },
     "armorcannon": {
         "num": 816,
@@ -14078,7 +14078,7 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Bitter Blade",
-        "basePower": 50,
+        "basePower": 90,
         "type": "Fire",
         "accuracy": 100,
         "pp": 10,
@@ -14133,7 +14133,7 @@ exports.BattleMovedex = {
         "type": "Dark",
         "accuracy": 100,
         "pp": 10,
-        "priority": 0,
+        "priority": -1,
         "category": "Physical",
         "desc": "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
         "shortDesc": "If hit by an attack, returns 1.5x damage."
@@ -14162,7 +14162,7 @@ exports.BattleMovedex = {
             "protect": 1
         },
         "name": "Blazing Torque",
-        "basePower": 80,
+        "basePower": 100,
         "type": "Fire",
         "accuracy": 100,
         "pp": 10,
@@ -14177,7 +14177,7 @@ exports.BattleMovedex = {
             "protect": 1
         },
         "name": "Wicked Torque",
-        "basePower": 80,
+        "basePower": 100,
         "type": "Dark",
         "accuracy": 100,
         "pp": 10,
@@ -14274,7 +14274,7 @@ exports.BattleMovedex = {
             "cantusetwice": 1
         },
         "name": "Blood Moon",
-        "basePower": 140,
+        "basePower": 130,
         "type": "Normal",
         "accuracy": 100,
         "pp": 5,
@@ -14293,7 +14293,7 @@ exports.BattleMovedex = {
         "name": "Matcha Gotcha",
         "basePower": 80,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
@@ -14308,14 +14308,14 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Syrup Bomb",
-        "basePower": 60,
+        "basePower": 85,
         "type": "Grass",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "If this move is successful, it causes the target's Speed to be lowered by 1 stage at the end of each turn for 3 turns.",
-        "shortDesc": "Target's Speed is lowered by 1 stage for 3 turns."
+        "desc": "If this move is successful, it causes the targets' Speed to be lowered by 1 stage at the end of each turn for 3 turns.",
+        "shortDesc": "Targets' Speed is lowered by 1 stage for 3 turns."
     },
     "ivycudgel": {
         "num": 832,
@@ -14363,8 +14363,8 @@ exports.BattleMovedex = {
         "pp": 5,
         "priority": 0,
         "category": "Special",
-        "desc": "If the user is a Terapagos in Stellar Form, this move's type becomes Stellar and hits all opposing Pokemon.",
-        "shortDesc": "Terapagos-Stellar: Stellar type, hits both foes."
+        "desc": "Has a 10% chance to raise all of the users's stats by 1 stage (not accuracy/evasion). This move's type matches the user's secondary type",
+        "shortDesc": "10% chance to raise all stats. Matches user's secondary type. Hits both foes."
     },
     "ficklebeam": {
         "num": 835,
@@ -14392,8 +14392,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 4,
         "category": "Status",
-        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user become burned. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        "shortDesc": "Protects from damaging attacks. Contact: burn."
+        "desc": "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user become burned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+        "shortDesc": "Protects from attacks. Contact: burn."
     },
     "thunderclap": {
         "num": 837,
@@ -14425,8 +14425,8 @@ exports.BattleMovedex = {
         "pp": 5,
         "priority": 0,
         "category": "Physical",
-        "desc": "Bypasses protection without breaking it.",
-        "shortDesc": "Bypasses protection without breaking it."
+        "desc": "Bypasses protection without breaking it. Increased chance to land a critical hit.",
+        "shortDesc": "Bypasses protection without breaking it. High critical hit chance."
     },
     "tachyoncutter": {
         "num": 839,
@@ -14459,8 +14459,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Power is equal to 100 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-        "shortDesc": "More power the more HP the target has left."
+        "desc": "This move has 50% power if the target has less than 50% maximum HP remaining.",
+        "shortDesc": "Half power if target below half HP."
     },
     "dragoncheer": {
         "num": 841,
@@ -14476,8 +14476,8 @@ exports.BattleMovedex = {
         "pp": 15,
         "priority": 0,
         "category": "Status",
-        "desc": "Raises the target's chance for a critical hit by 1 stage, or by 2 stages if the target is Dragon type. Fails if there is no ally adjacent to the user, or if the target already has this effect or the Focus Energy effect. Baton Pass can be used to transfer this effect to an ally.",
-        "shortDesc": "Ally: Crit ratio +1, or +2 if ally is Dragon type."
+        "desc": "Raises user's Speed by 1 stage. Raises allies' chance for a critical hit by 1 stage, or by 2 stages if they are Dragon type. Fails if all allies already have this effect or the Focus Energy effect. Baton Pass can be used to transfer this effect to an ally.",
+        "shortDesc": "User: Speed +1. Allies: Crit ratio +1, or +2 if Dragon type."
     },
     "alluringvoice": {
         "num": 842,
@@ -14493,8 +14493,8 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Special",
-        "desc": "Has a 100% chance to confuse the target if it had a stat stage raised this turn.",
-        "shortDesc": "100% confuse target that had a stat rise this turn."
+        "desc": "Has a 10% chance to infatuate the target and a 10% chance to confuse the target.",
+        "shortDesc": "10% chance to infatuate, 10% chance to confuse."
     },
     "temperflare": {
         "num": 843,
@@ -14510,7 +14510,7 @@ exports.BattleMovedex = {
         "pp": 10,
         "priority": 0,
         "category": "Physical",
-        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
+        "desc": "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will double this move's power.",
         "shortDesc": "Power doubles if the user's last move failed."
     },
     "supercellslam": {
@@ -14523,12 +14523,12 @@ exports.BattleMovedex = {
         "name": "Supercell Slam",
         "basePower": 100,
         "type": "Electric",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
-        "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        "shortDesc": "User is hurt by 50% of its max HP if it misses."
+        "desc": "If this attack is not successful, the user loses a third of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+        "shortDesc": "User is hurt by 33% of its max HP if it misses."
     },
     "psychicnoise": {
         "num": 845,
