@@ -279,15 +279,15 @@ exports.BattleMovedex = {
             "slicing": 1
         },
         "name": "Cut",
-        "basePower": 50,
-        "type": "Normal",
-        "accuracy": 95,
+        "basePower": 60,
+        "type": "Steel",
+        "accuracy": 100,
         "pp": 30,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+        "shortDesc": "Guaranteed critical hit."
     },
     "gust": {
         "num": 16,
@@ -335,7 +335,7 @@ exports.BattleMovedex = {
         },
         "name": "Whirlwind",
         "basePower": 0,
-        "type": "Normal",
+        "type": "Flying",
         "accuracy": true,
         "pp": 20,
         "priority": -6,
@@ -352,7 +352,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fly",
-        "basePower": 90,
+        "basePower": 95,
         "type": "Flying",
         "accuracy": 100,
         "pp": 15,
@@ -370,7 +370,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Bind",
-        "basePower": 15,
+        "basePower": 35,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -395,8 +395,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "20% chance to cause the target to flinch.",
+        "shortDesc": "20% chance to flinch."
     },
     "vinewhip": {
         "num": 22,
@@ -442,7 +442,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Double Kick",
-        "basePower": 30,
+        "basePower": 40,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 30,
@@ -480,7 +480,7 @@ exports.BattleMovedex = {
         "name": "Jump Kick",
         "basePower": 100,
         "type": "Fighting",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -568,7 +568,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Fury Attack",
-        "basePower": 15,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -640,7 +640,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Wrap",
-        "basePower": 15,
+        "basePower": 35,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -683,8 +683,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "doubleedge": {
         "num": 38,
@@ -729,7 +729,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Poison Sting",
-        "basePower": 15,
+        "basePower": 40,
         "type": "Poison",
         "accuracy": 100,
         "pp": 35,
@@ -746,7 +746,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Twineedle",
-        "basePower": 25,
+        "basePower": 40,
         "type": "Bug",
         "accuracy": 100,
         "pp": 20,
@@ -858,7 +858,7 @@ exports.BattleMovedex = {
         "name": "Sing",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 75,
+        "accuracy": 80,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -877,7 +877,7 @@ exports.BattleMovedex = {
         "name": "Supersonic",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 55,
+        "accuracy": 95,
         "pp": 20,
         "priority": 0,
         "category": "Status",
@@ -894,7 +894,7 @@ exports.BattleMovedex = {
         "name": "Sonic Boom",
         "basePower": 1,
         "type": "Normal",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
@@ -1014,7 +1014,7 @@ exports.BattleMovedex = {
         "name": "Hydro Pump",
         "basePower": 110,
         "type": "Water",
-        "accuracy": 80,
+        "accuracy": 85,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -1066,7 +1066,7 @@ exports.BattleMovedex = {
         "name": "Blizzard",
         "basePower": 110,
         "type": "Ice",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -1139,8 +1139,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        "shortDesc": "User cannot move next turn."
+        "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move, unless this move knocks out the target.",
+        "shortDesc": "User cannot move next turn unless this move KOs."
     },
     "peck": {
         "num": 64,
@@ -1168,15 +1168,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Drill Peck",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Flying",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "This move has an increased chance to land a critical hit.",
+        "shortDesc": "Increased crit chance."
     },
     "submission": {
         "num": 66,
@@ -1186,9 +1186,9 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Submission",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Fighting",
-        "accuracy": 80,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -1211,7 +1211,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+        "desc": "This move's power is 40 if the target weighs less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
         "shortDesc": "More power the heavier the target."
     },
     "counter": {
@@ -1259,7 +1259,7 @@ exports.BattleMovedex = {
         },
         "name": "Strength",
         "basePower": 80,
-        "type": "Normal",
+        "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -1275,7 +1275,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Absorb",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Grass",
         "accuracy": 100,
         "pp": 25,
@@ -1292,7 +1292,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mega Drain",
-        "basePower": 40,
+        "basePower": 55,
         "type": "Grass",
         "accuracy": 100,
         "pp": 15,
@@ -1312,7 +1312,7 @@ exports.BattleMovedex = {
         "name": "Leech Seed",
         "basePower": 0,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -1327,14 +1327,14 @@ exports.BattleMovedex = {
         },
         "name": "Growth",
         "basePower": 0,
-        "type": "Normal",
+        "type": "Grass",
         "accuracy": true,
         "pp": 20,
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
-        "shortDesc": "Raises user's Attack and Sp. Atk by 1; 2 in Sun."
+        "desc": "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sunny Day, Rain Dance, Primordial Sea, or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
+        "shortDesc": "Raises user's Attack and Sp. Atk by 1; 2 in Sun or Rain."
     },
     "razorleaf": {
         "num": 75,
@@ -1383,7 +1383,7 @@ exports.BattleMovedex = {
         "name": "Poison Powder",
         "basePower": 0,
         "type": "Poison",
-        "accuracy": 90,
+        "accuracy": 100,
         "pp": 35,
         "priority": 0,
         "category": "Status",
@@ -1421,7 +1421,7 @@ exports.BattleMovedex = {
         "name": "Sleep Powder",
         "basePower": 0,
         "type": "Grass",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -1444,8 +1444,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "stringshot": {
         "num": 81,
@@ -1491,7 +1491,7 @@ exports.BattleMovedex = {
         "name": "Fire Spin",
         "basePower": 35,
         "type": "Fire",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
@@ -1543,12 +1543,12 @@ exports.BattleMovedex = {
         "name": "Thunder Wave",
         "basePower": 0,
         "type": "Electric",
-        "accuracy": 100,
+        "accuracy": 90,
         "pp": 20,
         "priority": 0,
         "category": "Status",
         "contestType": "Cool",
-        "desc": "Paralyzes the target. This move does not ignore type immunity.",
+        "desc": "Paralyzes the target. Will never miss when used by an Electric-type Pokemon. This move does not ignore type immunity.",
         "shortDesc": "Paralyzes the target."
     },
     "thunder": {
@@ -1560,7 +1560,7 @@ exports.BattleMovedex = {
         "name": "Thunder",
         "basePower": 110,
         "type": "Electric",
-        "accuracy": 70,
+        "accuracy": 80,
         "pp": 10,
         "priority": 0,
         "category": "Special",
@@ -1627,7 +1627,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Dig",
-        "basePower": 80,
+        "basePower": 95,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -1699,7 +1699,7 @@ exports.BattleMovedex = {
         "name": "Hypnosis",
         "basePower": 0,
         "type": "Psychic",
-        "accuracy": 75,
+        "accuracy": 80,
         "pp": 20,
         "priority": 0,
         "category": "Status",
@@ -1720,8 +1720,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Raises the user's Attack by 1 stage.",
-        "shortDesc": "Raises the user's Attack by 1."
+        "desc": "Raises the Attack and Special Attack of any allied Fighting- and Psychic-type Pokemon by 1 stage. Effect is doubled in Psychic Terrain.",
+        "shortDesc": "Raises the Attack and Special Attack of Fighting and Psychic allies by 1."
     },
     "agility": {
         "num": 97,
@@ -1765,7 +1765,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Rage",
-        "basePower": 20,
+        "basePower": 50,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -2117,7 +2117,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        "desc": "The user faints after using this move, even if this move fails for having no target. This move always results in a critical hit. This move is prevented from executing if any active Pokemon has the Damp Ability.",
         "shortDesc": "Hits adjacent Pokemon. The user faints."
     },
     "eggbomb": {
@@ -2129,14 +2129,14 @@ exports.BattleMovedex = {
         },
         "name": "Egg Bomb",
         "basePower": 100,
-        "type": "Normal",
+        "type": "Grass",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "No additional effect.",
-        "shortDesc": "No additional effect."
+        "desc": "Deals super-effective damage against Flying-type Pokemon.",
+        "shortDesc": "Hits Flying-types super-effectively."
     },
     "lick": {
         "num": 122,
@@ -2146,7 +2146,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Lick",
-        "basePower": 30,
+        "basePower": 45,
         "type": "Ghost",
         "accuracy": 100,
         "pp": 30,
@@ -2163,15 +2163,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Smog",
-        "basePower": 30,
+        "basePower": 40,
         "type": "Poison",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a 40% chance to poison the target.",
-        "shortDesc": "40% chance to poison the target."
+        "desc": "Has a 50% chance to poison the target.",
+        "shortDesc": "50% chance to poison the target."
     },
     "sludge": {
         "num": 124,
@@ -2252,7 +2252,7 @@ exports.BattleMovedex = {
         "name": "Clamp",
         "basePower": 35,
         "type": "Water",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
@@ -2292,8 +2292,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Raises user's Defense by 1 on turn 1. Hits turn 2."
+        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Attack and Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Raises user's Attack and Defense by 1 on turn 1. Hits turn 2."
     },
     "spikecannon": {
         "num": 131,
@@ -2302,8 +2302,8 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Spike Cannon",
-        "basePower": 20,
-        "type": "Normal",
+        "basePower": 25,
+        "type": "Water",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -2320,15 +2320,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Constrict",
-        "basePower": 10,
+        "basePower": 40,
         "type": "Normal",
         "accuracy": 100,
         "pp": 35,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a 10% chance to lower the target's Speed by 1 stage.",
-        "shortDesc": "10% chance to lower the target's Speed by 1."
+        "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
+        "shortDesc": "100% chance to lower the target's Speed by 1."
     },
     "amnesia": {
         "num": 133,
@@ -2390,13 +2390,13 @@ exports.BattleMovedex = {
         "name": "High Jump Kick",
         "basePower": 130,
         "type": "Fighting",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        "shortDesc": "User is hurt by 50% of its max HP if it misses."
+        "desc": "If this attack is not successful, the user loses 1/3 of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+        "shortDesc": "User is hurt by 1/3 of its max HP if it misses."
     },
     "glare": {
         "num": 137,
@@ -2459,8 +2459,8 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Barrage",
-        "basePower": 15,
-        "type": "Normal",
+        "basePower": 25,
+        "type": "Steel",
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
@@ -2497,7 +2497,7 @@ exports.BattleMovedex = {
         "name": "Lovely Kiss",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 75,
+        "accuracy": 85,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -2520,8 +2520,8 @@ exports.BattleMovedex = {
         "category": "Physical",
         "critRatio": 2,
         "contestType": "Cool",
-        "desc": "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges, then hits turn 2. 30% flinch. High crit."
+        "desc": "This attack charges on the first turn and executes on the second. Raises the user's Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+        "shortDesc": "Raises user's Attack by 1 on turn 1, then hits turn 2."
     },
     "transform": {
         "num": 144,
@@ -2570,8 +2570,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Has a 20% chance to confuse the target.",
-        "shortDesc": "20% chance to confuse the target."
+        "desc": "Has a 40% chance to confuse the target.",
+        "shortDesc": "40% chance to confuse the target."
     },
     "spore": {
         "num": 147,
