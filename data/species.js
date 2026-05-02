@@ -181,7 +181,7 @@ exports.BattlePokedex = {
         "forme": "Mega",
         "tier": "unobtainable"
     },
-    "venusaurmegag": {
+    "venusaurgmax": {
         "num": 3,
         "baseStats": {
             "hp": 90,
