@@ -241,16 +241,16 @@ exports.BattleMovedex = {
             "wind": 1
         },
         "name": "Razor Wind",
-        "basePower": 80,
-        "type": "Normal",
+        "basePower": 120,
+        "type": "Flying",
         "accuracy": 100,
         "critRatio": 2,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cool",
-        "desc": "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        "shortDesc": "Charges, then hits foe(s) turn 2. High crit ratio."
+        "desc": "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Sandstorm, the move completes in one turn.",
+        "shortDesc": "Charges, then hits foe(s) turn 2. High crit ratio. No charge in Sand."
     },
     "swordsdance": {
         "num": 14,
