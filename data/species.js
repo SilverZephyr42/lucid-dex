@@ -214,7 +214,7 @@ exports.BattlePokedex = {
             "0": "Chlorophyll"
         },
         "color": "Green",
-        "name": "Venusaur-Mega-G",
+        "name": "Venusaur-Gmax",
         "heightm": 24.0,
         "weightkg": 185.5,
         "baseSpecies": "Venusaur",
