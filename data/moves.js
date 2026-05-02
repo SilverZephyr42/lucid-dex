@@ -2356,7 +2356,7 @@ exports.BattleMovedex = {
         "name": "Kinesis",
         "basePower": 0,
         "type": "Psychic",
-        "accuracy": 80,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Status",
@@ -2600,15 +2600,15 @@ exports.BattleMovedex = {
             "reflectable": 1
         },
         "name": "Flash",
-        "basePower": 0,
-        "type": "Normal",
+        "basePower": 40,
+        "type": "Electric",
         "accuracy": 100,
         "pp": 20,
-        "priority": 0,
-        "category": "Status",
+        "priority": 1,
+        "category": "Special",
         "contestType": "Beauty",
-        "desc": "Lowers the target's accuracy by 1 stage.",
-        "shortDesc": "Lowers the target's accuracy by 1."
+        "desc": "No additional effect.",
+        "shortDesc": "Usually goes first."
     },
     "psywave": {
         "num": 149,
@@ -2624,15 +2624,15 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
-        "shortDesc": "Random damage equal to 0.5x-1.5x user's level."
+        "desc": "Deals damage to the target equal to the user's level.",
+        "shortDesc": "Deals damage equal to the user's level."
     },
     "splash": {
         "num": 150,
         "flags": {},
         "name": "Splash",
         "basePower": 0,
-        "type": "Normal",
+        "type": "Water",
         "accuracy": true,
         "pp": 40,
         "priority": 0,
@@ -2673,8 +2673,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a higher chance for a critical hit.",
-        "shortDesc": "High critical hit ratio."
+        "desc": "Has a 10% chance to make the target flinch. Has a higher chance for a critical hit.",
+        "shortDesc": "10% chance to flinch. High critical hit ratio."
     },
     "explosion": {
         "num": 153,
@@ -2690,7 +2690,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Beauty",
-        "desc": "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+        "desc": "The user faints after using this move, even if this move fails for having no target. This move always results in a critical hit. This move is prevented from executing if any active Pokemon has the Damp Ability.",
         "shortDesc": "Hits adjacent Pokemon. The user faints."
     },
     "furyswipes": {
@@ -2751,7 +2751,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Rock Slide",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Rock",
         "accuracy": 100,
         "pp": 10,
@@ -2793,8 +2793,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the user's Attack by 1 stage.",
-        "shortDesc": "Raises the user's Attack by 1."
+        "desc": "Raises the user's Attack and Special Attack by 1 stage. Effect is doubled in any terrain.",
+        "shortDesc": "Raises the user's Attack and Special Attack by 1, doubled in terrain."
     },
     "conversion": {
         "num": 160,
@@ -2819,15 +2819,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Tri Attack",
-        "basePower": 80,
+        "basePower": 81,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Beauty",
-        "desc": "Has a 20% chance to either burn, freeze, or paralyze the target.",
-        "shortDesc": "20% chance to paralyze or burn or freeze target."
+        "desc": "Has a 33% chance to either burn, freeze, or paralyze the target.",
+        "shortDesc": "33% chance to paralyze or burn or freeze target."
     },
     "superfang": {
         "num": 162,
@@ -2838,7 +2838,7 @@ exports.BattleMovedex = {
         },
         "name": "Super Fang",
         "basePower": 1,
-        "type": "Normal",
+        "type": "Dark",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
