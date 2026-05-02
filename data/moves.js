@@ -2923,14 +2923,14 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Triple Kick",
-        "basePower": 10,
+        "basePower": 20,
         "type": "Fighting",
-        "accuracy": 100,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+        "desc": "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
         "shortDesc": "Hits 3 times. Each hit can miss, but power rises."
     },
     "thief": {
@@ -3028,8 +3028,8 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Snore",
-        "basePower": 50,
-        "type": "Normal",
+        "basePower": 95,
+        "type": "Psychic",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -3069,7 +3069,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cute",
-        "desc": "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        "desc": "The power of this move is 40 if X is 33 to 48, 60 if X is 17 to 32, 90 if X is 10 to 16, 110 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
         "shortDesc": "More power the less HP the user has left."
     },
     "conversion2": {
@@ -3141,7 +3141,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+        "desc": "The power of this move is 40 if X is 33 to 48, 60 if X is 17 to 32, 90 if X is 10 to 16, 110 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
         "shortDesc": "More power the less HP the user has left."
     },
     "spite": {
@@ -3262,7 +3262,7 @@ exports.BattleMovedex = {
         "name": "Sweet Kiss",
         "basePower": 0,
         "type": "Fairy",
-        "accuracy": 75,
+        "accuracy": 95,
         "pp": 10,
         "priority": 0,
         "category": "Status",
@@ -3311,7 +3311,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Mud-Slap",
-        "basePower": 20,
+        "basePower": 35,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -3329,15 +3329,15 @@ exports.BattleMovedex = {
             "bullet": 1
         },
         "name": "Octazooka",
-        "basePower": 85,
+        "basePower": 100,
         "type": "Water",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Has a 50% chance to lower the target's accuracy by 1 stage.",
-        "shortDesc": "50% chance to lower the target's accuracy by 1."
+        "desc": "Has a 30% chance to lower the target's accuracy by 1 stage.",
+        "shortDesc": "30% chance to lower the target's accuracy by 1."
     },
     "spikes": {
         "num": 191,
@@ -3365,7 +3365,7 @@ exports.BattleMovedex = {
         "name": "Zap Cannon",
         "basePower": 120,
         "type": "Electric",
-        "accuracy": 50,
+        "accuracy": 60,
         "pp": 5,
         "priority": 0,
         "category": "Special",
@@ -3463,7 +3463,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Bone Rush",
-        "basePower": 25,
+        "basePower": 30,
         "type": "Ground",
         "accuracy": 100,
         "pp": 10,
@@ -3505,8 +3505,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cool",
-        "desc": "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        "shortDesc": "Lasts 2-3 turns. Confuses the user afterwards."
+        "desc": "The user spends three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        "shortDesc": "Lasts 3 turns. Confuses the user afterwards."
     },
     "sandstorm": {
         "num": 201,
@@ -3521,8 +3521,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
-        "shortDesc": "For 5 turns, a sandstorm rages. Rock: 1.5x SpD."
+        "desc": "For 7 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Ground- and Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack, and special Rock- snd Ground-type moves deal 20% more damage. Lasts for 10 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
+        "shortDesc": "For 5 turns, a sandstorm rages. Ground, Rock: 1.5x SpD, 1.2x SpA."
     },
     "gigadrain": {
         "num": 202,
@@ -3583,7 +3583,7 @@ exports.BattleMovedex = {
         "name": "Rollout",
         "basePower": 30,
         "type": "Rock",
-        "accuracy": 90,
+        "accuracy": 95,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -3599,7 +3599,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "False Swipe",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 40,
@@ -3619,13 +3619,13 @@ exports.BattleMovedex = {
         "name": "Swagger",
         "basePower": 0,
         "type": "Normal",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Raises the target's Attack by 2 stages and confuses it.",
-        "shortDesc": "Raises the target's Attack by 2 and confuses it."
+        "desc": "Raises the target's Attack by 1 stage and confuses it.",
+        "shortDesc": "Raises the target's Attack by 1 and confuses it."
     },
     "milkdrink": {
         "num": 208,
@@ -3672,7 +3672,7 @@ exports.BattleMovedex = {
         "name": "Fury Cutter",
         "basePower": 40,
         "type": "Bug",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 20,
         "priority": 0,
         "category": "Physical",
@@ -3688,7 +3688,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Steel Wing",
-        "basePower": 70,
+        "basePower": 90,
         "type": "Steel",
         "accuracy": 100,
         "pp": 25,
@@ -3731,8 +3731,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Cute",
-        "desc": "Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
-        "shortDesc": "A target of the opposite gender gets infatuated."
+        "desc": "Causes the target to become infatuated, making it unable to attack 30% of the time. Fails if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
+        "shortDesc": "An opposing Pokemon becomes infatuated."
     },
     "sleeptalk": {
         "num": 214,
@@ -3791,14 +3791,14 @@ exports.BattleMovedex = {
         },
         "name": "Present",
         "basePower": 1,
-        "type": "Normal",
-        "accuracy": 90,
+        "type": "Ice",
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
-        "category": "Physical",
+        "category": "Special",
         "contestType": "Cute",
-        "desc": "If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.",
-        "shortDesc": "40, 80, 120 power, or heals target 1/4 max HP."
+        "desc": "If targetting an opponent, this move deals damage to the target. 45% chance for 60 power, 35% chance for 90 power, and 20% chance for 120 power. If targetting an ally, this move heals that ally. 45% chance for 33% of maximum HP, 35% chance for 50% of maximum HP, 20% chance for 67% of maximum HP.",
+        "shortDesc": "40, 80, 120 power, or heals ally 1/3, 1/2, 2/3 max HP."
     },
     "frustration": {
         "num": 218,
@@ -3861,7 +3861,7 @@ exports.BattleMovedex = {
         "name": "Sacred Fire",
         "basePower": 100,
         "type": "Fire",
-        "accuracy": 95,
+        "accuracy": 100,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -3883,7 +3883,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.",
+        "desc": "The power of this move varies; 5% chances for 30 and 150 power, 10% chances for 45 and 120 power, 20% chances for 60 and 90 power, and 30% chance for 75 power. Damage doubles if the target is using Dig.",
         "shortDesc": "Hits adjacent Pokemon. Power varies; 2x on Dig."
     },
     "dynamicpunch": {
@@ -3895,9 +3895,9 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Dynamic Punch",
-        "basePower": 100,
+        "basePower": 120,
         "type": "Fighting",
-        "accuracy": 50,
+        "accuracy": 60,
         "pp": 5,
         "priority": 0,
         "category": "Physical",
@@ -3915,7 +3915,7 @@ exports.BattleMovedex = {
         "name": "Megahorn",
         "basePower": 120,
         "type": "Bug",
-        "accuracy": 90,
+        "accuracy": 85,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
@@ -4143,7 +4143,7 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Smart",
-        "desc": "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
+        "desc": "This move's type depends on the user's individual values (IVs), and can be any type but Normal.",
         "shortDesc": "Varies in type based on the user's IVs."
     },
     "crosschop": {
@@ -4194,8 +4194,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
-        "shortDesc": "For 5 turns, heavy rain powers Water moves."
+        "desc": "For 7 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 10 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
+        "shortDesc": "For 7 turns, heavy rain powers Water moves."
     },
     "sunnyday": {
         "num": 241,
@@ -4208,8 +4208,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
-        "shortDesc": "For 5 turns, intense sunlight powers Fire moves."
+        "desc": "For 7 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 10 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
+        "shortDesc": "For 7 turns, intense sunlight powers Fire moves."
     },
     "crunch": {
         "num": 242,
@@ -4339,15 +4339,15 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Rock Smash",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "Has a 50% chance to lower the target's Defense by 1 stage.",
-        "shortDesc": "50% chance to lower the target's Defense by 1."
+        "desc": "Has a 100% chance to lower the target's Defense by 1 stage.",
+        "shortDesc": "100% chance to lower the target's Defense by 1."
     },
     "whirlpool": {
         "num": 250,
@@ -4358,7 +4358,7 @@ exports.BattleMovedex = {
         "name": "Whirlpool",
         "basePower": 35,
         "type": "Water",
-        "accuracy": 85,
+        "accuracy": 100,
         "pp": 15,
         "priority": 0,
         "category": "Special",
@@ -4373,15 +4373,15 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Beat Up",
-        "basePower": 1,
+        "basePower": 25,
         "type": "Dark",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Physical",
         "contestType": "Smart",
-        "desc": "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
-        "shortDesc": "All healthy allies aid in damaging the target."
+        "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+        "shortDesc": "Hits 2-5 times in one turn."
     },
     "fakeout": {
         "num": 252,
@@ -4409,14 +4409,14 @@ exports.BattleMovedex = {
             "sound": 1
         },
         "name": "Uproar",
-        "basePower": 90,
+        "basePower": 100,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
         "category": "Special",
         "contestType": "Cute",
-        "desc": "The user spends three turns locked into this move. This move targets an opponent at random on each turn. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.",
+        "desc": "The user spends three turns locked into this move. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.",
         "shortDesc": "Lasts 3 turns. Active Pokemon cannot fall asleep."
     },
     "stockpile": {
@@ -4432,8 +4432,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
-        "shortDesc": "Raises user's Defense, Sp. Def by 1. Max 3 uses."
+        "desc": "Raises the user's Defense and Special Defense by 1 stage, and grants a stacking instance of 1/16 maximum HP recovery per turn. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+        "shortDesc": "Raises user's Defense, Sp. Def by 1 and adds a 1/16 HP heal. Max 3 uses."
     },
     "spitup": {
         "num": 255,
@@ -4448,8 +4448,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Special",
         "contestType": "Tough",
-        "desc": "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-        "shortDesc": "More power with more uses of Stockpile."
+        "desc": "Type matches the primary type of the user. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as the most recent Stockpile had increased them, and the user's Stockpile count goes down by 1.",
+        "shortDesc": "Uses up a Stockpile to attack."
     },
     "swallow": {
         "num": 256,
@@ -4464,8 +4464,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Tough",
-        "desc": "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-        "shortDesc": "Heals the user based on uses of Stockpile."
+        "desc": "The user restores 75% of its maximum HP by using a Stockpile. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as the most recent Stockpile had increased them, and the user's Stockpile count goes down by 1.",
+        "shortDesc": "Heals the user by using up a Stockpile."
     },
     "heatwave": {
         "num": 257,
@@ -4545,12 +4545,12 @@ exports.BattleMovedex = {
         "name": "Will-O-Wisp",
         "basePower": 0,
         "type": "Fire",
-        "accuracy": 85,
+        "accuracy": 90,
         "pp": 15,
         "priority": 0,
         "category": "Status",
         "contestType": "Beauty",
-        "desc": "Burns the target.",
+        "desc": "Burns the target. Will never miss when used by a Fire-type Pokemon.",
         "shortDesc": "Burns the target."
     },
     "memento": {
@@ -4585,8 +4585,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Physical",
         "contestType": "Cute",
-        "desc": "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
-        "shortDesc": "Power doubles if user is burn/poison/paralyzed."
+        "desc": "Power doubles if the user is asleep, burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+        "shortDesc": "Power doubles if user is asleep/burn/poison/paralyzed."
     },
     "focuspunch": {
         "num": 264,
@@ -4603,8 +4603,8 @@ exports.BattleMovedex = {
         "priority": -3,
         "category": "Physical",
         "contestType": "Tough",
-        "desc": "The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.",
-        "shortDesc": "Fails if the user takes damage before it hits."
+        "desc": "The user loses its focus if it is hit by a damaging attack this turn before it can execute the move. This reduces the power to 50.",
+        "shortDesc": "Much weaker if the user takes damage before it hits."
     },
     "smellingsalts": {
         "num": 265,
@@ -4668,8 +4668,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful.",
-        "shortDesc": "+1 SpD, user's next Electric move 2x power."
+        "desc": "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful. Also raises the user's Special Attack by 1 stage in Electric Terrain.",
+        "shortDesc": "+1 SpD, user's next Electric move 2x power. +1 SpA in Electric Terrain."
     },
     "taunt": {
         "num": 269,
@@ -4782,8 +4782,8 @@ exports.BattleMovedex = {
         "priority": 0,
         "category": "Status",
         "contestType": "Smart",
-        "desc": "The user has 1/16 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.",
-        "shortDesc": "Traps/grounds user; heals 1/16 max HP per turn."
+        "desc": "The user has 1/8 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.",
+        "shortDesc": "Traps/grounds user; heals 1/8 max HP per turn."
     },
     "superpower": {
         "num": 276,
@@ -4793,7 +4793,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Superpower",
-        "basePower": 120,
+        "basePower": 130,
         "type": "Fighting",
         "accuracy": 100,
         "pp": 5,
