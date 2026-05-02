@@ -57,7 +57,7 @@ exports.BattleMovedex = {
             "contact": 1
         },
         "name": "Double Slap",
-        "basePower": 15,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 10,
@@ -76,7 +76,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Comet Punch",
-        "basePower": 18,
+        "basePower": 25,
         "type": "Normal",
         "accuracy": 100,
         "pp": 15,
@@ -95,7 +95,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Mega Punch",
-        "basePower": 80,
+        "basePower": 90,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -112,7 +112,7 @@ exports.BattleMovedex = {
             "mirror": 1
         },
         "name": "Pay Day",
-        "basePower": 40,
+        "basePower": 60,
         "type": "Normal",
         "accuracy": 100,
         "pp": 20,
@@ -131,7 +131,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Fire Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Fire",
         "accuracy": 100,
         "pp": 15,
@@ -150,7 +150,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Ice Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Ice",
         "accuracy": 100,
         "pp": 15,
@@ -169,7 +169,7 @@ exports.BattleMovedex = {
             "punch": 1
         },
         "name": "Thunder Punch",
-        "basePower": 75,
+        "basePower": 80,
         "type": "Electric",
         "accuracy": 100,
         "pp": 15,
@@ -206,7 +206,7 @@ exports.BattleMovedex = {
         },
         "name": "Vise Grip",
         "basePower": 55,
-        "type": "Normal",
+        "type": "Steel",
         "accuracy": 100,
         "pp": 30,
         "priority": 0,
