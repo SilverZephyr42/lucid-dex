@@ -129,11 +129,11 @@ exports.BattlePokedex = {
         "formeOrder": [
             "Venusaur",
             "Venusaur-Mega",
-            "Venusaur-Mega-G"
+            "Venusaur-Gmax"
         ],
         "otherFormes": [
             "Venusaur-Mega",
-            "Venusaur-Mega-G"
+            "Venusaur-Gmax"
         ],
         "prevo": "Ivysaur",
         "evoLevel": 32,
