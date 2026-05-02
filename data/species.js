@@ -218,7 +218,7 @@ exports.BattlePokedex = {
         "heightm": 24.0,
         "weightkg": 185.5,
         "baseSpecies": "Venusaur",
-        "forme": "Mega-G",
+        "forme": "Gmax",
         "tier": "unobtainable"
     },
     "charmander": {
