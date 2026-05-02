@@ -1221,9 +1221,9 @@ exports.BattlePokedex = {
     "rattata": {
         "num": 19,
         "baseStats": {
-            "hp": 30,
-            "atk": 56,
-            "def": 35,
+            "hp": 40,
+            "atk": 61,
+            "def": 40,
             "spe": 72,
             "spa": 25,
             "spd": 35
@@ -1245,7 +1245,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Guts",
+            "0": "Run Away",
+            "1": "Guts",
             "H": "Hustle"
         },
         "color": "Purple",
@@ -1267,12 +1268,12 @@ exports.BattlePokedex = {
     "raticate": {
         "num": 20,
         "baseStats": {
-            "hp": 55,
-            "atk": 81,
-            "def": 60,
-            "spe": 97,
+            "hp": 70,
+            "atk": 91,
+            "def": 65,
+            "spe": 107,
             "spa": 50,
-            "spd": 70
+            "spd": 75
         },
         "types": [
             "Normal"
@@ -1291,8 +1292,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Guts",
-            "H": "Hustle"
+            "0": "Run Away",
+            "1": "Guts",
+            "H": "Strong Jaw"
         },
         "color": "Brown",
         "name": "Raticate",
@@ -1316,9 +1318,9 @@ exports.BattlePokedex = {
     "rattataalola": {
         "num": 19,
         "baseStats": {
-            "hp": 30,
-            "atk": 56,
-            "def": 35,
+            "hp": 40,
+            "atk": 61,
+            "def": 40,
             "spe": 72,
             "spa": 25,
             "spd": 35
@@ -1361,12 +1363,12 @@ exports.BattlePokedex = {
     "raticatealola": {
         "num": 20,
         "baseStats": {
-            "hp": 75,
-            "atk": 71,
-            "def": 70,
-            "spe": 77,
-            "spa": 40,
-            "spd": 80
+            "hp": 85,
+            "atk": 91,
+            "def": 80,
+            "spe": 87,
+            "spa": 30,
+            "spd": 85
         },
         "types": [
             "Dark",
@@ -1390,7 +1392,7 @@ exports.BattlePokedex = {
         "abilities": {
             "0": "Gluttony",
             "1": "Hustle",
-            "H": "Thick Fat"
+            "H": "Strong Jaw"
         },
         "color": "Black",
         "name": "Raticate-Alola",
@@ -1407,12 +1409,12 @@ exports.BattlePokedex = {
     "raticatealolatotem": {
         "num": 20,
         "baseStats": {
-            "hp": 75,
-            "atk": 71,
-            "def": 70,
-            "spe": 77,
-            "spa": 40,
-            "spd": 80
+            "hp": 85,
+            "atk": 91,
+            "def": 80,
+            "spe": 87,
+            "spa": 30,
+            "spd": 85
         },
         "types": [
             "Dark",
@@ -1449,10 +1451,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 40,
             "atk": 60,
-            "def": 30,
+            "def": 45,
             "spe": 70,
             "spa": 31,
-            "spd": 31
+            "spd": 41
         },
         "types": [
             "Normal",
@@ -1474,8 +1476,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Sniper",
-            "H": "Keen Eye"
+            "0": "Keen Eye",
+            "H": "Sniper"
         },
         "color": "Brown",
         "name": "Spearow",
@@ -1490,14 +1492,14 @@ exports.BattlePokedex = {
         "num": 22,
         "baseStats": {
             "hp": 65,
-            "atk": 90,
-            "def": 65,
-            "spe": 100,
+            "atk": 100,
+            "def": 75,
+            "spe": 110,
             "spa": 61,
-            "spd": 61
+            "spd": 71
         },
         "types": [
-            "Normal",
+            "Dark",
             "Flying"
         ],
         "evYields": {
@@ -1516,8 +1518,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Sniper",
-            "H": "Keen Eye"
+            "0": "Big Pecks",
+            "1": "Intimidate",
+            "H": "Sniper"
         },
         "color": "Brown",
         "name": "Fearow",
@@ -1532,12 +1535,12 @@ exports.BattlePokedex = {
     "ekans": {
         "num": 23,
         "baseStats": {
-            "hp": 35,
+            "hp": 45,
             "atk": 60,
-            "def": 44,
+            "def": 49,
             "spe": 55,
             "spa": 40,
-            "spd": 54
+            "spd": 59
         },
         "types": [
             "Poison"
@@ -1558,6 +1561,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
+            "1": "Shed Skin",
             "H": "Unnerve"
         },
         "color": "Purple",
@@ -1572,15 +1576,16 @@ exports.BattlePokedex = {
     "arbok": {
         "num": 24,
         "baseStats": {
-            "hp": 60,
-            "atk": 95,
-            "def": 69,
+            "hp": 80,
+            "atk": 105,
+            "def": 79,
             "spe": 80,
             "spa": 65,
-            "spd": 79
+            "spd": 89
         },
         "types": [
-            "Poison"
+            "Poison",
+            "Dark"
         ],
         "evYields": {
             "atk": 2
@@ -1598,6 +1603,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
+            "1": "Shed Skin",
             "H": "Unnerve"
         },
         "color": "Purple",
