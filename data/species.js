@@ -2,11 +2,11 @@ exports.BattlePokedex = {
     "bulbasaur": {
         "num": 1,
         "baseStats": {
-            "hp": 45,
+            "hp": 50,
             "atk": 49,
             "def": 49,
             "spe": 45,
-            "spa": 65,
+            "spa": 67,
             "spd": 65
         },
         "types": [
@@ -29,6 +29,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Poison Point",
             "H": "Chlorophyll"
         },
         "color": "Green",
@@ -43,12 +44,12 @@ exports.BattlePokedex = {
     "ivysaur": {
         "num": 2,
         "baseStats": {
-            "hp": 60,
+            "hp": 70,
             "atk": 62,
-            "def": 63,
+            "def": 68,
             "spe": 60,
-            "spa": 80,
-            "spd": 80
+            "spa": 85,
+            "spd": 85
         },
         "types": [
             "Grass",
@@ -71,6 +72,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Poison Point",
             "H": "Chlorophyll"
         },
         "color": "Green",
@@ -89,11 +91,11 @@ exports.BattlePokedex = {
     "venusaur": {
         "num": 3,
         "baseStats": {
-            "hp": 80,
-            "atk": 82,
+            "hp": 90,
+            "atk": 72,
             "def": 83,
             "spe": 80,
-            "spa": 100,
+            "spa": 110,
             "spd": 100
         },
         "types": [
@@ -117,6 +119,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Flower Gift",
             "H": "Chlorophyll"
         },
         "color": "Green",
@@ -126,11 +129,11 @@ exports.BattlePokedex = {
         "formeOrder": [
             "Venusaur",
             "Venusaur-Mega",
-            "Venusaur-Gmax"
+            "Venusaur-Mega-G"
         ],
         "otherFormes": [
             "Venusaur-Mega",
-            "Venusaur-Gmax"
+            "Venusaur-Mega-G"
         ],
         "prevo": "Ivysaur",
         "evoLevel": 32,
@@ -141,11 +144,11 @@ exports.BattlePokedex = {
     "venusaurmega": {
         "num": 3,
         "baseStats": {
-            "hp": 80,
-            "atk": 100,
+            "hp": 90,
+            "atk": 90,
             "def": 123,
             "spe": 80,
-            "spa": 122,
+            "spa": 132,
             "spd": 120
         },
         "types": [
@@ -178,19 +181,19 @@ exports.BattlePokedex = {
         "forme": "Mega",
         "tier": "unobtainable"
     },
-    "venusaurgmax": {
+    "venusaurmegag": {
         "num": 3,
         "baseStats": {
-            "hp": 80,
-            "atk": 82,
-            "def": 83,
-            "spe": 80,
-            "spa": 100,
-            "spd": 100
+            "hp": 90,
+            "atk": 102,
+            "def": 98,
+            "spe": 90,
+            "spa": 145,
+            "spd": 110
         },
         "types": [
             "Grass",
-            "Poison"
+            "Ground"
         ],
         "evYields": {
             "spa": 2,
@@ -208,15 +211,14 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Chlorophyll"
+            "0": "Chlorophyll"
         },
         "color": "Green",
-        "name": "Venusaur-Gmax",
+        "name": "Venusaur-Mega-G",
         "heightm": 24.0,
         "weightkg": 0.0,
         "baseSpecies": "Venusaur",
-        "forme": "Gmax",
+        "forme": "Mega",
         "tier": "unobtainable"
     },
     "charmander": {
