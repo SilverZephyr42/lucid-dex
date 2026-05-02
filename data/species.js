@@ -224,11 +224,11 @@ exports.BattlePokedex = {
     "charmander": {
         "num": 4,
         "baseStats": {
-            "hp": 39,
+            "hp": 49,
             "atk": 52,
             "def": 43,
             "spe": 65,
-            "spa": 60,
+            "spa": 66,
             "spd": 50
         },
         "types": [
@@ -250,6 +250,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Flash Fire",
             "H": "Solar Power"
         },
         "color": "Red",
@@ -264,11 +265,11 @@ exports.BattlePokedex = {
     "charmeleon": {
         "num": 5,
         "baseStats": {
-            "hp": 58,
+            "hp": 68,
             "atk": 64,
-            "def": 58,
+            "def": 63,
             "spe": 80,
-            "spa": 80,
+            "spa": 90,
             "spd": 65
         },
         "types": [
@@ -291,6 +292,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Flash Fire",
             "H": "Solar Power"
         },
         "color": "Red",
@@ -312,7 +314,7 @@ exports.BattlePokedex = {
             "hp": 78,
             "atk": 84,
             "def": 78,
-            "spe": 100,
+            "spe": 101,
             "spa": 109,
             "spd": 85
         },
@@ -336,6 +338,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Dragon's Maw",
             "H": "Solar Power"
         },
         "color": "Red",
@@ -363,10 +366,10 @@ exports.BattlePokedex = {
         "num": 6,
         "baseStats": {
             "hp": 78,
-            "atk": 130,
+            "atk": 145,
             "def": 111,
-            "spe": 100,
-            "spa": 130,
+            "spe": 101,
+            "spa": 115,
             "spd": 85
         },
         "types": [
@@ -404,7 +407,7 @@ exports.BattlePokedex = {
             "hp": 78,
             "atk": 104,
             "def": 78,
-            "spe": 100,
+            "spe": 101,
             "spa": 159,
             "spd": 115
         },
@@ -441,15 +444,15 @@ exports.BattlePokedex = {
         "num": 6,
         "baseStats": {
             "hp": 78,
-            "atk": 84,
-            "def": 78,
-            "spe": 100,
-            "spa": 109,
-            "spd": 85
+            "atk": 94,
+            "def": 123,
+            "spe": 81,
+            "spa": 134,
+            "spd": 125
         },
         "types": [
             "Fire",
-            "Flying"
+            "Dragon"
         ],
         "evYields": {
             "spa": 3
@@ -466,8 +469,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Blaze",
-            "H": "Solar Power"
+            "0": "Huge Power",
         },
         "color": "Red",
         "name": "Charizard-Gmax",
@@ -480,11 +482,11 @@ exports.BattlePokedex = {
     "squirtle": {
         "num": 7,
         "baseStats": {
-            "hp": 44,
-            "atk": 48,
+            "hp": 49,
+            "atk": 43,
             "def": 65,
             "spe": 43,
-            "spa": 50,
+            "spa": 61,
             "spd": 64
         },
         "types": [
@@ -506,6 +508,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Shell Armor",
             "H": "Rain Dish"
         },
         "color": "Blue",
@@ -520,11 +523,11 @@ exports.BattlePokedex = {
     "wartortle": {
         "num": 8,
         "baseStats": {
-            "hp": 59,
-            "atk": 63,
-            "def": 80,
+            "hp": 69,
+            "atk": 58,
+            "def": 85,
             "spe": 58,
-            "spa": 65,
+            "spa": 80,
             "spd": 80
         },
         "types": [
@@ -547,6 +550,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Shell Armor",
             "H": "Rain Dish"
         },
         "color": "Blue",
@@ -565,15 +569,16 @@ exports.BattlePokedex = {
     "blastoise": {
         "num": 9,
         "baseStats": {
-            "hp": 79,
-            "atk": 83,
+            "hp": 84,
+            "atk": 68,
             "def": 100,
             "spe": 78,
-            "spa": 85,
+            "spa": 100,
             "spd": 105
         },
         "types": [
-            "Water"
+            "Water",
+            "Steel"
         ],
         "evYields": {
             "spd": 3
@@ -591,7 +596,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
-            "H": "Rain Dish"
+            "1": "Shell Armor",
+            "H": "Filter"
         },
         "color": "Blue",
         "name": "Blastoise",
@@ -615,15 +621,16 @@ exports.BattlePokedex = {
     "blastoisemega": {
         "num": 9,
         "baseStats": {
-            "hp": 79,
-            "atk": 103,
-            "def": 120,
+            "hp": 84,
+            "atk": 88,
+            "def": 130,
             "spe": 78,
             "spa": 135,
-            "spd": 115
+            "spd": 120
         },
         "types": [
-            "Water"
+            "Water",
+            "Steel"
         ],
         "evYields": {
             "spd": 3
@@ -653,15 +660,16 @@ exports.BattlePokedex = {
     "blastoisegmax": {
         "num": 9,
         "baseStats": {
-            "hp": 79,
-            "atk": 83,
-            "def": 100,
-            "spe": 78,
-            "spa": 85,
+            "hp": 84,
+            "atk": 138,
+            "def": 150,
+            "spe": 68,
+            "spa": 90,
             "spd": 105
         },
         "types": [
-            "Water"
+            "Water",
+            "Steel"
         ],
         "evYields": {
             "spd": 3
@@ -678,8 +686,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Torrent",
-            "H": "Rain Dish"
+            "0": "Heavy Metal",
         },
         "color": "Blue",
         "name": "Blastoise-Gmax",
