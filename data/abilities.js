@@ -32,8 +32,8 @@ exports.BattleAbilities = {
         "name": "Aftermath",
         "rating": 2,
         "num": 106,
-        "desc": "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. If any active Pokemon has the Damp Ability, this effect is prevented.",
-        "shortDesc": "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP."
+        "desc": "If this Pokemon is knocked out with a contact move, that move's user loses 1/3 of its maximum HP, rounded down. If any active Pokemon has the Damp Ability, this effect is prevented.",
+        "shortDesc": "If this Pokemon is KOed with a contact move, that move's user loses 1/3 its max HP."
     },
     "airlock": {
         "suppressWeather": true,
@@ -41,8 +41,8 @@ exports.BattleAbilities = {
         "name": "Air Lock",
         "rating": 1.5,
         "num": 76,
-        "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
-        "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled."
+        "desc": "Being hit with a Flying-type move boosts the user's Speed by 1 stage instead of dealing damage. While this Pokemon is active, the effects of weather conditions are disabled.",
+        "shortDesc": "Flying moves boost Speed instead of damaging. While this Pokemon is active, the effects of weather conditions are disabled."
     },
     "analytic": {
         "onBasePowerPriority": 21,
@@ -50,23 +50,23 @@ exports.BattleAbilities = {
         "name": "Analytic",
         "rating": 2.5,
         "num": 148,
-        "desc": "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
-        "shortDesc": "This Pokemon's attacks have 1.3x power if it is the last to move in a turn."
+        "desc": "The power of this Pokemon's move is multiplied by 1.3 if it moves after the target. Does not affect Doom Desire and Future Sight.",
+        "shortDesc": "This Pokemon's attacks have 1.3x power if it moves after the target."
     },
     "angerpoint": {
         "flags": {},
         "name": "Anger Point",
         "rating": 1,
         "num": 83,
-        "desc": "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
-        "shortDesc": "If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages."
+        "desc": "This Pokemon's Attack is raised by 1 stage when it is hit with a damaging move. If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
+        "shortDesc": "Raises Attack when hit. If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages."
     },
     "angershell": {
         "flags": {},
         "name": "Anger Shell",
         "rating": 3,
         "num": 271,
-        "desc": "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Attack, Special Attack, and Speed are raised by 1 stage, and its Defense and Special Defense are lowered by 1 stage. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
+        "desc": "When this Pokemon falls below 1/2 of its maximum HP, its Attack, Special Attack, and Speed are raised by 1 stage, and its Defense and Special Defense are lowered by 1 stage. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
         "shortDesc": "At 1/2 or less of this Pokemon's max HP: +1 Atk, Sp. Atk, Spe, and -1 Def, Sp. Def."
     },
     "anticipation": {
@@ -74,8 +74,8 @@ exports.BattleAbilities = {
         "name": "Anticipation",
         "rating": 0.5,
         "num": 107,
-        "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attack that is super effective against this Pokemon, or an OHKO move. This effect considers any move that deals direct damage as an attacking move of its respective type, Hidden Power counts as its determined type, and Judgment, Multi-Attack, Natural Gift, Revelation Dance, Techno Blast, and Weather Ball are considered Normal-type moves.",
-        "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move."
+        "desc": "On switch-in, and when opponents switch in against this Pokemon, this Pokemon is alerted if any opposing Pokemon has an attack that is super effective against this Pokemon, or an OHKO move. This Pokemon will then avoid damage from the first super-effective hit or OHKO move that would have hit it. This effect can only trigger once each time this Pokemon switches out and back in again, and only once against each opposing Pokemon over the course of the battle.",
+        "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move. Avoids a single super-effective or OHKO hit per switch-in"
     },
     "arenatrap": {
         "flags": {},
@@ -92,8 +92,8 @@ exports.BattleAbilities = {
         "name": "Armor Tail",
         "rating": 2.5,
         "num": 296,
-        "desc": "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect.",
-        "shortDesc": "This Pokemon and its allies are protected from opposing priority moves."
+        "desc": "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect. This Pokemon is immune to critical hits.",
+        "shortDesc": "This Pokemon and its allies are protected from opposing priority moves. This Pokemon is immune to critical hits."
     },
     "aromaveil": {
         "flags": {
@@ -142,8 +142,8 @@ exports.BattleAbilities = {
         "name": "Aura Break",
         "rating": 1,
         "num": 188,
-        "desc": "While this Pokemon is active, the effects of the Dark Aura and Fairy Aura Abilities are reversed, multiplying the power of Dark- and Fairy-type moves, respectively, by 3/4 instead of 1.33.",
-        "shortDesc": "While this Pokemon is active, the Dark Aura and Fairy Aura power modifier is 0.75x."
+        "desc": "Lowers the opponents' Special Attack by 1 stage in switch-in. While this Pokemon is active, the effects of the Dark Aura and Fairy Aura Abilities are reversed, multiplying the power of Dark- and Fairy-type moves, respectively, by 3/4 instead of 1.33.",
+        "shortDesc": "Lowers Sp. Atk on switch-in. While this Pokemon is active, the Dark Aura and Fairy Aura power modifier is 0.75x."
     },
     "baddreams": {
         "onResidualOrder": 28,
@@ -152,8 +152,8 @@ exports.BattleAbilities = {
         "name": "Bad Dreams",
         "rating": 1.5,
         "num": 123,
-        "desc": "Causes opposing Pokemon to lose 1/8 of their maximum HP, rounded down, at the end of each turn if they are asleep.",
-        "shortDesc": "Causes sleeping foes to lose 1/8 of their max HP at the end of each turn."
+        "desc": "Causes opposing Pokemon to lose 1/8 of their maximum HP, rounded down, at the end of each turn if they are asleep. This Pokemon heals 50% of the damage it deals to sleeping targets.",
+        "shortDesc": "Causes sleeping foes to lose 1/8 of their max HP at the end of each turn. Heals 50% against sleeping foes."
     },
     "ballfetch": {
         "flags": {},
@@ -169,8 +169,8 @@ exports.BattleAbilities = {
         "name": "Battery",
         "rating": 0,
         "num": 217,
-        "desc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3.",
-        "shortDesc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3."
+        "desc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3. This Pokemon's own special attacks have 1.1x power while an ally is present.",
+        "shortDesc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3. This Pokemon has a 1.1x boost with an ally."
     },
     "battlearmor": {
         "onCriticalHit": false,
@@ -180,8 +180,8 @@ exports.BattleAbilities = {
         "name": "Battle Armor",
         "rating": 1,
         "num": 4,
-        "desc": "This Pokemon cannot be struck by a critical hit.",
-        "shortDesc": "This Pokemon cannot be struck by a critical hit."
+        "desc": "This Pokemon cannot be struck by a critical hit, and takes 20% less damage from attacks.",
+        "shortDesc": "This Pokemon cannot be struck by a critical hit. Takes 20% less damage."
     },
     "battlebond": {
         "flags": {
