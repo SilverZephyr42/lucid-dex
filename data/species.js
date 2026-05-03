@@ -128,11 +128,11 @@ exports.BattlePokedex = {
         "weightkg": 100.0,
         "formeOrder": [
             "Venusaur",
-            "Venusaur-Mega",
+            "Clefable-Mega",
             "Venusaur-Gmax"
         ],
         "otherFormes": [
-            "Venusaur-Mega",
+            "Clefable-Mega",
             "Venusaur-Gmax"
         ],
         "prevo": "Ivysaur",
