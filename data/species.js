@@ -141,7 +141,7 @@ exports.BattlePokedex = {
         "evoCondition": "",
         "tier": "obtainable"
     },
-    "venusaurmega": {
+    "clefablemega": {
         "num": 3,
         "baseStats": {
             "hp": 90,
@@ -174,10 +174,10 @@ exports.BattlePokedex = {
             "0": "Thick Fat"
         },
         "color": "Green",
-        "name": "Venusaur-Mega",
+        "name": "Clefable-Mega",
         "heightm": 2.4,
         "weightkg": 155.5,
-        "baseSpecies": "Venusaur",
+        "baseSpecies": "Clefable",
         "forme": "Mega",
         "tier": "unobtainable"
     },
@@ -2481,7 +2481,7 @@ exports.BattlePokedex = {
             "H": "Unaware"
         },
         "color": "Pink",
-        "name": "Clefable-Mega",
+        "name": "Clefable",
         "heightm": 1.3,
         "weightkg": 40.0,
         "prevo": "Clefairy",
