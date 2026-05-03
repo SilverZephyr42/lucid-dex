@@ -2448,7 +2448,7 @@ exports.BattlePokedex = {
         ],
         "tier": "obtainable"
     },
-    "clefablemega": {
+    "clefable": {
         "num": 36,
         "baseStats": {
             "hp": 95,
@@ -2481,7 +2481,7 @@ exports.BattlePokedex = {
             "H": "Unaware"
         },
         "color": "Pink",
-        "name": "Clefable",
+        "name": "Clefable-Mega",
         "heightm": 1.3,
         "weightkg": 40.0,
         "prevo": "Clefairy",
