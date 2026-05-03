@@ -2448,7 +2448,7 @@ exports.BattlePokedex = {
         ],
         "tier": "obtainable"
     },
-    "clefable": {
+    "clefablemega": {
         "num": 36,
         "baseStats": {
             "hp": 95,
