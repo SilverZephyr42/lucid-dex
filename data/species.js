@@ -11007,11 +11007,11 @@ exports.BattlePokedex = {
     "dratini": {
         "num": 147,
         "baseStats": {
-            "hp": 41,
-            "atk": 64,
+            "hp": 51,
+            "atk": 44,
             "def": 45,
             "spe": 50,
-            "spa": 50,
+            "spa": 65,
             "spd": 50
         },
         "types": [
@@ -11049,12 +11049,12 @@ exports.BattlePokedex = {
     "dragonair": {
         "num": 148,
         "baseStats": {
-            "hp": 61,
-            "atk": 84,
-            "def": 65,
-            "spe": 70,
-            "spa": 70,
-            "spd": 70
+            "hp": 76,
+            "atk": 69,
+            "def": 75,
+            "spe": 75,
+            "spa": 90,
+            "spd": 75
         },
         "types": [
             "Dragon"
@@ -11098,8 +11098,8 @@ exports.BattlePokedex = {
             "hp": 91,
             "atk": 134,
             "def": 95,
-            "spe": 80,
-            "spa": 100,
+            "spe": 85,
+            "spa": 95,
             "spd": 100
         },
         "types": [
@@ -11124,6 +11124,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Inner Focus",
+            "1": "Aerilate",
             "H": "Multiscale"
         },
         "color": "Brown",
@@ -11160,7 +11161,8 @@ exports.BattlePokedex = {
         "expYield": 340,
         "gender": "N",
         "abilities": {
-            "0": "Pressure",
+            "0": "Competitive",
+            "1": "Neuroforce",
             "H": "Unnerve"
         },
         "color": "Purple",
@@ -11183,9 +11185,9 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 106,
             "atk": 190,
-            "def": 100,
-            "spe": 130,
-            "spa": 154,
+            "def": 110,
+            "spe": 140,
+            "spa": 134,
             "spd": 100
         },
         "types": [
@@ -11203,7 +11205,7 @@ exports.BattlePokedex = {
         "expYield": 390,
         "gender": "N",
         "abilities": {
-            "0": "Steadfast"
+            "0": "Anger Point"
         },
         "color": "Purple",
         "name": "Mewtwo-Mega-X",
@@ -11217,8 +11219,8 @@ exports.BattlePokedex = {
         "num": 150,
         "baseStats": {
             "hp": 106,
-            "atk": 150,
-            "def": 70,
+            "atk": 130,
+            "def": 90,
             "spe": 140,
             "spa": 194,
             "spd": 120
@@ -11237,7 +11239,7 @@ exports.BattlePokedex = {
         "expYield": 390,
         "gender": "N",
         "abilities": {
-            "0": "Insomnia"
+            "0": "Berserk"
         },
         "color": "Purple",
         "name": "Mewtwo-Mega-Y",
@@ -11250,12 +11252,12 @@ exports.BattlePokedex = {
     "mew": {
         "num": 151,
         "baseStats": {
-            "hp": 100,
-            "atk": 100,
-            "def": 100,
+            "hp": 90,
+            "atk": 80,
+            "def": 90,
             "spe": 100,
-            "spa": 100,
-            "spd": 100
+            "spa": 120,
+            "spd": 120
         },
         "types": [
             "Psychic"
@@ -11273,7 +11275,9 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Synchronize"
+            "0": "Unaware",
+            "1": "Imposter",
+            "H": "Magic Bounce"
         },
         "color": "Pink",
         "name": "Mew",
