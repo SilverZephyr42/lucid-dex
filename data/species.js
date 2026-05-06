@@ -15977,10 +15977,10 @@ exports.BattlePokedex = {
         "num": 252,
         "baseStats": {
             "hp": 40,
-            "atk": 45,
-            "def": 35,
-            "spe": 70,
-            "spa": 65,
+            "atk": 65,
+            "def": 45,
+            "spe": 75,
+            "spa": 45,
             "spd": 55
         },
         "types": [
@@ -16002,6 +16002,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Technician",
             "H": "Unburden"
         },
         "color": "Green",
@@ -16016,15 +16017,16 @@ exports.BattlePokedex = {
     "grovyle": {
         "num": 253,
         "baseStats": {
-            "hp": 50,
-            "atk": 65,
-            "def": 45,
+            "hp": 60,
+            "atk": 85,
+            "def": 55,
             "spe": 95,
-            "spa": 85,
-            "spd": 65
+            "spa": 65,
+            "spd": 70
         },
         "types": [
-            "Grass"
+            "Grass",
+            "Dragon"
         ],
         "evYields": {
             "spe": 2
@@ -16042,6 +16044,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Technician",
             "H": "Unburden"
         },
         "color": "Green",
@@ -16061,14 +16064,15 @@ exports.BattlePokedex = {
         "num": 254,
         "baseStats": {
             "hp": 70,
-            "atk": 85,
-            "def": 65,
+            "atk": 105,
+            "def": 70,
             "spe": 120,
-            "spa": 105,
+            "spa": 85,
             "spd": 85
         },
         "types": [
-            "Grass"
+            "Grass",
+            "Dragon"
         ],
         "evYields": {
             "spe": 3
@@ -16086,6 +16090,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Technician",
             "H": "Unburden"
         },
         "color": "Green",
@@ -16109,11 +16114,11 @@ exports.BattlePokedex = {
         "num": 254,
         "baseStats": {
             "hp": 70,
-            "atk": 110,
-            "def": 75,
+            "atk": 145,
+            "def": 80,
             "spe": 145,
-            "spa": 145,
-            "spd": 85
+            "spa": 100,
+            "spd": 95
         },
         "types": [
             "Grass",
@@ -16134,7 +16139,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Lightning Rod"
+            "0": "Sharpness"
         },
         "color": "Green",
         "name": "Sceptile-Mega",
@@ -16147,11 +16152,11 @@ exports.BattlePokedex = {
     "torchic": {
         "num": 255,
         "baseStats": {
-            "hp": 45,
-            "atk": 60,
+            "hp": 50,
+            "atk": 70,
             "def": 40,
-            "spe": 45,
-            "spa": 70,
+            "spe": 55,
+            "spa": 60,
             "spd": 50
         },
         "types": [
@@ -16172,6 +16177,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Big Pecks",
             "H": "Speed Boost"
         },
         "color": "Red",
@@ -16186,11 +16192,11 @@ exports.BattlePokedex = {
     "combusken": {
         "num": 256,
         "baseStats": {
-            "hp": 60,
-            "atk": 85,
+            "hp": 70,
+            "atk": 90,
             "def": 60,
-            "spe": 55,
-            "spa": 85,
+            "spe": 70,
+            "spa": 80,
             "spd": 60
         },
         "types": [
@@ -16213,6 +16219,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Reckless",
             "H": "Speed Boost"
         },
         "color": "Red",
@@ -16234,8 +16241,8 @@ exports.BattlePokedex = {
             "hp": 80,
             "atk": 120,
             "def": 70,
-            "spe": 80,
-            "spa": 110,
+            "spe": 95,
+            "spa": 100,
             "spd": 70
         },
         "types": [
@@ -16257,6 +16264,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Reckless",
             "H": "Speed Boost"
         },
         "color": "Red",
@@ -16282,8 +16290,8 @@ exports.BattlePokedex = {
             "hp": 80,
             "atk": 160,
             "def": 80,
-            "spe": 100,
-            "spa": 130,
+            "spe": 115,
+            "spa": 120,
             "spd": 80
         },
         "types": [
@@ -16304,7 +16312,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Speed Boost"
+            "0": "Striker"
         },
         "color": "Red",
         "name": "Blaziken-Mega",
@@ -16317,9 +16325,9 @@ exports.BattlePokedex = {
     "mudkip": {
         "num": 258,
         "baseStats": {
-            "hp": 50,
+            "hp": 60,
             "atk": 70,
-            "def": 50,
+            "def": 55,
             "spe": 40,
             "spa": 50,
             "spd": 50
@@ -16343,6 +16351,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Dry Skin",
             "H": "Damp"
         },
         "color": "Blue",
@@ -16357,12 +16366,12 @@ exports.BattlePokedex = {
     "marshtomp": {
         "num": 259,
         "baseStats": {
-            "hp": 70,
+            "hp": 80,
             "atk": 85,
-            "def": 70,
+            "def": 75,
             "spe": 50,
-            "spa": 60,
-            "spd": 70
+            "spa": 65,
+            "spd": 75
         },
         "types": [
             "Water",
@@ -16384,6 +16393,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Dry Skin",
             "H": "Damp"
         },
         "color": "Blue",
@@ -16429,6 +16439,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Dry Skin",
             "H": "Damp"
         },
         "color": "Blue",
@@ -16490,12 +16501,12 @@ exports.BattlePokedex = {
     "poochyena": {
         "num": 261,
         "baseStats": {
-            "hp": 35,
-            "atk": 55,
-            "def": 35,
-            "spe": 35,
+            "hp": 50,
+            "atk": 65,
+            "def": 45,
+            "spe": 55,
             "spa": 30,
-            "spd": 30
+            "spd": 40
         },
         "types": [
             "Dark"
@@ -16514,7 +16525,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Run Away",
+            "0": "Intimidate",
+            "1": "Quick Feet",
             "H": "Rattled"
         },
         "color": "Gray",
@@ -16530,11 +16542,11 @@ exports.BattlePokedex = {
         "num": 262,
         "baseStats": {
             "hp": 70,
-            "atk": 90,
+            "atk": 100,
             "def": 70,
-            "spe": 70,
+            "spe": 95,
             "spa": 60,
-            "spd": 60
+            "spd": 75
         },
         "types": [
             "Dark"
@@ -16554,6 +16566,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
+            "1": "Strong Jaw",
             "H": "Moxie"
         },
         "color": "Gray",
