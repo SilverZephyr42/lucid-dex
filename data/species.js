@@ -11514,7 +11514,7 @@ exports.BattlePokedex = {
         },
         "types": [
             "Fire",
-            "Ground
+            "Ground"
         ],
         "evYields": {
             "spa": 3
