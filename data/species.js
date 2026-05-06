@@ -46669,7 +46669,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Punk Rock",
+            "0": "Amplifier",
             "H": "Technician"
         },
         "color": "Purple",
@@ -46722,7 +46722,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Punk Rock",
+            "0": "Amplifier",
             "H": "Technician"
         },
         "color": "Purple",
@@ -46761,7 +46761,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Punk Rock",
+            "0": "Amplifier",
             "1": "Minus",
             "H": "Technician"
         },
@@ -46805,7 +46805,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Punk Rock",
+            "0": "Amplifier",
             "1": "Minus",
             "H": "Technician"
         },
