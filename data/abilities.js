@@ -1406,7 +1406,7 @@ exports.BattleAbilities = {
     "megasol": {
         "flags": {},
         "name": "Mega Sol",
-        "rating": 3.5,
+        "rating": 3,
         "num": 496,
         "desc": "This Pokemon's moves are used as if the effects of Sunny Day were active.",
         "shortDesc": "This Pokemon's moves are used as if the effects of Sunny Day were active."
@@ -1694,6 +1694,14 @@ exports.BattleAbilities = {
         "num": 53,
         "desc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn. Removes hazards on entry. Will suffer the effects of existing entry hazards before removing them. If this Pokemon faints as a result of entry hazard damage, the hazards will not be removed.",
         "shortDesc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn. Removes hazards on entry."
+    },
+    "piercingdrill": {
+        "flags": {},
+        "name": "Piercing Drill",
+        "rating": 2,
+        "num": 524,
+        "desc": "This Pokemon's contact moves deal 20% more damage and ignore a target's protection to deal 1/4 the usual damage.",
+        "shortDesc": "Contact moves deal 20% more damage and deal 25% of their usual damage through protection."
     },
     "pixilate": {
         "onModifyTypePriority": -1,
@@ -2365,6 +2373,14 @@ exports.BattleAbilities = {
         "num": 3,
         "desc": "This Pokemon's Speed is raised by 1 stage at the end of each full turn it has been on the field.",
         "shortDesc": "This Pokemon's Speed is raised 1 stage at the end of each full turn on the field."
+    },
+    "spicyspray": {
+        "flags": {},
+        "name": "Spicy Spray",
+        "rating": 3,
+        "num": 724,
+        "desc": "If this Pokemon is hit by an attack, the attacker becomes burned.",
+        "shortDesc": "If this Pokemon is hit by an attack, the attacker becomes burned."
     },
     "stakeout": {
         "onModifyAtkPriority": 5,
