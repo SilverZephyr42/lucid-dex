@@ -7726,7 +7726,7 @@ exports.BattlePokedex = {
         "abilities": {
             "0": "Unaware",
             "1": "Regenerator",
-            "H": "Cloud Nine"
+            "H": "Spicy Spray"
         },
         "color": "Pink",
         "name": "Lickilicky",
@@ -14658,7 +14658,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Magma Armor",
-            "1": "Flame Body",
+            "1": "Spicy Spray",
             "H": "Simple"
         },
         "color": "Red",
@@ -14699,7 +14699,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Water Absorb",
-            "1": "Flame Body",
+            "1": "Spicy Spray",
             "H": "Simple"
         },
         "color": "Red",
@@ -50052,8 +50052,8 @@ exports.BattlePokedex = {
             "F": 0.0
         },
         "abilities": {
-            "0": "Lingering Aroma",
-            "1": "Gluttony",
+            "0": "Mega Sol",
+            "1": "Piercing Drill",
             "H": "Thick Fat"
         },
         "color": "Gray",
