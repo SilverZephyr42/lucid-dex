@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 const PATHS = {
-    abilities: './data/abilities.js',
-    items: './data/items.js',
-    species: './data/species.js', 
-    output: './data/search-index.js'
+    abilities: 'public/data/abilities.js',
+    items: 'public/data/items.js',
+    species: 'public/data/species.js', 
+    output: 'public/data/search-index.js'
 };
 
 function rebuildSearchIndex() {
