@@ -47,7 +47,7 @@ exports.BattleItems = {
         },
         "num": 545,
         "gen": 5,
-        "desc": "Raises holder's Sp. Atk by 1 stage if hit by a Water-type attack. Single use."
+        "desc": "Raises holder's Sp. Atk by 1 stage if hit by a Water-type attack, also reducing the damage of the move by 25%. Single use."
     },
     "adamantcrystal": {
         "name": "Adamant Crystal",
@@ -59,7 +59,7 @@ exports.BattleItems = {
         ],
         "num": 1777,
         "gen": 8,
-        "desc": "If held by a Dialga, its Steel- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Dialga, it will transform into its Origin Form when entering battle."
     },
     "adamantorb": {
         "name": "Adamant Orb",
@@ -73,7 +73,7 @@ exports.BattleItems = {
         ],
         "num": 135,
         "gen": 4,
-        "desc": "If held by a Dialga, its Steel- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Dialga, its Steel- and Dragon-type attacks have 1.3x power."
     },
     "adrenalineorb": {
         "name": "Adrenaline Orb",
@@ -124,7 +124,7 @@ exports.BattleItems = {
         },
         "num": 162,
         "gen": 3,
-        "desc": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use."
+        "desc": "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use."
     },
     "airballoon": {
         "name": "Air Balloon",
@@ -199,7 +199,7 @@ exports.BattleItems = {
         },
         "num": 205,
         "gen": 3,
-        "desc": "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use."
+        "desc": "Raises holder's Sp. Def by 1 stage when at 1/3 max HP or less. Single use."
     },
     "armorfossil": {
         "name": "Armor Fossil",
@@ -358,7 +358,7 @@ exports.BattleItems = {
         "onTryHealPriority": 1,
         "num": 296,
         "gen": 4,
-        "desc": "Holder gains 1.3x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap."
+        "desc": "Holder gains 1.5x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap. Draining attacks deal 20% more damage."
     },
     "bindingband": {
         "name": "Binding Band",
@@ -402,7 +402,7 @@ exports.BattleItems = {
         "onResidualSubOrder": 4,
         "num": 281,
         "gen": 4,
-        "desc": "Each turn, if holder is a Poison type, restores 1/16 max HP; loses 1/8 if not."
+        "desc": "Each turn, if holder is a Poison type, restores 1/12 max HP; loses 1/8 if not."
     },
     "blastoisinite": {
         "name": "Blastoisinite",
@@ -503,7 +503,7 @@ exports.BattleItems = {
         "num": 558,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Bug-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Bug-type attack will have 1.5x power. Single use."
     },
     "bugmemory": {
         "name": "Bug Memory",
@@ -516,7 +516,7 @@ exports.BattleItems = {
         "num": 909,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Bug type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Bug type. If the holder is Silvally, its Bug-type moves have 1.2x power."
     },
     "buginiumz": {
         "name": "Buginium Z",
@@ -542,7 +542,7 @@ exports.BattleItems = {
         "num": 118,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's Techno Blast is Fire type."
+        "desc": "Holder's Techno Blast is Fire type. Fire type moves have 1.2x power."
     },
     "cameruptite": {
         "name": "Cameruptite",
@@ -568,7 +568,7 @@ exports.BattleItems = {
         },
         "num": 546,
         "gen": 5,
-        "desc": "Raises holder's Attack by 1 if hit by an Electric-type attack. Single use."
+        "desc": "Raises holder's Attack by 1 if hit by an Electric-type attack, and reduces the power of the attack by 25%. Single use."
     },
     "charcoal": {
         "name": "Charcoal",
@@ -675,7 +675,7 @@ exports.BattleItems = {
         "num": 119,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's Techno Blast is Ice type."
+        "desc": "Holder's Techno Blast is Ice type. Ice type moves have 1.2x power."
     },
     "chippedpot": {
         "name": "Chipped Pot",
@@ -870,7 +870,7 @@ exports.BattleItems = {
         },
         "num": 285,
         "gen": 4,
-        "desc": "Holder's use of Rain Dance lasts 8 turns instead of 5."
+        "desc": "Holder's use of Rain Dance lasts 10 turns instead of 7."
     },
     "darkgem": {
         "name": "Dark Gem",
@@ -879,7 +879,7 @@ exports.BattleItems = {
         "num": 562,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Dark-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Dark-type attack will have 1.5x power. Single use."
     },
     "darkmemory": {
         "name": "Dark Memory",
@@ -892,7 +892,7 @@ exports.BattleItems = {
         "num": 919,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Dark type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Dark type. If the holder is Silvally, its Dark type moves have 1.2x power."
     },
     "darkiniumz": {
         "name": "Darkinium Z",
@@ -945,8 +945,8 @@ exports.BattleItems = {
         "num": 227,
         "gen": 3,
         "isNonstandard": "Past",
-        "desc": "If held by a Clamperl, its Sp. Def is doubled. Evolves Clamperl into Gorebyss when traded.",
-        "shortDesc": "If held by a Clamperl, its Sp. Def is doubled."
+        "desc": "If held by a Clamperl, its Sp. Def is doubled. If held by a Gorebyss, its Special Attack and Special Defense are boosted by 20%. Evolves Clamperl into Gorebyss when traded.",
+        "shortDesc": "If held by a Clamperl, its Sp. Def is doubled. If held by a Gorebyss, its Sp. Atk and Sp. Def are 1.2x."
     },
     "deepseatooth": {
         "name": "Deep Sea Tooth",
@@ -961,8 +961,8 @@ exports.BattleItems = {
         "num": 226,
         "gen": 3,
         "isNonstandard": "Past",
-        "desc": "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
-        "shortDesc": "If held by a Clamperl, its Sp. Atk is doubled."
+        "desc": "If held by a Clamperl, its Sp. Atk is doubled. If held by a Huntail, its Attack and Defense is boosted by 20%. Evolves Clamperl into Huntail when traded.",
+        "shortDesc": "If held by a Clamperl, its Sp. Atk is doubled. If held by a Huntail, its Atk and Def are 1.2x."
     },
     "destinyknot": {
         "name": "Destiny Knot",
@@ -973,7 +973,7 @@ exports.BattleItems = {
         "onAttractPriority": -100,
         "num": 280,
         "gen": 4,
-        "desc": "If holder becomes infatuated, the other Pokemon also becomes infatuated."
+        "desc": "If holder becomes infatuated, confused, or affected by a non-volatile status condition, the other Pokemon also becomes affected with that condition."
     },
     "diancite": {
         "name": "Diancite",
@@ -1018,7 +1018,7 @@ exports.BattleItems = {
         "num": 116,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's Techno Blast is Water type."
+        "desc": "Holder's Techno Blast is Water type. Water type moves deal 1.2x damage."
     },
     "dracoplate": {
         "name": "Draco Plate",
