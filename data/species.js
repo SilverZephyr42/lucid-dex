@@ -21640,8 +21640,8 @@ exports.BattlePokedex = {
             "hp": 65,
             "atk": 130,
             "def": 70,
-            "spe": 75,
-            "spa": 95,
+            "spe": 95,
+            "spa": 75,
             "spd": 70
         },
         "types": [
