@@ -22793,7 +22793,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Levitate",
-            "H": "Sheer Force",
+            "H": "Sheer Force"
         },
         "color": "Blue",
         "name": "Latios",
