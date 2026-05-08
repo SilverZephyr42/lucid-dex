@@ -23256,7 +23256,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Pressure",
-            "H": "Speed Boost
+            "H": "Speed Boost"
         },
         "color": "Red",
         "name": "Deoxys-Speed",
