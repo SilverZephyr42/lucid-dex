@@ -23879,7 +23879,8 @@ exports.BattlePokedex = {
             "spd": 41
         },
         "types": [
-            "Bug"
+            "Bug",
+            "Normal"
         ],
         "evYields": {
             "def": 1
