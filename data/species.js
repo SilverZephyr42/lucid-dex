@@ -4975,10 +4975,56 @@ exports.BattlePokedex = {
         "name": "Victreebel",
         "heightm": 1.7,
         "weightkg": 15.5,
+        "formeOrder": [
+            "Victreebel",
+            "Victreebel-Mega"
+        ],
+        "otherFormes": [
+            "Victreebel-Mega"
+        ],
         "prevo": "Weepinbell",
         "evoItem": "Leaf Stone",
         "evoType": "useItem",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "victreebelmega": {
+        "num": 71,
+        "baseStats": {
+            "hp": 100,
+            "atk": 125,
+            "def": 85,
+            "spe": 100,
+            "spa": 135,
+            "spd": 95
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Corrosion"
+        },
+        "color": "Yellow",
+        "name": "Victreebel-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Victreebel",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "tentacool": {
@@ -8721,10 +8767,56 @@ exports.BattlePokedex = {
         "name": "Starmie",
         "heightm": 1.1,
         "weightkg": 80.0,
+        "formeOrder": [
+            "Starmie",
+            "Starmie-Mega"
+        ],
+        "otherFormes": [
+            "Starmie-Mega"
+        ],
         "prevo": "Staryu",
         "evoItem": "Water Stone",
         "evoType": "useItem",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "starmiemega": {
+        "num": 121,
+        "baseStats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 105,
+            "spe": 130,
+            "spa": 120,
+            "spd": 105
+        },
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Huge Power"
+        },
+        "color": "Blue",
+        "name": "Starmie-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Starmie",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "mimejr": {
@@ -11259,10 +11351,56 @@ exports.BattlePokedex = {
         "name": "Dragonite",
         "heightm": 2.2,
         "weightkg": 210.0,
+        "formeOrder": [
+            "Dragonite",
+            "Dragonite-Mega"
+        ],
+        "otherFormes": [
+            "Dragonite-Mega"
+        ],
         "prevo": "Dragonair",
         "evoLevel": 55,
         "evoType": "level",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "dragonitemega": {
+        "num": 149,
+        "baseStats": {
+            "hp": 91,
+            "atk": 114,
+            "def": 115,
+            "spe": 100,
+            "spa": 155,
+            "spd": 125
+        },
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Victory Star"
+        },
+        "color": "Yellow",
+        "name": "Dragonite-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Dragonite",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "mewtwo": {
@@ -11538,10 +11676,56 @@ exports.BattlePokedex = {
         "name": "Meganium",
         "heightm": 1.8,
         "weightkg": 100.5,
+        "formeOrder": [
+            "Meganium",
+            "Meganium-Mega"
+        ],
+        "otherFormes": [
+            "Meganium-Mega"
+        ],
         "prevo": "Bayleef",
         "evoLevel": 32,
         "evoType": "level",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "meganiummega": {
+        "num": 154,
+        "baseStats": {
+            "hp": 95,
+            "atk": 82,
+            "def": 115,
+            "spe": 80,
+            "spa": 143,
+            "spd": 120
+        },
+        "types": [
+            "Grass",
+            "Fairy"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Mega Sol"
+        },
+        "color": "Green",
+        "name": "Meganium-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Meganium",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "cyndaquil": {
@@ -11848,10 +12032,56 @@ exports.BattlePokedex = {
         "name": "Feraligatr",
         "heightm": 2.3,
         "weightkg": 88.8,
+        "formeOrder": [
+            "Feraligatr",
+            "Feraligatr-Mega"
+        ],
+        "otherFormes": [
+            "Feraligatr-Mega"
+        ],
         "prevo": "Croconaw",
         "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "feraligatrmega": {
+        "num": 160,
+        "baseStats": {
+            "hp": 85,
+            "atk": 160,
+            "def": 125,
+            "spe": 88,
+            "spa": 74,
+            "spd": 103
+        },
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Dragonize"
+        },
+        "color": "Blue",
+        "name": "Feraligatr-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Feraligatr",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "sentret": {
@@ -15345,6 +15575,52 @@ exports.BattlePokedex = {
         "name": "Skarmory",
         "heightm": 1.7,
         "weightkg": 50.5,
+        "formeOrder": [
+            "Skarmory",
+            "Skarmory-Mega"
+        ],
+        "otherFormes": [
+            "Skarmory-Mega"
+        ],
+        "tier": "obtainable"
+    },
+    "skarmorymega": {
+        "num": 227,
+        "baseStats": {
+            "hp": 85,
+            "atk": 140,
+            "def": 125,
+            "spe": 110,
+            "spa": 40,
+            "spd": 110
+        },
+        "types": [
+            "Steel",
+            "Flying"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Good as Gold"
+        },
+        "color": "Yellow",
+        "name": "Skarmory-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Skarmory",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "houndour": {
