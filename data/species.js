@@ -1,5 +1,5 @@
 exports.BattlePokedex = {
-    "bulbasaur": {
+    "mew": {
         "num": 1,
         "baseStats": {
             "hp": 50,
@@ -128,11 +128,11 @@ exports.BattlePokedex = {
         "weightkg": 100.0,
         "formeOrder": [
             "Venusaur",
-            "Victreebel-Mega",
+            "Venusaur-Mega",
             "Venusaur-Gmax"
         ],
         "otherFormes": [
-            "Victreebel-Mega",
+            "Venusaur-Mega",
             "Venusaur-Gmax"
         ],
         "prevo": "Ivysaur",
@@ -141,7 +141,7 @@ exports.BattlePokedex = {
         "evoCondition": "",
         "tier": "obtainable"
     },
-    "victreebelmega": {
+    "venusaurmega": {
         "num": 71,
         "baseStats": {
             "hp": 90,
@@ -174,10 +174,10 @@ exports.BattlePokedex = {
             "0": "Thick Fat"
         },
         "color": "Green",
-        "name": "Victreebel-Mega",
+        "name": "Venusaur-Mega",
         "heightm": 2.4,
         "weightkg": 155.5,
-        "baseSpecies": "Victreebel",
+        "baseSpecies": "Venusaur",
         "forme": "Mega",
         "tier": "obtainable"
     },
