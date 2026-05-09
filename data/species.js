@@ -1925,7 +1925,7 @@ exports.BattlePokedex = {
         "heightm": 2.2,
         "weightkg": 50.5,
         "baseSpecies": "Raichu",
-        "forme": "Mega",
+        "forme": "Mega-X",
         "tier": "obtainable"
     },
     "raichualola": {
