@@ -1928,6 +1928,45 @@ exports.BattlePokedex = {
         "forme": "Mega-X",
         "tier": "obtainable"
     },
+        "raichumegay": {
+        "num": 26,
+        "baseStats": {
+            "hp": 70,
+            "atk": 95,
+            "def": 75,
+            "spe": 130,
+            "spa": 160,
+            "spd": 80
+        },
+        "types": [
+            "Electric",
+            "Ground"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Sheer Force"
+        },
+        "color": "Yellow",
+        "name": "Raichu-Mega-Y",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Raichu",
+        "forme": "Mega-Y",
+        "tier": "obtainable"
+    },
     "raichualola": {
         "num": 26,
         "baseStats": {
