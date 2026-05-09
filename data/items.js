@@ -1048,7 +1048,7 @@ exports.BattleItems = {
         "num": 561,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Dragon-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Dragon-type attack will have 1.5x power. Single use."
     },
     "dragonmemory": {
         "name": "Dragon Memory",
@@ -1061,7 +1061,7 @@ exports.BattleItems = {
         "num": 918,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Dragon type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Dragon type. If the holder is Silvally, its Dragon type moves are 20% stronger."
     },
     "dragonscale": {
         "name": "Dragon Scale",
@@ -1209,7 +1209,7 @@ exports.BattleItems = {
         "num": 550,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Electric-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Electric-type attack will have 1.5x power. Single use."
     },
     "electricmemory": {
         "name": "Electric Memory",
@@ -1260,7 +1260,7 @@ exports.BattleItems = {
         },
         "num": 208,
         "gen": 3,
-        "desc": "Restores 1/4 max HP after holder is hit by a supereffective move. Single use."
+        "desc": "Restores 1/2 max HP after holder is hit by a supereffective move. Single use."
     },
     "eviolite": {
         "name": "Eviolite",
@@ -1315,7 +1315,7 @@ exports.BattleItems = {
         "num": 715,
         "gen": 6,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Fairy-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Fairy-type attack will have 1.5x power. Single use."
     },
     "fairymemory": {
         "name": "Fairy Memory",
@@ -1328,7 +1328,7 @@ exports.BattleItems = {
         "num": 920,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Fairy type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Fairy type. If the holder is Silvally, its Fairy moves are 20% stronger."
     },
     "fastball": {
         "name": "Fast Ball",
@@ -1345,7 +1345,7 @@ exports.BattleItems = {
         "num": 553,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Fighting-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Fighting-type attack will have 1.5x power. Single use."
     },
     "fightingmemory": {
         "name": "Fighting Memory",
@@ -1358,7 +1358,7 @@ exports.BattleItems = {
         "num": 904,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Fighting type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Fighting type. If the holder is Silvally, its Fighting type moves are 20% stronger."
     },
     "fightiniumz": {
         "name": "Fightinium Z",
@@ -1383,7 +1383,7 @@ exports.BattleItems = {
         },
         "num": 159,
         "gen": 3,
-        "desc": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -Atk Nature. Single use."
+        "desc": "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Atk Nature. Single use."
     },
     "firegem": {
         "name": "Fire Gem",
@@ -1392,7 +1392,7 @@ exports.BattleItems = {
         "num": 548,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Fire-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Fire-type attack will have 1.5x power. Single use."
     },
     "firememory": {
         "name": "Fire Memory",
@@ -1405,7 +1405,7 @@ exports.BattleItems = {
         "num": 912,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Fire type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Fire type. If the holder is Silvally, its Fire type moves are 20% stronger."
     },
     "firestone": {
         "name": "Fire Stone",
@@ -1491,7 +1491,7 @@ exports.BattleItems = {
         "num": 556,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Flying-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Flying-type attack will have 1.5x power. Single use."
     },
     "flyingmemory": {
         "name": "Flying Memory",
@@ -1504,7 +1504,7 @@ exports.BattleItems = {
         "num": 905,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Flying type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Flying type. If the holder is Silvally, its Flying type moves are 20% stronger."
     },
     "flyiniumz": {
         "name": "Flyinium Z",
@@ -1603,7 +1603,7 @@ exports.BattleItems = {
         "num": 316,
         "gen": 4,
         "isNonstandard": "Past",
-        "desc": "Holder moves last in its priority bracket."
+        "desc": "Holder restores 1/10 of its maximum HP at the end of each turn, but moves last in its priority bracket."
     },
     "galaricacuff": {
         "name": "Galarica Cuff",
@@ -1648,7 +1648,7 @@ exports.BattleItems = {
         },
         "num": 202,
         "gen": 3,
-        "desc": "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use."
+        "desc": "Raises holder's Defense by 1 stage when at 1/3 max HP or less. Single use."
     },
     "garchompite": {
         "name": "Garchompite",
@@ -1696,7 +1696,7 @@ exports.BattleItems = {
         "num": 560,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Ghost-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Ghost-type attack will have 1.5x power. Single use."
     },
     "ghostmemory": {
         "name": "Ghost Memory",
@@ -1709,7 +1709,7 @@ exports.BattleItems = {
         "num": 910,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Ghost type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Ghost type. If the holder is Silvally, its Ghost type moves are 20% stronger."
     },
     "ghostiumz": {
         "name": "Ghostium Z",
@@ -1754,7 +1754,7 @@ exports.BattleItems = {
         "num": 551,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Grass-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Grass-type attack will have 1.5x power. Single use."
     },
     "grassmemory": {
         "name": "Grass Memory",
@@ -1767,7 +1767,7 @@ exports.BattleItems = {
         "num": 914,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Grass type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Grass type. If the holder is Silvally, its Grass type moves are 20% stronger."
     },
     "grassiumz": {
         "name": "Grassium Z",
@@ -1836,7 +1836,7 @@ exports.BattleItems = {
         ],
         "num": 1779,
         "gen": 8,
-        "desc": "If held by a Giratina, its Ghost- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Giratina, it will transform into its Origin form when entering battle."
     },
     "griseousorb": {
         "name": "Griseous Orb",
@@ -1850,7 +1850,7 @@ exports.BattleItems = {
         ],
         "num": 112,
         "gen": 4,
-        "desc": "If held by a Giratina, its Ghost- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Giratina, its Ghost- and Dragon-type attacks have 1.3x power."
     },
     "groundgem": {
         "name": "Ground Gem",
@@ -1859,7 +1859,7 @@ exports.BattleItems = {
         "num": 555,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Ground-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Ground-type attack will have 1.5x power. Single use."
     },
     "groundmemory": {
         "name": "Ground Memory",
@@ -1872,7 +1872,7 @@ exports.BattleItems = {
         "num": 907,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Ground type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Ground type. If the holder is Silvally, its Ground type moves are 20% stronger."
     },
     "groundiumz": {
         "name": "Groundium Z",
@@ -1954,7 +1954,7 @@ exports.BattleItems = {
         },
         "num": 284,
         "gen": 4,
-        "desc": "Holder's use of Sunny Day lasts 8 turns instead of 5."
+        "desc": "Holder's use of Sunny Day lasts 10 turns instead of 7."
     },
     "heavyball": {
         "name": "Heavy Ball",
@@ -2034,7 +2034,7 @@ exports.BattleItems = {
         },
         "num": 163,
         "gen": 3,
-        "desc": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -Def Nature. Single use."
+        "desc": "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Def Nature. Single use."
     },
     "icegem": {
         "name": "Ice Gem",
@@ -2043,7 +2043,7 @@ exports.BattleItems = {
         "num": 552,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Ice-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Ice-type attack will have 1.5x power. Single use."
     },
     "icememory": {
         "name": "Ice Memory",
@@ -2056,7 +2056,7 @@ exports.BattleItems = {
         "num": 917,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Ice type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Ice type. If the holder is Silvally, its Ice type moves are 20% stronger."
     },
     "icestone": {
         "name": "Ice Stone",
@@ -2100,7 +2100,7 @@ exports.BattleItems = {
         },
         "num": 282,
         "gen": 4,
-        "desc": "Holder's use of Hail lasts 8 turns instead of 5."
+        "desc": "Holder's use of Snowscape lasts 10 turns instead of 7."
     },
     "inciniumz": {
         "name": "Incinium Z",
@@ -2156,7 +2156,7 @@ exports.BattleItems = {
         },
         "num": 211,
         "gen": 4,
-        "desc": "If holder is hit by a physical move, attacker loses 1/8 of its max HP. Single use."
+        "desc": "If holder is hit by a physical move, attacker loses 1/4 of its max HP. Single use."
     },
     "jawfossil": {
         "name": "Jaw Fossil",
@@ -2203,7 +2203,7 @@ exports.BattleItems = {
         },
         "num": 687,
         "gen": 6,
-        "desc": "Raises holder's Defense by 1 stage after it is hit by a physical attack. Single use."
+        "desc": "Raises holder's Defense by 1 stage and heals 25% of its maximum HP after it is hit by a physical attack. Single use."
     },
     "kelpsyberry": {
         "name": "Kelpsy Berry",
@@ -2268,7 +2268,7 @@ exports.BattleItems = {
         "onFractionalPriority": -0.1,
         "num": 279,
         "gen": 4,
-        "desc": "Holder moves last in its priority bracket."
+        "desc": "Holder takes 10% less damage from all moves and cannot be flinched, but moves last in its priority bracket."
     },
     "lansatberry": {
         "name": "Lansat Berry",
@@ -2280,7 +2280,7 @@ exports.BattleItems = {
         },
         "num": 206,
         "gen": 3,
-        "desc": "Holder gains the Focus Energy effect when at 1/4 max HP or less. Single use."
+        "desc": "Holder gains +2 stages to its critical hit rate when at 1/3 max HP or less. Single use."
     },
     "latiasite": {
         "name": "Latiasite",
@@ -2345,7 +2345,7 @@ exports.BattleItems = {
         "num": 259,
         "gen": 8,
         "isNonstandard": "Past",
-        "desc": "If held by a Farfetchâ€™d or Sirfetchâ€™d, its critical hit ratio is raised by 2 stages."
+        "desc": "If held by a Galarian Farfetch'd or Sirfetch'd, its critical hit ratio is raised by 2 stages."
     },
     "leftovers": {
         "name": "Leftovers",
@@ -2389,7 +2389,7 @@ exports.BattleItems = {
         },
         "num": 201,
         "gen": 3,
-        "desc": "Raises holder's Attack by 1 stage when at 1/4 max HP or less. Single use."
+        "desc": "Raises holder's Attack by 1 stage when at 1/3 max HP or less. Single use."
     },
     "lifeorb": {
         "name": "Life Orb",
@@ -2430,7 +2430,7 @@ exports.BattleItems = {
         ],
         "num": 236,
         "gen": 2,
-        "desc": "If held by a Pikachu, its Attack and Sp. Atk are doubled."
+        "desc": "If held by a Pichu or Pikachu, its Attack and Sp. Atk are doubled. If held by a Raichu, its Attack and Special Attack are increased by 20%."
     },
     "lightclay": {
         "name": "Light Clay",
@@ -2508,7 +2508,7 @@ exports.BattleItems = {
         "num": 256,
         "gen": 2,
         "isNonstandard": "Past",
-        "desc": "If held by a Chansey, its critical hit ratio is raised by 2 stages."
+        "desc": "If held by a Happiny, Chansey, or Blissey, the damage it takes from Fighting type moves is reduced by 1/3 and its critical hit ratio is raised by 2 stages."
     },
     "lumberry": {
         "name": "Lum Berry",
@@ -2534,7 +2534,7 @@ exports.BattleItems = {
         },
         "num": 648,
         "gen": 6,
-        "desc": "Raises holder's Sp. Def by 1 stage if hit by a Water-type attack. Single use."
+        "desc": "Raises holder's Def and Sp. Def by 1 stage if hit by a Water-type attack. Single use."
     },
     "lunaliumz": {
         "name": "Lunalium Z",
@@ -2569,7 +2569,7 @@ exports.BattleItems = {
         ],
         "num": 1778,
         "gen": 8,
-        "desc": "If held by a Palkia, its Water- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Palkia, it transforms into its Origin form when entering battle."
     },
     "lustrousorb": {
         "name": "Lustrous Orb",
@@ -2583,7 +2583,7 @@ exports.BattleItems = {
         ],
         "num": 136,
         "gen": 4,
-        "desc": "If held by a Palkia, its Water- and Dragon-type attacks have 1.2x power."
+        "desc": "If held by a Palkia, its Water- and Dragon-type attacks have 1.3x power."
     },
     "luxuryball": {
         "name": "Luxury Ball",
@@ -2652,7 +2652,7 @@ exports.BattleItems = {
         },
         "num": 161,
         "gen": 3,
-        "desc": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use."
+        "desc": "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use."
     },
     "magostberry": {
         "name": "Magost Berry",
@@ -2709,7 +2709,7 @@ exports.BattleItems = {
         },
         "num": 688,
         "gen": 6,
-        "desc": "Raises holder's Sp. Def by 1 stage after it is hit by a special attack. Single use."
+        "desc": "Raises holder's Sp. Def by 1 stage and heals 25% of its maximum HP after it is hit by a special attack. Single use."
     },
     "marshadiumz": {
         "name": "Marshadium Z",
@@ -2834,7 +2834,7 @@ exports.BattleItems = {
         "num": 257,
         "gen": 2,
         "isNonstandard": "Past",
-        "desc": "If held by a Ditto that hasn't Transformed, its Defense is doubled."
+        "desc": "If held by a Ditto that hasn't Transformed, its Defense and Special Defense are boosted by 50%. If Ditto is Transformed, its Def and Sp. Def are boosted by 10%."
     },
     "metronome": {
         "name": "Metronome",
@@ -2902,7 +2902,7 @@ exports.BattleItems = {
         },
         "num": 209,
         "gen": 4,
-        "desc": "Holder's next move has 1.2x accuracy when at 1/4 max HP or less. Single use."
+        "desc": "Holder's accuracy is raised by 1 stage when at 1/3 max HP or less. Single use."
     },
     "mimikiumz": {
         "name": "Mimikium Z",
@@ -3067,7 +3067,7 @@ exports.BattleItems = {
         "isGem": true,
         "num": 564,
         "gen": 5,
-        "desc": "Holder's first successful Normal-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Normal-type attack will have 1.5x power. Single use."
     },
     "normaliumz": {
         "name": "Normalium Z",
@@ -3102,7 +3102,7 @@ exports.BattleItems = {
         "num": 314,
         "gen": 4,
         "isNonstandard": "Past",
-        "desc": "Holder's Psychic-type attacks have 1.2x power."
+        "desc": "Holder's use of Trick Room lasts 10 turns instead of 7."
     },
     "oldamber": {
         "name": "Old Amber",
@@ -3218,7 +3218,7 @@ exports.BattleItems = {
         },
         "num": 204,
         "gen": 3,
-        "desc": "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use."
+        "desc": "Raises holder's Sp. Atk by 1 stage when at 1/3 max HP or less. Single use."
     },
     "pidgeotite": {
         "name": "Pidgeotite",
@@ -3334,7 +3334,7 @@ exports.BattleItems = {
         "num": 554,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Poison-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Poison-type attack will have 1.5x power. Single use."
     },
     "poisonmemory": {
         "name": "Poison Memory",
@@ -3347,7 +3347,7 @@ exports.BattleItems = {
         "num": 906,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Poison type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Poison type. If the holder is Silvally, its Poison type moves are 20% stronger."
     },
     "poisoniumz": {
         "name": "Poisonium Z",
@@ -3499,7 +3499,7 @@ exports.BattleItems = {
         },
         "num": 880,
         "gen": 7,
-        "desc": "Holder's moves are protected from adverse contact effects, except Pickpocket."
+        "desc": "Holder's moves are protected from adverse contact effects, except Pickpocket. Holder is protected from opponent's on-contact effects and the secondary effects of contact moves."
     },
     "protector": {
         "name": "Protector",
@@ -3518,7 +3518,7 @@ exports.BattleItems = {
         "num": 557,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Psychic-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Psychic-type attack will have 1.5x power. Single use."
     },
     "psychicmemory": {
         "name": "Psychic Memory",
@@ -3531,7 +3531,7 @@ exports.BattleItems = {
         "num": 916,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Psychic type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Psychic type. If the holder is Silvally, its Psychic type moves are 20% stronger."
     },
     "psychicseed": {
         "name": "Psychic Seed",
@@ -3601,7 +3601,7 @@ exports.BattleItems = {
         },
         "num": 217,
         "gen": 2,
-        "desc": "Each turn, holder has a 20% chance to move first in its priority bracket."
+        "desc": "Each turn, holder has a 30% chance to move first in its priority bracket."
     },
     "quickpowder": {
         "name": "Quick Powder",
@@ -3615,7 +3615,7 @@ exports.BattleItems = {
         "num": 274,
         "gen": 4,
         "isNonstandard": "Past",
-        "desc": "If held by a Ditto that hasn't Transformed, its Speed is doubled."
+        "desc": "If held by a Ditto that hasn't Transformed, its Speed is increased by 50%. If Ditto has Transformed, its Speed is increased by 10%."
     },
     "rabutaberry": {
         "name": "Rabuta Berry",
@@ -3709,7 +3709,7 @@ exports.BattleItems = {
         },
         "num": 542,
         "gen": 5,
-        "desc": "If holder survives a hit, attacker is forced to switch to a random ally. Single use."
+        "desc": "If holder survives an opponent's hit, attacker is forced to switch to a random ally. Single use."
     },
     "redorb": {
         "name": "Red Orb",
@@ -3770,7 +3770,7 @@ exports.BattleItems = {
         "num": 559,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Rock-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Rock-type attack will have 1.5x power. Single use."
     },
     "rockincense": {
         "name": "Rock Incense",
@@ -3795,7 +3795,7 @@ exports.BattleItems = {
         "num": 908,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Rock type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Rock type. If the holder is Silvally, its Rock type moves are 20% stronger."
     },
     "rockiumz": {
         "name": "Rockium Z",
@@ -3879,7 +3879,7 @@ exports.BattleItems = {
         },
         "num": 212,
         "gen": 4,
-        "desc": "If holder is hit by a special move, attacker loses 1/8 of its max HP. Single use."
+        "desc": "If holder is hit by a special move, attacker loses 1/4 of its max HP. Single use."
     },
     "rustedshield": {
         "name": "Rusted Shield",
@@ -3964,7 +3964,7 @@ exports.BattleItems = {
         },
         "num": 203,
         "gen": 3,
-        "desc": "Raises holder's Speed by 1 stage when at 1/4 max HP or less. Single use."
+        "desc": "Raises holder's Speed by 1 stage when at 1/3 max HP or less. Single use."
     },
     "salamencite": {
         "name": "Salamencite",
@@ -4071,7 +4071,7 @@ exports.BattleItems = {
         "onAfterMoveSecondarySelfPriority": -1,
         "num": 253,
         "gen": 3,
-        "desc": "After an attack, holder gains 1/8 of the damage in HP dealt to other Pokemon."
+        "desc": "After an attack, holder gains 1/4 of the damage in HP dealt to other Pokemon."
     },
     "shinystone": {
         "name": "Shiny Stone",
@@ -4095,7 +4095,7 @@ exports.BattleItems = {
         "num": 117,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's Techno Blast is Electric type."
+        "desc": "Holder's Techno Blast is Electric type. Electric type moves are boosted by 20%."
     },
     "shucaberry": {
         "name": "Shuca Berry",
@@ -4185,7 +4185,7 @@ exports.BattleItems = {
         },
         "num": 283,
         "gen": 4,
-        "desc": "Holder's use of Sandstorm lasts 8 turns instead of 5."
+        "desc": "Holder's use of Sandstorm lasts 10 turns instead of 7."
     },
     "snorliumz": {
         "name": "Snorlium Z",
@@ -4212,7 +4212,7 @@ exports.BattleItems = {
         },
         "num": 649,
         "gen": 6,
-        "desc": "Raises holder's Attack by 1 if hit by an Ice-type attack. Single use."
+        "desc": "Raises holder's Attack by 1 if hit by an Ice-type attack, and reduces the power of that attack by 25%. Single use."
     },
     "softsand": {
         "name": "Soft Sand",
@@ -4253,7 +4253,7 @@ exports.BattleItems = {
         ],
         "num": 225,
         "gen": 3,
-        "desc": "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power."
+        "desc": "If held by a Latias/Latios, its Special Attack and Special Defense are increased by 20%."
     },
     "spelltag": {
         "name": "Spell Tag",
@@ -4318,7 +4318,7 @@ exports.BattleItems = {
         },
         "num": 207,
         "gen": 3,
-        "desc": "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use."
+        "desc": "Raises 2 random stats by 1 stage each when at 1/3 max HP or less (not acc/eva). Single use."
     },
     "starsweet": {
         "name": "Star Sweet",
@@ -4350,7 +4350,7 @@ exports.BattleItems = {
         "num": 563,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Steel-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Steel-type attack will have 1.5x power. Single use."
     },
     "steelmemory": {
         "name": "Steel Memory",
@@ -4363,7 +4363,7 @@ exports.BattleItems = {
         "num": 911,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Steel type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Steel type. If holder is Silvally, its Steel type moves are 20% stronger."
     },
     "steeliumz": {
         "name": "Steelium Z",
@@ -4390,7 +4390,7 @@ exports.BattleItems = {
         "num": 259,
         "gen": 2,
         "isNonstandard": "Past",
-        "desc": "If held by a Farfetchâ€™d, its critical hit ratio is raised by 2 stages."
+        "desc": "If held by a Kantonian Farfetch'd, its Speed is increased by 50% and its critical hit ratio is raised by 1 stage."
     },
     "stickybarb": {
         "name": "Sticky Barb",
@@ -4536,7 +4536,7 @@ exports.BattleItems = {
         },
         "num": 879,
         "gen": 7,
-        "desc": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5."
+        "desc": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 10 turns instead of 7."
     },
     "thickclub": {
         "name": "Thick Club",
@@ -4567,7 +4567,7 @@ exports.BattleItems = {
         },
         "num": 1118,
         "gen": 8,
-        "desc": "Raises holder's Special Attack by 1 stage after it uses a sound move. Single use."
+        "desc": "Raises holder's Special Attack by 1 stage after it uses a sound move, except Parting Shot. Single use."
     },
     "thunderstone": {
         "name": "Thunder Stone",
@@ -5820,7 +5820,7 @@ exports.BattleItems = {
         "num": 549,
         "gen": 5,
         "isNonstandard": "Past",
-        "desc": "Holder's first successful Water-type attack will have 1.3x power. Single use."
+        "desc": "Holder's first successful Water-type attack will have 1.5x power. Single use."
     },
     "watermemory": {
         "name": "Water Memory",
@@ -5833,7 +5833,7 @@ exports.BattleItems = {
         "num": 913,
         "gen": 7,
         "isNonstandard": "Past",
-        "desc": "Holder's Multi-Attack is Water type."
+        "desc": "Holder's Multi-Attack and Techno Blast is Water type. If the holder is Silvally, its Water type moves are 20% stronger."
     },
     "waterstone": {
         "name": "Water Stone",
@@ -5883,7 +5883,7 @@ exports.BattleItems = {
         "num": 317,
         "gen": 4,
         "isNonstandard": "Past",
-        "desc": "Holder's Water-type attacks have 1.2x power."
+        "desc": "If the holder is Palafin, it transforms into Hero form when entering battle, and its Water-type attacks have 1.2x power."
     },
     "weaknesspolicy": {
         "name": "Weakness Policy",
@@ -5970,7 +5970,7 @@ exports.BattleItems = {
         },
         "num": 160,
         "gen": 3,
-        "desc": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -SpA Nature. Single use."
+        "desc": "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpA Nature. Single use."
     },
     "wiseglasses": {
         "name": "Wise Glasses",
