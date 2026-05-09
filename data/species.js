@@ -1,6 +1,6 @@
 exports.BattlePokedex = {
     "bulbasaur": {
-        "num": 151,
+        "num": 1078,
         "baseStats": {
             "hp": 50,
             "atk": 49,
@@ -142,7 +142,7 @@ exports.BattlePokedex = {
         "tier": "obtainable"
     },
     "venusaurmega": {
-        "num": 71,
+        "num": 3,
         "baseStats": {
             "hp": 90,
             "atk": 90,
