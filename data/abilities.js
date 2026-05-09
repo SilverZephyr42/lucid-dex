@@ -537,6 +537,16 @@ exports.BattleAbilities = {
         "desc": "On switch-in, this Pokemon's Attack or Special Attack is raised by 1 stage based on the weaker combined defensive stat of all opposing Pokemon. Attack is raised if their Defense is lower, and Special Attack is raised if their Special Defense is the same or lower.",
         "shortDesc": "On switch-in, Attack or Sp. Atk is raised 1 stage based on the foes' weaker Defense."
     },
+        "dragonize": {
+        "onModifyTypePriority": -1,
+        "onBasePowerPriority": 23,
+        "flags": {},
+        "name": "Dragonize",
+        "rating": 4,
+        "num": 184,
+        "desc": "This Pokemon's Normal-type moves become Dragon-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+        "shortDesc": "This Pokemon's Normal-type moves become Dragon type and have 1.2x power."
+    },
     "dragonsmaw": {
         "onModifyAtkPriority": 5,
         "onModifySpAPriority": 5,
