@@ -2579,10 +2579,56 @@ exports.BattlePokedex = {
         "name": "Clefable",
         "heightm": 1.3,
         "weightkg": 40.0,
+        "formeOrder": [
+            "Clefable",
+            "Clefable-Mega"
+        ],
+        "otherFormes": [
+            "Clefable-Mega"
+        ],
         "prevo": "Clefairy",
         "evoItem": "Moon Stone",
         "evoType": "useItem",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "clefablemega": {
+        "num": 36,
+        "baseStats": {
+            "hp": 95,
+            "atk": 70,
+            "def": 93,
+            "spe": 85,
+            "spa": 135,
+            "spd": 120
+        },
+        "types": [
+            "Fairy",
+            "Flying"
+        ],
+        "evYields": {
+            "spa": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Lightning Rod"
+        },
+        "color": "Pink",
+        "name": "Clefable-Mega",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Clefable",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "vulpix": {
