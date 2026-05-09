@@ -128,11 +128,11 @@ exports.BattlePokedex = {
         "weightkg": 100.0,
         "formeOrder": [
             "Venusaur",
-            "Venusaur-Mega",
+            "Clefable-Mega",
             "Venusaur-Gmax"
         ],
         "otherFormes": [
-            "Venusaur-Mega",
+            "Clefable-Mega",
             "Venusaur-Gmax"
         ],
         "prevo": "Ivysaur",
@@ -141,8 +141,8 @@ exports.BattlePokedex = {
         "evoCondition": "",
         "tier": "obtainable"
     },
-    "venusaurmega": {
-        "num": 3,
+    "clefablemega": {
+        "num": 36,
         "baseStats": {
             "hp": 90,
             "atk": 90,
@@ -174,10 +174,10 @@ exports.BattlePokedex = {
             "0": "Thick Fat"
         },
         "color": "Green",
-        "name": "Venusaur-Mega",
+        "name": "Clefable-Mega",
         "heightm": 2.4,
         "weightkg": 155.5,
-        "baseSpecies": "Venusaur",
+        "baseSpecies": "Clefable",
         "forme": "Mega",
         "tier": "obtainable"
     },
