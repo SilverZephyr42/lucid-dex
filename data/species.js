@@ -1,6 +1,6 @@
 exports.BattlePokedex = {
     "bulbasaur": {
-        "num": 1078,
+        "num": 1032,
         "baseStats": {
             "hp": 50,
             "atk": 49,
