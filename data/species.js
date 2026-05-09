@@ -1874,15 +1874,58 @@ exports.BattlePokedex = {
         "weightkg": 30.0,
         "formeOrder": [
             "Raichu",
+            "Raichu-Mega-X",
+            "Raichu-Mega-Y",
             "Raichu-Alola"
         ],
         "otherFormes": [
+            "Raichu-Mega-X",
+            "Raichu-Mega-Y",
             "Raichu-Alola"
         ],
         "prevo": "Pikachu",
         "evoItem": "Thunder Stone",
         "evoType": "useItem",
         "evoCondition": "",
+        "tier": "obtainable"
+    },
+    "raichumegax": {
+        "num": 26,
+        "baseStats": {
+            "hp": 70,
+            "atk": 135,
+            "def": 95,
+            "spe": 130,
+            "spa": 85,
+            "spd": 95
+        },
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "evYields": {
+            "spe": 3
+        },
+        "items": {},
+        "eggGroups": [
+            "Field",
+            "Fairy"
+        ],
+        "catchRate": 45,
+        "expYield": 290,
+        "genderRatio": {
+            "M": 0.5,
+            "F": 0.5
+        },
+        "abilities": {
+            "0": "Aerilate"
+        },
+        "color": "Yellow",
+        "name": "Raichu-Mega-X",
+        "heightm": 2.2,
+        "weightkg": 50.5,
+        "baseSpecies": "Raichu",
+        "forme": "Mega",
         "tier": "obtainable"
     },
     "raichualola": {
