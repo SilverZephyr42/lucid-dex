@@ -35926,7 +35926,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Download",
-            "H": "Mega Launcher
+            "H": "Mega Launcher"
         },
         "color": "Purple",
         "name": "Genesect-Douse",
@@ -36669,8 +36669,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gale Wings",
-            "H": "Flame Body"
+            "0": "Flame Body",
+            "H": "Gale Wings"
         },
         "color": "Red",
         "name": "Talonflame",
