@@ -28423,7 +28423,7 @@ exports.BattlePokedex = {
             "def": 75,
             "spe": 55,
             "spa": 50,
-            "spd": 67
+            "spd": 62
         },
         "types": [
             "Fire",
@@ -35925,7 +35925,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Download"
+            "0": "Download",
+            "H": "Mega Launcher
         },
         "color": "Purple",
         "name": "Genesect-Douse",
@@ -35962,7 +35963,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Download"
+            "0": "Download",
+            "H": "Mega Launcher"
         },
         "color": "Purple",
         "name": "Genesect-Shock",
@@ -35999,7 +36001,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Download"
+            "0": "Download",
+            "H": "Mega Launcher"
         },
         "color": "Purple",
         "name": "Genesect-Burn",
@@ -36036,7 +36039,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Download"
+            "0": "Download",
+            "H": "Mega Launcher"
         },
         "color": "Purple",
         "name": "Genesect-Chill",
@@ -36052,9 +36056,9 @@ exports.BattlePokedex = {
             "hp": 56,
             "atk": 61,
             "def": 65,
-            "spe": 38,
-            "spa": 48,
-            "spd": 45
+            "spe": 43,
+            "spa": 50,
+            "spd": 50
         },
         "types": [
             "Grass"
@@ -36074,6 +36078,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Guts",
             "H": "Bulletproof"
         },
         "color": "Green",
@@ -36088,12 +36093,12 @@ exports.BattlePokedex = {
     "quilladin": {
         "num": 651,
         "baseStats": {
-            "hp": 61,
-            "atk": 78,
+            "hp": 71,
+            "atk": 88,
             "def": 95,
             "spe": 57,
             "spa": 56,
-            "spd": 58
+            "spd": 63
         },
         "types": [
             "Grass"
@@ -36113,6 +36118,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Guts",
             "H": "Bulletproof"
         },
         "color": "Green",
@@ -36132,7 +36138,7 @@ exports.BattlePokedex = {
         "num": 652,
         "baseStats": {
             "hp": 88,
-            "atk": 107,
+            "atk": 112,
             "def": 122,
             "spe": 64,
             "spa": 74,
@@ -36157,6 +36163,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Overgrow",
+            "1": "Guts",
             "H": "Bulletproof"
         },
         "color": "Green",
@@ -36172,11 +36179,11 @@ exports.BattlePokedex = {
     "fennekin": {
         "num": 653,
         "baseStats": {
-            "hp": 40,
+            "hp": 45,
             "atk": 45,
-            "def": 40,
+            "def": 48,
             "spe": 60,
-            "spa": 62,
+            "spa": 67,
             "spd": 60
         },
         "types": [
@@ -36197,6 +36204,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Synchronize",
             "H": "Magician"
         },
         "color": "Red",
@@ -36214,9 +36222,9 @@ exports.BattlePokedex = {
             "hp": 59,
             "atk": 59,
             "def": 58,
-            "spe": 73,
-            "spa": 90,
-            "spd": 70
+            "spe": 83,
+            "spa": 91,
+            "spd": 80
         },
         "types": [
             "Fire"
@@ -36236,6 +36244,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Synchronize",
             "H": "Magician"
         },
         "color": "Red",
@@ -36257,7 +36266,7 @@ exports.BattlePokedex = {
             "hp": 75,
             "atk": 69,
             "def": 72,
-            "spe": 104,
+            "spe": 105,
             "spa": 114,
             "spd": 100
         },
@@ -36280,6 +36289,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Blaze",
+            "1": "Neuroforce",
             "H": "Magician"
         },
         "color": "Red",
@@ -36295,12 +36305,12 @@ exports.BattlePokedex = {
     "froakie": {
         "num": 656,
         "baseStats": {
-            "hp": 41,
+            "hp": 42,
             "atk": 56,
-            "def": 40,
+            "def": 45,
             "spe": 71,
             "spa": 62,
-            "spd": 44
+            "spd": 49
         },
         "types": [
             "Water"
@@ -36320,6 +36330,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Own Tempo",
             "H": "Protean"
         },
         "color": "Blue",
@@ -36334,12 +36345,12 @@ exports.BattlePokedex = {
     "frogadier": {
         "num": 657,
         "baseStats": {
-            "hp": 54,
-            "atk": 63,
+            "hp": 59,
+            "atk": 78,
             "def": 52,
             "spe": 97,
             "spa": 83,
-            "spd": 56
+            "spd": 61
         },
         "types": [
             "Water"
@@ -36359,6 +36370,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Skill Link",
             "H": "Protean"
         },
         "color": "Blue",
@@ -36378,7 +36390,7 @@ exports.BattlePokedex = {
         "num": 658,
         "baseStats": {
             "hp": 72,
-            "atk": 95,
+            "atk": 100,
             "def": 67,
             "spe": 122,
             "spa": 103,
@@ -36403,6 +36415,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Torrent",
+            "1": "Skill Link",
             "H": "Protean",
             "S": "Battle Bond"
         },
@@ -36465,12 +36478,12 @@ exports.BattlePokedex = {
     "bunnelby": {
         "num": 659,
         "baseStats": {
-            "hp": 38,
-            "atk": 36,
-            "def": 38,
+            "hp": 58,
+            "atk": 46,
+            "def": 53,
             "spe": 57,
             "spa": 32,
-            "spd": 36
+            "spd": 56
         },
         "types": [
             "Normal"
@@ -36489,8 +36502,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Huge Power",
-            "H": "Cheek Pouch"
+            "0": "Pickup",
+            "1": "Cheek Pouch",
+            "H": "Huge Power"
         },
         "color": "Brown",
         "name": "Bunnelby",
@@ -36504,12 +36518,12 @@ exports.BattlePokedex = {
     "diggersby": {
         "num": 660,
         "baseStats": {
-            "hp": 85,
-            "atk": 56,
-            "def": 77,
+            "hp": 100,
+            "atk": 71,
+            "def": 87,
             "spe": 78,
             "spa": 50,
-            "spd": 77
+            "spd": 82
         },
         "types": [
             "Normal",
@@ -36529,8 +36543,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Huge Power",
-            "H": "Cheek Pouch"
+            "0": "Pickup",
+            "1": "Cheek Pouch",
+            "H": "Huge Power"
         },
         "color": "Brown",
         "name": "Diggersby",
@@ -36546,11 +36561,11 @@ exports.BattlePokedex = {
         "num": 661,
         "baseStats": {
             "hp": 45,
-            "atk": 50,
-            "def": 43,
-            "spe": 62,
+            "atk": 55,
+            "def": 48,
+            "spe": 67,
             "spa": 40,
-            "spd": 38
+            "spd": 48
         },
         "types": [
             "Normal",
@@ -36570,8 +36585,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gale Wings",
-            "H": "Big Pecks"
+            "0": "Big Pecks",
+            "H": "Gale Wings"
         },
         "color": "Red",
         "name": "Fletchling",
@@ -36587,10 +36602,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 62,
             "atk": 73,
-            "def": 55,
-            "spe": 84,
+            "def": 60,
+            "spe": 94,
             "spa": 56,
-            "spd": 52
+            "spd": 57
         },
         "types": [
             "Fire",
@@ -36610,8 +36625,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gale Wings",
-            "H": "Flame Body"
+            "0": "Flame Body",
+            "H": "Gale Wings"
         },
         "color": "Red",
         "name": "Fletchinder",
@@ -36630,7 +36645,7 @@ exports.BattlePokedex = {
         "num": 663,
         "baseStats": {
             "hp": 78,
-            "atk": 81,
+            "atk": 91,
             "def": 71,
             "spe": 126,
             "spa": 74,
@@ -36670,12 +36685,12 @@ exports.BattlePokedex = {
     "scatterbug": {
         "num": 664,
         "baseStats": {
-            "hp": 38,
-            "atk": 35,
-            "def": 40,
-            "spe": 35,
+            "hp": 43,
+            "atk": 50,
+            "def": 45,
+            "spe": 45,
             "spa": 27,
-            "spd": 25
+            "spd": 40
         },
         "types": [
             "Bug"
@@ -36733,12 +36748,12 @@ exports.BattlePokedex = {
     "spewpa": {
         "num": 665,
         "baseStats": {
-            "hp": 45,
-            "atk": 22,
-            "def": 60,
+            "hp": 55,
+            "atk": 50,
+            "def": 65,
             "spe": 29,
             "spa": 27,
-            "spd": 30
+            "spd": 50
         },
         "types": [
             "Bug"
@@ -36801,10 +36816,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 80,
             "atk": 52,
-            "def": 50,
-            "spe": 89,
-            "spa": 90,
-            "spd": 50
+            "def": 60,
+            "spe": 94,
+            "spa": 100,
+            "spd": 60
         },
         "types": [
             "Bug",
