@@ -36928,8 +36928,9 @@ exports.BattlePokedex = {
             "F": 0.875
         },
         "abilities": {
-            "0": "Unnerve",
-            "H": "Moxie"
+            "0": "Rivalry",
+            "1": "Unnerve",
+            "H": "Competitive"
         },
         "color": "Brown",
         "name": "Litleo",
@@ -36948,7 +36949,7 @@ exports.BattlePokedex = {
             "def": 72,
             "spe": 106,
             "spa": 109,
-            "spd": 66
+            "spd": 76
         },
         "types": [
             "Fire",
@@ -36968,8 +36969,9 @@ exports.BattlePokedex = {
             "F": 0.875
         },
         "abilities": {
-            "0": "Unnerve",
-            "H": "Moxie"
+            "0": "Rivalry",
+            "1": "Unnerve",
+            "H": "Competitive"
         },
         "color": "Brown",
         "name": "Pyroar",
@@ -36984,9 +36986,9 @@ exports.BattlePokedex = {
     "flabebe": {
         "num": 669,
         "baseStats": {
-            "hp": 44,
+            "hp": 49,
             "atk": 38,
-            "def": 39,
+            "def": 44,
             "spe": 42,
             "spa": 61,
             "spd": 79
@@ -37009,6 +37011,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Flower Veil",
+            "1": "Regenerator",
             "H": "Symbiosis"
         },
         "color": "White",
@@ -37037,11 +37040,11 @@ exports.BattlePokedex = {
     "floette": {
         "num": 670,
         "baseStats": {
-            "hp": 54,
+            "hp": 64,
             "atk": 45,
-            "def": 47,
-            "spe": 52,
-            "spa": 75,
+            "def": 57,
+            "spe": 57,
+            "spa": 80,
             "spd": 98
         },
         "types": [
@@ -37062,6 +37065,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Flower Veil",
+            "1": "Regenerator",
             "H": "Symbiosis"
         },
         "color": "White",
@@ -37100,13 +37104,14 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 74,
             "atk": 65,
-            "def": 67,
+            "def": 77,
             "spe": 92,
             "spa": 125,
             "spd": 128
         },
         "types": [
-            "Fairy"
+            "Fairy",
+            "Dark"
         ],
         "evYields": {
             "spd": 2
@@ -37122,6 +37127,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Flower Veil",
+            "1": "Aura Break",
             "H": "Symbiosis"
         },
         "color": "White",
@@ -37161,7 +37167,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Flower Veil",
-            "H": "Symbiosis"
+            "1": "Regenerator",
+            "H": "Fairy Aura"
         },
         "color": "White",
         "name": "Florges",
@@ -37190,11 +37197,11 @@ exports.BattlePokedex = {
     "skiddo": {
         "num": 672,
         "baseStats": {
-            "hp": 66,
+            "hp": 71,
             "atk": 65,
-            "def": 48,
-            "spe": 52,
-            "spa": 62,
+            "def": 58,
+            "spe": 57,
+            "spa": 52,
             "spd": 57
         },
         "types": [
@@ -37214,8 +37221,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Grass Pelt",
-            "H": "Sap Sipper"
+            "0": "Sap Sipper",
+            "1": "Leaf Guard",
+            "H": "Grass Pelt"
         },
         "color": "Brown",
         "name": "Skiddo",
@@ -37231,9 +37239,9 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 123,
             "atk": 100,
-            "def": 62,
-            "spe": 68,
-            "spa": 97,
+            "def": 72,
+            "spe": 88,
+            "spa": 67,
             "spd": 81
         },
         "types": [
@@ -37253,8 +37261,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Grass Pelt",
-            "H": "Sap Sipper"
+            "0": "Sap Sipper",
+            "1": "Grassy Surge",
+            "H": "Grass Pelt"
         },
         "color": "Brown",
         "name": "Gogoat",
@@ -37272,9 +37281,9 @@ exports.BattlePokedex = {
             "hp": 67,
             "atk": 82,
             "def": 62,
-            "spe": 43,
+            "spe": 48,
             "spa": 46,
-            "spd": 48
+            "spd": 58
         },
         "types": [
             "Fighting"
@@ -37297,7 +37306,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Iron Fist",
-            "H": "Mold Breaker"
+            "1": "Mold Breaker",
+            "H": "Scrappy"
         },
         "color": "White",
         "name": "Pancham",
@@ -37311,12 +37321,12 @@ exports.BattlePokedex = {
     "pangoro": {
         "num": 675,
         "baseStats": {
-            "hp": 95,
+            "hp": 105,
             "atk": 124,
-            "def": 78,
+            "def": 83,
             "spe": 58,
             "spa": 69,
-            "spd": 71
+            "spd": 81
         },
         "types": [
             "Fighting",
@@ -37340,7 +37350,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Iron Fist",
-            "H": "Mold Breaker"
+            "1": "Mold Breaker",
+            "H": "Scrappy"
         },
         "color": "White",
         "name": "Pangoro",
@@ -37356,7 +37367,7 @@ exports.BattlePokedex = {
         "num": 676,
         "baseStats": {
             "hp": 75,
-            "atk": 80,
+            "atk": 95,
             "def": 60,
             "spe": 102,
             "spa": 65,
