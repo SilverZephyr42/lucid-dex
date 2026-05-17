@@ -45179,7 +45179,8 @@ exports.BattlePokedex = {
             "spd": 85
         },
         "types": [
-            "Steel"
+            "Steel",
+            "Fighting"
         ],
         "evYields": {
             "atk": 3
