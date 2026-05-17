@@ -37429,7 +37429,7 @@ exports.BattlePokedex = {
             "atk": 48,
             "def": 54,
             "spe": 68,
-            "spa": 63,
+            "spa": 68,
             "spd": 60
         },
         "types": [
@@ -37469,8 +37469,8 @@ exports.BattlePokedex = {
             "atk": 48,
             "def": 76,
             "spe": 104,
-            "spa": 83,
-            "spd": 81
+            "spa": 103,
+            "spd": 91
         },
         "types": [
             "Psychic"
@@ -37489,7 +37489,8 @@ exports.BattlePokedex = {
             "F": 0.0
         },
         "abilities": {
-            "0": "Mystic Charm",
+            "0": "Sheer Force",
+            "1": "Infiltrator",
             "H": "Prankster"
         },
         "color": "Blue",
@@ -37517,8 +37518,8 @@ exports.BattlePokedex = {
             "atk": 48,
             "def": 76,
             "spe": 104,
-            "spa": 83,
-            "spd": 81
+            "spa": 103,
+            "spd": 91
         },
         "types": [
             "Psychic"
@@ -37537,7 +37538,8 @@ exports.BattlePokedex = {
             "F": 1.0
         },
         "abilities": {
-            "0": "Mystic Charm",
+            "0": "Sheer Force",
+            "1": "Infiltrator",
             "H": "Competitive"
         },
         "color": "White",
@@ -37560,7 +37562,7 @@ exports.BattlePokedex = {
             "def": 100,
             "spe": 28,
             "spa": 35,
-            "spd": 37
+            "spd": 47
         },
         "types": [
             "Steel",
@@ -37599,7 +37601,7 @@ exports.BattlePokedex = {
             "def": 150,
             "spe": 35,
             "spa": 45,
-            "spd": 49
+            "spd": 59
         },
         "types": [
             "Steel",
@@ -37637,7 +37639,7 @@ exports.BattlePokedex = {
     "aegislash": {
         "num": 681,
         "baseStats": {
-            "hp": 60,
+            "hp": 70,
             "atk": 50,
             "def": 140,
             "spe": 60,
@@ -37686,7 +37688,7 @@ exports.BattlePokedex = {
     "aegislashblade": {
         "num": 681,
         "baseStats": {
-            "hp": 60,
+            "hp": 70,
             "atk": 140,
             "def": 50,
             "spe": 60,
@@ -37750,6 +37752,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Healer",
+            "1": "Misty Surge",
             "H": "Aroma Veil"
         },
         "color": "Pink",
@@ -37766,10 +37769,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 101,
             "atk": 72,
-            "def": 72,
+            "def": 82,
             "spe": 29,
-            "spa": 99,
-            "spd": 89
+            "spa": 109,
+            "spd": 99
         },
         "types": [
             "Fairy"
@@ -37788,7 +37791,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Healer",
+            "0": "Pastel Veil",
+            "1": "Misty Surge",
             "H": "Aroma Veil"
         },
         "color": "Pink",
@@ -37805,10 +37809,10 @@ exports.BattlePokedex = {
         "num": 684,
         "baseStats": {
             "hp": 62,
-            "atk": 48,
+            "atk": 58,
             "def": 66,
             "spe": 49,
-            "spa": 59,
+            "spa": 64,
             "spd": 57
         },
         "types": [
@@ -37829,6 +37833,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Sweet Veil",
+            "1": "Thick Fat",
             "H": "Unburden"
         },
         "color": "White",
@@ -37847,8 +37852,8 @@ exports.BattlePokedex = {
             "atk": 80,
             "def": 86,
             "spe": 72,
-            "spa": 85,
-            "spd": 75
+            "spa": 100,
+            "spd": 85
         },
         "types": [
             "Fairy"
@@ -37868,6 +37873,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Sweet Veil",
+            "1": "Well-Baked Body",
             "H": "Unburden"
         },
         "color": "White",
@@ -37884,11 +37890,11 @@ exports.BattlePokedex = {
         "num": 686,
         "baseStats": {
             "hp": 53,
-            "atk": 54,
+            "atk": 59,
             "def": 53,
-            "spe": 45,
+            "spe": 50,
             "spa": 37,
-            "spd": 46
+            "spd": 56
         },
         "types": [
             "Dark",
@@ -37910,7 +37916,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Contrary",
-            "1": "Suction Cups",
+            "1": "Big Pecks",
             "H": "Infiltrator"
         },
         "color": "Blue",
@@ -37926,11 +37932,11 @@ exports.BattlePokedex = {
         "num": 687,
         "baseStats": {
             "hp": 86,
-            "atk": 92,
+            "atk": 102,
             "def": 88,
-            "spe": 73,
+            "spe": 88,
             "spa": 68,
-            "spd": 75
+            "spd": 90
         },
         "types": [
             "Dark",
@@ -37952,7 +37958,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Contrary",
-            "1": "Suction Cups",
+            "1": "Big Pecks",
             "H": "Infiltrator"
         },
         "color": "Blue",
@@ -37968,8 +37974,8 @@ exports.BattlePokedex = {
     "binacle": {
         "num": 688,
         "baseStats": {
-            "hp": 42,
-            "atk": 52,
+            "hp": 52,
+            "atk": 62,
             "def": 67,
             "spe": 50,
             "spa": 39,
@@ -37994,7 +38000,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Tough Claws",
-            "1": "Sharpness",
+            "1": "Sniper",
             "H": "Pickpocket"
         },
         "color": "Brown",
@@ -38009,8 +38015,8 @@ exports.BattlePokedex = {
     "barbaracle": {
         "num": 689,
         "baseStats": {
-            "hp": 72,
-            "atk": 105,
+            "hp": 82,
+            "atk": 115,
             "def": 115,
             "spe": 68,
             "spa": 54,
@@ -38035,8 +38041,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Tough Claws",
-            "1": "Sharpness",
-            "H": "Pickpocket"
+            "1": "Sniper",
+            "H": "Sand Rush"
         },
         "color": "Brown",
         "name": "Barbaracle",
@@ -38052,11 +38058,11 @@ exports.BattlePokedex = {
         "num": 690,
         "baseStats": {
             "hp": 50,
-            "atk": 60,
+            "atk": 50,
             "def": 60,
             "spe": 30,
-            "spa": 60,
-            "spd": 60
+            "spa": 65,
+            "spd": 75
         },
         "types": [
             "Poison",
@@ -38078,7 +38084,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Poison Point",
-            "1": "Poison Touch",
+            "1": "Corrosion",
             "H": "Adaptability"
         },
         "color": "Brown",
@@ -38093,11 +38099,11 @@ exports.BattlePokedex = {
     "dragalge": {
         "num": 691,
         "baseStats": {
-            "hp": 65,
+            "hp": 75,
             "atk": 75,
             "def": 90,
             "spe": 44,
-            "spa": 97,
+            "spa": 107,
             "spd": 123
         },
         "types": [
@@ -38120,7 +38126,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Poison Point",
-            "1": "Poison Touch",
+            "1": "Corrosion",
             "H": "Adaptability"
         },
         "color": "Brown",
@@ -38140,7 +38146,7 @@ exports.BattlePokedex = {
             "atk": 53,
             "def": 62,
             "spe": 44,
-            "spa": 58,
+            "spa": 68,
             "spd": 63
         },
         "types": [
@@ -38161,7 +38167,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Mega Launcher"
+            "0": "Mega Launcher",
+            "H": "Swift Swim"
         },
         "color": "Blue",
         "name": "Clauncher",
@@ -38175,10 +38182,10 @@ exports.BattlePokedex = {
     "clawitzer": {
         "num": 693,
         "baseStats": {
-            "hp": 71,
+            "hp": 81,
             "atk": 73,
             "def": 88,
-            "spe": 59,
+            "spe": 69,
             "spa": 120,
             "spd": 89
         },
@@ -38200,7 +38207,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Mega Launcher"
+            "0": "Mega Launcher",
+            "H": "Swift Swim"
         },
         "color": "Blue",
         "name": "Clawitzer",
@@ -38215,11 +38223,11 @@ exports.BattlePokedex = {
     "helioptile": {
         "num": 694,
         "baseStats": {
-            "hp": 44,
+            "hp": 49,
             "atk": 38,
-            "def": 33,
+            "def": 43,
             "spe": 70,
-            "spa": 61,
+            "spa": 66,
             "spd": 43
         },
         "types": [
@@ -38241,9 +38249,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Solar Power",
+            "0": "Dry Skin",
             "1": "Sand Veil",
-            "H": "Dry Skin"
+            "H": "Solar Power"
         },
         "color": "Yellow",
         "name": "Helioptile",
@@ -38259,14 +38267,14 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 62,
             "atk": 55,
-            "def": 52,
+            "def": 67,
             "spe": 109,
             "spa": 109,
             "spd": 94
         },
         "types": [
             "Electric",
-            "Normal"
+            "Ground"
         ],
         "evYields": {
             "spe": 1,
@@ -38284,9 +38292,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Solar Power",
-            "1": "Sand Veil",
-            "H": "Dry Skin"
+            "0": "Dry Skin",
+            "1": "Sand Rush",
+            "H": "Solar Power"
         },
         "color": "Yellow",
         "name": "Heliolisk",
@@ -38306,7 +38314,7 @@ exports.BattlePokedex = {
             "def": 77,
             "spe": 48,
             "spa": 45,
-            "spd": 45
+            "spd": 55
         },
         "types": [
             "Rock",
@@ -38342,7 +38350,7 @@ exports.BattlePokedex = {
     "tyrantrum": {
         "num": 697,
         "baseStats": {
-            "hp": 82,
+            "hp": 92,
             "atk": 121,
             "def": 119,
             "spe": 71,
@@ -38385,11 +38393,11 @@ exports.BattlePokedex = {
         "num": 698,
         "baseStats": {
             "hp": 77,
-            "atk": 59,
-            "def": 50,
-            "spe": 46,
-            "spa": 67,
-            "spd": 63
+            "atk": 39,
+            "def": 55,
+            "spe": 51,
+            "spa": 77,
+            "spd": 73
         },
         "types": [
             "Rock",
@@ -38410,6 +38418,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Refrigerate",
+            "1": "Ice Body",
             "H": "Snow Warning"
         },
         "color": "Blue",
@@ -38425,11 +38434,11 @@ exports.BattlePokedex = {
         "num": 699,
         "baseStats": {
             "hp": 123,
-            "atk": 77,
-            "def": 72,
+            "atk": 47,
+            "def": 82,
             "spe": 58,
-            "spa": 99,
-            "spd": 92
+            "spa": 119,
+            "spd": 102
         },
         "types": [
             "Rock",
@@ -38450,6 +38459,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Refrigerate",
+            "1": "Solid Rock",
             "H": "Snow Warning"
         },
         "color": "Blue",
@@ -38466,7 +38476,7 @@ exports.BattlePokedex = {
         "num": 701,
         "baseStats": {
             "hp": 78,
-            "atk": 92,
+            "atk": 102,
             "def": 75,
             "spe": 118,
             "spa": 74,
@@ -38510,8 +38520,8 @@ exports.BattlePokedex = {
             "atk": 58,
             "def": 57,
             "spe": 101,
-            "spa": 81,
-            "spd": 67
+            "spa": 96,
+            "spd": 87
         },
         "types": [
             "Electric",
@@ -38533,7 +38543,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Cheek Pouch",
-            "H": "Plus"
+            "1": "Pickup",
+            "H": "Pixilate"
         },
         "color": "Yellow",
         "name": "Dedenne",
@@ -38544,12 +38555,12 @@ exports.BattlePokedex = {
     "carbink": {
         "num": 703,
         "baseStats": {
-            "hp": 50,
+            "hp": 70,
             "atk": 50,
-            "def": 150,
+            "def": 130,
             "spe": 50,
-            "spa": 50,
-            "spd": 150
+            "spa": 90,
+            "spd": 130
         },
         "types": [
             "Rock",
@@ -38569,6 +38580,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Clear Body",
+            "1": "Levitate",
             "H": "Sturdy"
         },
         "color": "Gray",
@@ -38580,15 +38592,16 @@ exports.BattlePokedex = {
     "goomy": {
         "num": 704,
         "baseStats": {
-            "hp": 45,
+            "hp": 55,
             "atk": 50,
-            "def": 35,
+            "def": 50,
             "spe": 40,
-            "spa": 55,
+            "spa": 65,
             "spd": 75
         },
         "types": [
-            "Dragon"
+            "Dragon",
+            "Water"
         ],
         "evYields": {
             "spd": 1
@@ -38606,9 +38619,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gooey",
-            "1": "Hydration",
-            "H": "Sap Sipper"
+            "0": "Sap Sipper",
+            "1": "Poison Heal",
+            "H": "Gooey"
         },
         "color": "Purple",
         "name": "Goomy",
@@ -38623,15 +38636,16 @@ exports.BattlePokedex = {
     "sliggoo": {
         "num": 705,
         "baseStats": {
-            "hp": 68,
-            "atk": 75,
-            "def": 53,
+            "hp": 78,
+            "atk": 60,
+            "def": 68,
             "spe": 60,
-            "spa": 83,
+            "spa": 88,
             "spd": 113
         },
         "types": [
-            "Dragon"
+            "Dragon",
+            "Water"
         ],
         "evYields": {
             "spd": 2
@@ -38649,9 +38663,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gooey",
-            "1": "Hydration",
-            "H": "Sap Sipper"
+            "0": "Sap Sipper",
+            "1": "Poison Heal",
+            "H": "Gooey"
         },
         "color": "Purple",
         "name": "Sliggoo",
@@ -38676,15 +38690,16 @@ exports.BattlePokedex = {
     "goodra": {
         "num": 706,
         "baseStats": {
-            "hp": 90,
-            "atk": 100,
-            "def": 70,
+            "hp": 100,
+            "atk": 70,
+            "def": 80,
             "spe": 80,
-            "spa": 110,
+            "spa": 120,
             "spd": 150
         },
         "types": [
-            "Dragon"
+            "Dragon",
+            "Water"
         ],
         "evYields": {
             "spd": 3
@@ -38700,9 +38715,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gooey",
-            "1": "Hydration",
-            "H": "Sap Sipper"
+            "0": "Sap Sipper",
+            "1": "Poison Heal",
+            "H": "Gooey"
         },
         "color": "Purple",
         "name": "Goodra",
@@ -38724,11 +38739,11 @@ exports.BattlePokedex = {
     "sliggoohisui": {
         "num": 705,
         "baseStats": {
-            "hp": 58,
-            "atk": 75,
+            "hp": 78,
+            "atk": 60,
             "def": 83,
-            "spe": 40,
-            "spa": 83,
+            "spe": 45,
+            "spa": 88,
             "spd": 113
         },
         "types": [
@@ -38751,9 +38766,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gooey",
+            "0": "Earth Eater",
             "1": "Shell Armor",
-            "H": "Sap Sipper"
+            "H": "Gooey"
         },
         "color": "Purple",
         "name": "Sliggoo-Hisui",
@@ -38773,11 +38788,11 @@ exports.BattlePokedex = {
     "goodrahisui": {
         "num": 706,
         "baseStats": {
-            "hp": 80,
-            "atk": 100,
+            "hp": 100,
+            "atk": 70,
             "def": 100,
             "spe": 60,
-            "spa": 110,
+            "spa": 120,
             "spd": 150
         },
         "types": [
@@ -38798,9 +38813,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Gooey",
+            "0": "Earth Eater",
             "1": "Shell Armor",
-            "H": "Sap Sipper"
+            "H": "Gooey"
         },
         "color": "Purple",
         "name": "Goodra-Hisui",
@@ -38817,12 +38832,12 @@ exports.BattlePokedex = {
     "klefki": {
         "num": 707,
         "baseStats": {
-            "hp": 57,
-            "atk": 80,
+            "hp": 67,
+            "atk": 70,
             "def": 91,
             "spe": 75,
-            "spa": 80,
-            "spd": 87
+            "spa": 90,
+            "spd": 92
         },
         "types": [
             "Steel",
@@ -38843,7 +38858,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Prankster",
-            "H": "Magician"
+            "1": "Friend Guard",
+            "H": "Magic Guard"
         },
         "color": "Gray",
         "name": "Klefki",
@@ -38854,9 +38870,9 @@ exports.BattlePokedex = {
     "phantump": {
         "num": 708,
         "baseStats": {
-            "hp": 43,
+            "hp": 53,
             "atk": 70,
-            "def": 48,
+            "def": 58,
             "spe": 38,
             "spa": 50,
             "spd": 60
@@ -38880,8 +38896,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Harvest",
-            "H": "Natural Cure"
+            "0": "Natural Cure",
+            "1": "Grassy Surge",
+            "H": "Harvest"
         },
         "color": "Brown",
         "name": "Phantump",
@@ -38897,10 +38914,10 @@ exports.BattlePokedex = {
         "baseStats": {
             "hp": 85,
             "atk": 110,
-            "def": 76,
+            "def": 86,
             "spe": 56,
             "spa": 65,
-            "spd": 82
+            "spd": 92
         },
         "types": [
             "Ghost",
@@ -38921,8 +38938,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Harvest",
-            "H": "Natural Cure"
+            "0": "Tough Claws",
+            "1": "Grassy Surge",
+            "H": "Harvest"
         },
         "color": "Brown",
         "name": "Trevenant",
@@ -38938,10 +38956,10 @@ exports.BattlePokedex = {
         "num": 710,
         "baseStats": {
             "hp": 49,
-            "atk": 66,
+            "atk": 44,
             "def": 70,
             "spe": 51,
-            "spa": 44,
+            "spa": 66,
             "spd": 55
         },
         "types": [
@@ -38962,9 +38980,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Pumpkaboo",
@@ -38991,10 +39009,10 @@ exports.BattlePokedex = {
         "num": 710,
         "baseStats": {
             "hp": 44,
-            "atk": 66,
+            "atk": 44,
             "def": 70,
             "spe": 56,
-            "spa": 44,
+            "spa": 66,
             "spd": 55
         },
         "types": [
@@ -39015,9 +39033,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Pumpkaboo-Small",
@@ -39034,10 +39052,10 @@ exports.BattlePokedex = {
         "num": 710,
         "baseStats": {
             "hp": 54,
-            "atk": 66,
+            "atk": 44,
             "def": 70,
             "spe": 46,
-            "spa": 44,
+            "spa": 66,
             "spd": 55
         },
         "types": [
@@ -39058,9 +39076,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Pumpkaboo-Large",
@@ -39077,10 +39095,10 @@ exports.BattlePokedex = {
         "num": 710,
         "baseStats": {
             "hp": 59,
-            "atk": 66,
+            "atk": 44,
             "def": 70,
             "spe": 41,
-            "spa": 44,
+            "spa": 66,
             "spd": 55
         },
         "types": [
@@ -39103,9 +39121,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Pumpkaboo-Super",
@@ -39121,12 +39139,12 @@ exports.BattlePokedex = {
     "gourgeist": {
         "num": 711,
         "baseStats": {
-            "hp": 65,
-            "atk": 90,
+            "hp": 70,
+            "atk": 58,
             "def": 122,
             "spe": 84,
-            "spa": 58,
-            "spd": 75
+            "spa": 100,
+            "spd": 85
         },
         "types": [
             "Ghost",
@@ -39146,9 +39164,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Gourgeist",
@@ -39176,11 +39194,11 @@ exports.BattlePokedex = {
         "num": 711,
         "baseStats": {
             "hp": 55,
-            "atk": 85,
+            "atk": 58,
             "def": 122,
             "spe": 99,
-            "spa": 58,
-            "spd": 75
+            "spa": 100,
+            "spd": 85
         },
         "types": [
             "Ghost",
@@ -39200,9 +39218,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Gourgeist-Small",
@@ -39219,12 +39237,12 @@ exports.BattlePokedex = {
     "gourgeistlarge": {
         "num": 711,
         "baseStats": {
-            "hp": 75,
-            "atk": 95,
+            "hp": 85,
+            "atk": 58,
             "def": 122,
             "spe": 69,
-            "spa": 58,
-            "spd": 75
+            "spa": 100,
+            "spd": 85
         },
         "types": [
             "Ghost",
@@ -39244,9 +39262,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Gourgeist-Large",
@@ -39263,12 +39281,12 @@ exports.BattlePokedex = {
     "gourgeistsuper": {
         "num": 711,
         "baseStats": {
-            "hp": 85,
-            "atk": 100,
+            "hp": 100,
+            "atk": 58,
             "def": 122,
             "spe": 54,
-            "spa": 58,
-            "spd": 75
+            "spa": 100,
+            "spd": 85
         },
         "types": [
             "Ghost",
@@ -39290,9 +39308,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Insomnia",
+            "0": "Pickup",
             "1": "Frisk",
-            "H": "Pickup"
+            "H": "Flare Boost"
         },
         "color": "Brown",
         "name": "Gourgeist-Super",
@@ -39309,12 +39327,12 @@ exports.BattlePokedex = {
     "bergmite": {
         "num": 712,
         "baseStats": {
-            "hp": 55,
+            "hp": 60,
             "atk": 69,
             "def": 85,
             "spe": 28,
             "spa": 32,
-            "spd": 35
+            "spd": 45
         },
         "types": [
             "Ice"
@@ -39334,7 +39352,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Own Tempo",
+            "0": "Ice Scales",
             "1": "Ice Body",
             "H": "Sturdy"
         },
@@ -39356,7 +39374,7 @@ exports.BattlePokedex = {
             "def": 184,
             "spe": 28,
             "spa": 44,
-            "spd": 46
+            "spd": 66
         },
         "types": [
             "Ice"
@@ -39376,7 +39394,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Own Tempo",
+            "0": "Ice Scales",
             "1": "Ice Body",
             "H": "Sturdy"
         },
@@ -39403,9 +39421,9 @@ exports.BattlePokedex = {
             "hp": 95,
             "atk": 127,
             "def": 184,
-            "spe": 38,
+            "spe": 28,
             "spa": 34,
-            "spd": 36
+            "spd": 66
         },
         "types": [
             "Ice",
@@ -39427,7 +39445,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Strong Jaw",
-            "1": "Ice Body",
+            "1": "Technician",
             "H": "Sturdy"
         },
         "color": "Blue",
@@ -39445,12 +39463,12 @@ exports.BattlePokedex = {
     "noibat": {
         "num": 714,
         "baseStats": {
-            "hp": 40,
-            "atk": 30,
-            "def": 35,
-            "spe": 55,
-            "spa": 45,
-            "spd": 40
+            "hp": 50,
+            "atk": 45,
+            "def": 45,
+            "spe": 70,
+            "spa": 60,
+            "spd": 55
         },
         "types": [
             "Flying",
@@ -39471,9 +39489,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Aerilate",
+            "0": "Frisk",
             "1": "Infiltrator",
-            "H": "Telepathy"
+            "H": "Dragonize"
         },
         "color": "Purple",
         "name": "Noibat",
@@ -39491,7 +39509,7 @@ exports.BattlePokedex = {
             "atk": 70,
             "def": 80,
             "spe": 123,
-            "spa": 97,
+            "spa": 107,
             "spd": 80
         },
         "types": [
@@ -39513,9 +39531,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Aerilate",
+            "0": "Frisk",
             "1": "Infiltrator",
-            "H": "Telepathy"
+            "H": "Dragonize"
         },
         "color": "Purple",
         "name": "Noivern",
@@ -39551,7 +39569,8 @@ exports.BattlePokedex = {
         "expYield": 340,
         "gender": "N",
         "abilities": {
-            "0": "Fairy Aura"
+            "0": "Fairy Aura",
+            "H": "Soul-Heart"
         },
         "color": "Blue",
         "name": "Xerneas",
@@ -39591,7 +39610,8 @@ exports.BattlePokedex = {
         "expYield": 340,
         "gender": "N",
         "abilities": {
-            "0": "Fairy Aura"
+            "0": "Fairy Aura",
+            "H": "Soul-Heart"
         },
         "color": "Blue",
         "name": "Xerneas-Neutral",
@@ -39626,7 +39646,8 @@ exports.BattlePokedex = {
         "expYield": 340,
         "gender": "N",
         "abilities": {
-            "0": "Dark Aura"
+            "0": "Dark Aura",
+            "H": "Beast Boost"
         },
         "color": "Red",
         "name": "Yveltal",
@@ -39638,7 +39659,7 @@ exports.BattlePokedex = {
         "num": 718,
         "baseStats": {
             "hp": 108,
-            "atk": 100,
+            "atk": 110,
             "def": 121,
             "spe": 95,
             "spa": 81,
@@ -39660,6 +39681,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Aura Break",
+            "H": "Regenerator",
             "S": "Power Construct"
         },
         "color": "Green",
@@ -39704,6 +39726,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Aura Break",
+            "H": "Tough Claws",
             "S": "Power Construct"
         },
         "color": "Black",
@@ -39718,10 +39741,10 @@ exports.BattlePokedex = {
         "num": 718,
         "baseStats": {
             "hp": 216,
-            "atk": 100,
+            "atk": 120,
             "def": 121,
             "spe": 85,
-            "spa": 91,
+            "spa": 81,
             "spd": 95
         },
         "types": [
@@ -39739,7 +39762,7 @@ exports.BattlePokedex = {
         "expYield": 354,
         "gender": "N",
         "abilities": {
-            "0": "Power Construct"
+            "0": "Prism Armor"
         },
         "color": "Black",
         "name": "Zygarde-Complete",
@@ -39752,8 +39775,8 @@ exports.BattlePokedex = {
     "diancie": {
         "num": 719,
         "baseStats": {
-            "hp": 50,
-            "atk": 100,
+            "hp": 80,
+            "atk": 70,
             "def": 150,
             "spe": 50,
             "spa": 100,
@@ -39775,7 +39798,9 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Clear Body"
+            "0": "Clear Body",
+            "1": "Levitate",
+            "H": "Magic Guard"
         },
         "color": "Pink",
         "name": "Diancie",
@@ -39793,8 +39818,8 @@ exports.BattlePokedex = {
     "dianciemega": {
         "num": 719,
         "baseStats": {
-            "hp": 50,
-            "atk": 160,
+            "hp": 80,
+            "atk": 130,
             "def": 110,
             "spe": 110,
             "spa": 160,
@@ -39830,9 +39855,9 @@ exports.BattlePokedex = {
         "num": 720,
         "baseStats": {
             "hp": 80,
-            "atk": 110,
-            "def": 60,
-            "spe": 70,
+            "atk": 70,
+            "def": 75,
+            "spe": 95,
             "spa": 150,
             "spd": 130
         },
@@ -39851,7 +39876,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Magician"
+            "0": "Magician",
+            "H": "Prankster"
         },
         "color": "Purple",
         "name": "Hoopa",
@@ -39871,10 +39897,10 @@ exports.BattlePokedex = {
         "num": 720,
         "baseStats": {
             "hp": 80,
-            "atk": 160,
-            "def": 60,
-            "spe": 80,
-            "spa": 170,
+            "atk": 170,
+            "def": 75,
+            "spe": 95,
+            "spa": 130,
             "spd": 130
         },
         "types": [
@@ -39892,7 +39918,8 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Magician"
+            "0": "Magician",
+            "H": "Unseen Fist"
         },
         "color": "Purple",
         "name": "Hoopa-Unbound",
@@ -39906,11 +39933,11 @@ exports.BattlePokedex = {
         "num": 721,
         "baseStats": {
             "hp": 80,
-            "atk": 110,
+            "atk": 90,
             "def": 120,
             "spe": 70,
             "spa": 130,
-            "spd": 90
+            "spd": 110
         },
         "types": [
             "Fire",
@@ -39927,7 +39954,9 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Water Absorb"
+            "0": "Water Absorb",
+            "1": "Flash Fire",
+            "H": "Protosynthesis"
         },
         "color": "Brown",
         "name": "Volcanion",
