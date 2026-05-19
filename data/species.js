@@ -49495,12 +49495,12 @@ exports.BattlePokedex = {
     "dreepy": {
         "num": 885,
         "baseStats": {
-            "hp": 28,
-            "atk": 60,
-            "def": 30,
+            "hp": 48,
+            "atk": 65,
+            "def": 40,
             "spe": 82,
-            "spa": 40,
-            "spd": 30
+            "spa": 55,
+            "spd": 45
         },
         "types": [
             "Dragon",
@@ -49538,11 +49538,11 @@ exports.BattlePokedex = {
         "num": 886,
         "baseStats": {
             "hp": 68,
-            "atk": 80,
-            "def": 50,
+            "atk": 90,
+            "def": 60,
             "spe": 102,
-            "spa": 60,
-            "spd": 50
+            "spa": 75,
+            "spd": 60
         },
         "types": [
             "Dragon",
@@ -49611,7 +49611,7 @@ exports.BattlePokedex = {
         "abilities": {
             "0": "Clear Body",
             "1": "Infiltrator",
-            "H": "Cursed Body"
+            "H": "Technician"
         },
         "color": "Green",
         "name": "Dragapult",
@@ -49798,7 +49798,9 @@ exports.BattlePokedex = {
         "expYield": 345,
         "gender": "N",
         "abilities": {
-            "0": "Pressure"
+            "0": "Pressure",
+            "1": "Levitate",
+            "H": "Mega Launcher"
         },
         "color": "Purple",
         "name": "Eternatus",
@@ -49816,12 +49818,12 @@ exports.BattlePokedex = {
     "eternatuseternamax": {
         "num": 890,
         "baseStats": {
-            "hp": 255,
-            "atk": 115,
-            "def": 250,
-            "spe": 130,
-            "spa": 125,
-            "spd": 250
+            "hp": 140,
+            "atk": 185,
+            "def": 115,
+            "spe": 140,
+            "spa": 95,
+            "spd": 115
         },
         "types": [
             "Poison",
@@ -49838,7 +49840,7 @@ exports.BattlePokedex = {
         "expYield": 563,
         "gender": "N",
         "abilities": {
-            "0": "Pressure"
+            "0": "Sheer Force"
         },
         "color": "Purple",
         "name": "Eternatus-Eternamax",
@@ -49895,7 +49897,7 @@ exports.BattlePokedex = {
             "def": 100,
             "spe": 97,
             "spa": 63,
-            "spd": 60
+            "spd": 75
         },
         "types": [
             "Fighting",
@@ -49943,11 +49945,11 @@ exports.BattlePokedex = {
         "num": 892,
         "baseStats": {
             "hp": 100,
-            "atk": 130,
-            "def": 100,
-            "spe": 97,
+            "atk": 170,
+            "def": 125,
+            "spe": 117,
             "spa": 63,
-            "spd": 60
+            "spd": 85
         },
         "types": [
             "Fighting",
@@ -49985,7 +49987,7 @@ exports.BattlePokedex = {
             "def": 100,
             "spe": 97,
             "spa": 63,
-            "spd": 60
+            "spd": 75
         },
         "types": [
             "Fighting",
@@ -50023,11 +50025,11 @@ exports.BattlePokedex = {
         "num": 892,
         "baseStats": {
             "hp": 100,
-            "atk": 130,
-            "def": 100,
-            "spe": 97,
+            "atk": 170,
+            "def": 125,
+            "spe": 117,
             "spa": 63,
-            "spd": 60
+            "spd": 85
         },
         "types": [
             "Fighting",
@@ -50082,7 +50084,9 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Leaf Guard"
+            "0": "Chlorophyll",
+            "1": "Tough Claws",
+            "H": "Gorilla Tactics"
         },
         "color": "Green",
         "name": "Zarude",
@@ -50122,7 +50126,9 @@ exports.BattlePokedex = {
         "expYield": 300,
         "gender": "N",
         "abilities": {
-            "0": "Leaf Guard"
+            "0": "Chlorophyll",
+            "1": "Tough Claws",
+            "H": "Gorilla Tactics"
         },
         "color": "Green",
         "name": "Zarude-Dada",
@@ -50136,11 +50142,11 @@ exports.BattlePokedex = {
         "num": 894,
         "baseStats": {
             "hp": 80,
-            "atk": 100,
+            "atk": 50,
             "def": 50,
             "spe": 200,
-            "spa": 100,
-            "spd": 50
+            "spa": 120,
+            "spd": 100
         },
         "types": [
             "Electric"
@@ -50156,7 +50162,9 @@ exports.BattlePokedex = {
         "expYield": 290,
         "gender": "N",
         "abilities": {
-            "0": "Transistor"
+            "0": "Transistor",
+            "1": "Levitate",
+            "H": "Electric Surge"
         },
         "color": "Yellow",
         "name": "Regieleki",
@@ -50168,11 +50176,11 @@ exports.BattlePokedex = {
         "num": 895,
         "baseStats": {
             "hp": 200,
-            "atk": 100,
-            "def": 50,
-            "spe": 80,
-            "spa": 100,
-            "spd": 50
+            "atk": 50,
+            "def": 100,
+            "spe": 50,
+            "spa": 120,
+            "spd": 80
         },
         "types": [
             "Dragon"
@@ -50188,7 +50196,9 @@ exports.BattlePokedex = {
         "expYield": 290,
         "gender": "N",
         "abilities": {
-            "0": "Dragon's Maw"
+            "0": "Dragon's Maw",
+            "1": "Mega Launcher",
+            "H": "Magic Guard"
         },
         "color": "Green",
         "name": "Regidrago",
@@ -50202,8 +50212,8 @@ exports.BattlePokedex = {
             "hp": 100,
             "atk": 145,
             "def": 130,
-            "spe": 30,
-            "spa": 65,
+            "spe": 50,
+            "spa": 45,
             "spd": 110
         },
         "types": [
@@ -50263,12 +50273,12 @@ exports.BattlePokedex = {
     "calyrex": {
         "num": 898,
         "baseStats": {
-            "hp": 100,
+            "hp": 110,
             "atk": 80,
-            "def": 80,
-            "spe": 80,
-            "spa": 80,
-            "spd": 80
+            "def": 90,
+            "spe": 90,
+            "spa": 115,
+            "spd": 115
         },
         "types": [
             "Psychic",
@@ -50285,7 +50295,9 @@ exports.BattlePokedex = {
         "expYield": 250,
         "gender": "N",
         "abilities": {
-            "0": "Unnerve"
+            "0": "Unnerve",
+            "1": "Technician",
+            "H": "Stalwart"
         },
         "color": "Green",
         "name": "Calyrex",
@@ -50305,7 +50317,7 @@ exports.BattlePokedex = {
     "calyrexice": {
         "num": 898,
         "baseStats": {
-            "hp": 100,
+            "hp": 110,
             "atk": 165,
             "def": 150,
             "spe": 50,
@@ -50340,7 +50352,7 @@ exports.BattlePokedex = {
     "calyrexshadow": {
         "num": 898,
         "baseStats": {
-            "hp": 100,
+            "hp": 110,
             "atk": 85,
             "def": 80,
             "spe": 150,
@@ -50375,11 +50387,11 @@ exports.BattlePokedex = {
     "enamorus": {
         "num": 905,
         "baseStats": {
-            "hp": 74,
-            "atk": 115,
+            "hp": 79,
+            "atk": 125,
             "def": 70,
-            "spe": 106,
-            "spa": 135,
+            "spe": 111,
+            "spa": 115,
             "spd": 80
         },
         "types": [
@@ -50400,7 +50412,7 @@ exports.BattlePokedex = {
             "F": 1.0
         },
         "abilities": {
-            "0": "Cute Charm",
+            "0": "Unburden",
             "H": "Contrary"
         },
         "color": "Pink",
@@ -50420,10 +50432,10 @@ exports.BattlePokedex = {
     "enamorustherian": {
         "num": 905,
         "baseStats": {
-            "hp": 74,
-            "atk": 115,
+            "hp": 79,
+            "atk": 95,
             "def": 110,
-            "spe": 46,
+            "spe": 61,
             "spa": 135,
             "spd": 100
         },
@@ -50445,7 +50457,8 @@ exports.BattlePokedex = {
             "F": 1.0
         },
         "abilities": {
-            "0": "Overcoat"
+            "0": "Solar Power",
+            "H": "Contrary"
         },
         "color": "Pink",
         "name": "Enamorus-Therian",
