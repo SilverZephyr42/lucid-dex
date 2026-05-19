@@ -55642,7 +55642,7 @@ exports.BattlePokedex = {
         },
         "types": [
             "Stellar",
-            ""
+            "Normal"
         ],
         "evYields": {
             "hp": 3
