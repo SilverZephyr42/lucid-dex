@@ -54742,7 +54742,7 @@ exports.BattlePokedex = {
         "abilities": {
             "0": "Protosynthesis",
             "1": "Swift Swim",
-            "H": "Sheer Force
+            "H": "Sheer Force"
         },
         "color": "Blue",
         "name": "Walking Wake",
