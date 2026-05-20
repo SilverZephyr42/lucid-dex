@@ -762,7 +762,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin"
+            "0": "Shed Skin",
+            "H": "Shell Armor"
         },
         "color": "Green",
         "name": "Metapod",
@@ -898,6 +899,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shield Dust",
+            "1": "Poison Point",
             "H": "Run Away"
         },
         "color": "Brown",
@@ -937,7 +939,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin"
+            "0": "Shed Skin",
+            "1": "Poison Point",
+            "H": "Shell Armor"
         },
         "color": "Yellow",
         "name": "Kakuna",
@@ -1476,7 +1480,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Keen Eye",
+            "0": "Big Pecks",
+            "1": "Keen Eye",
             "H": "Sniper"
         },
         "color": "Brown",
@@ -1644,6 +1649,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Static",
+            "1": "Cute Charm",
             "H": "Lightning Rod"
         },
         "color": "Yellow",
@@ -1690,6 +1696,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Static",
+            "1": "Cute Charm",
             "H": "Lightning Rod"
         },
         "color": "Yellow",
@@ -1731,6 +1738,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Static",
+            "1": "Galvanize",
             "H": "Lightning Rod"
         },
         "color": "Yellow",
@@ -1786,6 +1794,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Static",
+            "1": "Galvanize",
             "H": "Lightning Rod"
         },
         "color": "Yellow",
@@ -1826,6 +1835,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Static",
+            "1": "Galvanize",
             "H": "Lightning Rod"
         },
         "color": "Yellow",
@@ -1997,6 +2007,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Surge Surfer",
+            "1": "Synchronize",
             "H": "Levitate"
         },
         "color": "Brown",
@@ -2041,6 +2052,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Sand Veil",
+            "1": "Keen Eye",
             "H": "Sand Rush"
         },
         "color": "Yellow",
@@ -2140,6 +2152,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Snow Cloak",
+            "1": "Keen Eye",
             "H": "Slush Rush"
         },
         "color": "Blue",
@@ -2330,7 +2343,7 @@ exports.BattlePokedex = {
         "num": 32,
         "baseStats": {
             "hp": 46,
-            "atk": 57,
+            "atk": 59,
             "def": 45,
             "spe": 55,
             "spa": 40,
@@ -2979,6 +2992,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Inner Focus",
+            "1": "Poison Touch",
             "H": "Infiltrator"
         },
         "color": "Purple",
@@ -2994,7 +3008,7 @@ exports.BattlePokedex = {
         "num": 42,
         "baseStats": {
             "hp": 75,
-            "atk": 85,
+            "atk": 80,
             "def": 70,
             "spe": 95,
             "spa": 65,
@@ -3019,6 +3033,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Inner Focus",
+            "1": "Poison Touch",
             "H": "Infiltrator"
         },
         "color": "Purple",
@@ -3106,6 +3121,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Chlorophyll",
+            "1": "Effect Spore",
             "H": "Run Away"
         },
         "color": "Blue",
@@ -3148,6 +3164,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Chlorophyll",
+            "1": "Effect Spore",
             "H": "Stench"
         },
         "color": "Blue",
@@ -3857,7 +3874,7 @@ exports.BattlePokedex = {
             "hp": 85,
             "atk": 110,
             "def": 100,
-            "spe": 50,
+            "spe": 60,
             "spa": 50,
             "spd": 80
         },
@@ -4065,7 +4082,7 @@ exports.BattlePokedex = {
             "atk": 105,
             "def": 65,
             "spe": 95,
-            "spa": 65,
+            "spa": 60,
             "spd": 70
         },
         "types": [
@@ -4820,11 +4837,11 @@ exports.BattlePokedex = {
         "num": 68,
         "baseStats": {
             "hp": 90,
-            "atk": 160,
+            "atk": 155,
             "def": 115,
             "spe": 85,
-            "spa": 55,
-            "spd": 110
+            "spa": 65,
+            "spd": 105
         },
         "types": [
             "Fighting"
@@ -4884,6 +4901,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Chlorophyll",
+            "1": "Sticky Hold",
             "H": "Gluttony"
         },
         "color": "Green",
@@ -4924,6 +4942,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Chlorophyll",
+            "1": "Sticky Hold",
             "H": "Gluttony"
         },
         "color": "Green",
