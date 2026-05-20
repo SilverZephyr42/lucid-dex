@@ -55558,7 +55558,7 @@ exports.BattlePokedex = {
             "spd": 85
         },
         "types": [
-            "Dragon"
+            "Stellar"
         ],
         "evYields": {
             "def": 1
@@ -55603,7 +55603,7 @@ exports.BattlePokedex = {
             "spd": 110
         },
         "types": [
-            "Dragon"
+            "Stellar"
         ],
         "evYields": {
             "def": 2,
@@ -55641,7 +55641,7 @@ exports.BattlePokedex = {
             "spd": 130
         },
         "types": [
-            "Dragon",
+            "Stellar",
             "Normal"
         ],
         "evYields": {
