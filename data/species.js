@@ -6144,6 +6144,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Steadfast",
+            "1": "Super Luck",
             "H": "Scrappy"
         },
         "color": "Brown",
@@ -6677,7 +6678,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Levitate"
+            "0": "Cursed Body",
+            "1": "Levitate"
         },
         "color": "Purple",
         "name": "Gastly",
@@ -6716,7 +6718,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Levitate"
+            "0": "Cursed Body",
+            "1": "Levitate"
         },
         "color": "Purple",
         "name": "Haunter",
@@ -7625,9 +7628,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Technician",
-            "1": "Lightning Rod",
-            "H": "Rock Head"
+            "0": "Rock Head",
+            "1": "Technician",
+            "H": "Lightning Rod"
         },
         "color": "Purple",
         "name": "Marowak-Alola",
@@ -8355,7 +8358,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Chlorophyll",
-            "1": "Leaf Guard",
+            "1": "Tangling Hair",
             "H": "Regenerator"
         },
         "color": "Blue",
@@ -9448,7 +9451,7 @@ exports.BattlePokedex = {
             "hp": 65,
             "atk": 75,
             "def": 72,
-            "spe": 93,
+            "spe": 98,
             "spa": 100,
             "spd": 85
         },
@@ -9810,6 +9813,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swift Swim",
+            "1": "Damp",
             "H": "Rattled"
         },
         "color": "Red",
@@ -9989,7 +9993,7 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Liquid Voice",
+            "0": "Liquid Voice"
         },
         "color": "Blue",
         "name": "Lapras-Gmax",
@@ -11254,7 +11258,8 @@ exports.BattlePokedex = {
             "spd": 50
         },
         "types": [
-            "Dragon"
+            "Dragon",
+            "Water"
         ],
         "evYields": {
             "atk": 1
@@ -11274,6 +11279,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shed Skin",
+            "1": "Swift Swim",
             "H": "Marvel Scale"
         },
         "color": "Blue",
@@ -11292,11 +11298,12 @@ exports.BattlePokedex = {
             "atk": 69,
             "def": 75,
             "spe": 75,
-            "spa": 90,
+            "spa": 95,
             "spd": 75
         },
         "types": [
-            "Dragon"
+            "Dragon",
+            "Water"
         ],
         "evYields": {
             "atk": 2
@@ -11316,6 +11323,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shed Skin",
+            "1": "Swift Swim",
             "H": "Marvel Scale"
         },
         "color": "Blue",
@@ -12270,7 +12278,7 @@ exports.BattlePokedex = {
     "ledyba": {
         "num": 165,
         "baseStats": {
-            "hp": 45,
+            "hp": 55,
             "atk": 20,
             "def": 40,
             "spe": 55,
@@ -12311,7 +12319,7 @@ exports.BattlePokedex = {
     "ledian": {
         "num": 166,
         "baseStats": {
-            "hp": 65,
+            "hp": 75,
             "atk": 95,
             "def": 65,
             "spe": 95,
@@ -12353,11 +12361,11 @@ exports.BattlePokedex = {
     "spinarak": {
         "num": 167,
         "baseStats": {
-            "hp": 60,
+            "hp": 55,
             "atk": 65,
             "def": 45,
             "spe": 55,
-            "spa": 40,
+            "spa": 30,
             "spd": 55
         },
         "types": [
@@ -12465,7 +12473,7 @@ exports.BattlePokedex = {
         "abilities": {
             "0": "Volt Absorb",
             "1": "Illuminate",
-            "H": "Water Absorb"
+            "H": "Dazzling"
         },
         "color": "Blue",
         "name": "Chinchou",
@@ -13791,7 +13799,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Levitate"
+            "0": "Levitate",
+            "H": "Prankster"
         },
         "color": "Gray",
         "name": "Misdreavus",
@@ -14034,6 +14043,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Sturdy",
+            "1": "Aftermath",
             "H": "Overcoat"
         },
         "color": "Gray",
@@ -15274,7 +15284,7 @@ exports.BattlePokedex = {
             "hp": 80,
             "atk": 65,
             "def": 105,
-            "spe": 30,
+            "spe": 35,
             "spa": 90,
             "spd": 105
         },
@@ -15612,7 +15622,7 @@ exports.BattlePokedex = {
             "def": 125,
             "spe": 110,
             "spa": 40,
-            "spd": 110
+            "spd": 100
         },
         "types": [
             "Steel",
@@ -15798,8 +15808,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Pickup",
-            "1": "Sturdy",
+            "0": "Sturdy",
+            "1": "Pickup",
             "H": "Sand Veil"
         },
         "color": "Blue",
@@ -16146,6 +16156,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Guts",
+            "1": "Rough Skin",
             "H": "Sand Veil"
         },
         "color": "Green",
@@ -16186,6 +16197,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shed Skin",
+            "1": "Rough Skin",
             "H": "Battle Armor"
         },
         "color": "Gray",
@@ -17264,6 +17276,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shield Dust",
+            "1": "Shed Skin",
             "H": "Run Away"
         },
         "color": "Red",
@@ -17303,7 +17316,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin"
+            "0": "Shield Dust",
+            "1": "Shed Skin",
+            "H": "Rough Skin"
         },
         "color": "White",
         "name": "Silcoon",
@@ -17389,7 +17404,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin"
+            "0": "Shield Dust",
+            "1": "Shed Skin",
+            "H": "Poison Point"
         },
         "color": "Purple",
         "name": "Cascoon",
@@ -18161,7 +18178,7 @@ exports.BattlePokedex = {
             "atk": 30,
             "def": 42,
             "spe": 65,
-            "spa": 50,
+            "spa": 55,
             "spd": 52
         },
         "types": [
@@ -18184,6 +18201,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swift Swim",
+            "1": "Honey Gather",
             "H": "Rain Dish"
         },
         "color": "Blue",
@@ -18356,7 +18374,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Truant"
+            "0": "Truant",
+            "1": "Slow Start",
+            "H": "Stall"
         },
         "color": "Brown",
         "name": "Slakoth",
@@ -18394,7 +18414,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Vital Spirit"
+            "0": "Vital Spirit",
+            "1": "Scrappy",
+            "H": "Defiant"
         },
         "color": "White",
         "name": "Vigoroth",
@@ -18481,6 +18503,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Compound Eyes",
+            "1": "Shell Armor",
             "H": "Run Away"
         },
         "color": "Gray",
@@ -21833,7 +21856,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Levitate",
+            "0": "Pressure",
+            "1": "Levitate",
             "H": "Frisk"
         },
         "color": "Black",
@@ -21876,6 +21900,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Pressure",
+            "1": "Cursed Body",
             "H": "Frisk"
         },
         "color": "Black",
@@ -22477,6 +22502,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shell Armor",
+            "1": "Water Absorb",
             "H": "Rattled"
         },
         "color": "Blue",
@@ -22688,6 +22714,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Rock Head",
+            "1": "Reckless",
             "H": "Sheer Force"
         },
         "color": "Blue",
@@ -22729,6 +22756,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Shell Armor",
+            "1": "Soundproof",
             "H": "Overcoat"
         },
         "color": "White",
@@ -22863,6 +22891,7 @@ exports.BattlePokedex = {
         "gender": "N",
         "abilities": {
             "0": "Clear Body",
+            "1": "Levitate",
             "H": "Light Metal"
         },
         "color": "Blue",
@@ -24323,7 +24352,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin",
+            "0": "Swarm",
+            "1": "Shed Skin",
             "H": "Run Away"
         },
         "color": "Red",
@@ -24698,7 +24728,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Shed Skin",
+            "0": "Anticipation",
+            "1": "Shed Skin",
             "H": "Overcoat"
         },
         "color": "Green",
@@ -24949,6 +24980,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Honey Gather",
+            "1": "Swarm",
             "H": "Hustle"
         },
         "color": "Yellow",
